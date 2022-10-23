@@ -277,15 +277,7 @@ map.on('load', function() {
                 var obj = jq.parseJSON(feature.properties.votes_obj);
 
                 popup.setLngLat(e.lngLat)
-                    .setHTML('<span class="precinct-name">' + feature.properties.precinct + '</span>' 
-                             + '<span class="county-name">' + feature.properties.county + ' County</span>' 
-                             + '<table class="tableResults"><thead><tr><th></th><th class="cand">Candidate</th><th class="votes">Votes</th><th class="pct">Pct.</th></tr></thead>'
-                             + '<tbody>'
-                              + '<tr><td class="dem"><span class="dot third"></span></td><td class="cand">' + obj[0].name + ' <span>' + obj[0].party + '</span></td><td class="votes">' + obj[0].votes + '</td><td class="pct">' + obj[0].votes_pct + '%</td></tr>'
-                              + '<tr><td class="dem"><span class="dot third"></span></td><td class="cand">' + obj[1].name + ' <span>' + obj[1].party + '</span></td><td class="votes">' + obj[1].votes + '</td><td class="pct">' + obj[1].votes_pct + '%</td></tr>'
-                              + '</tbody>'
-                             + '</table>'
-                             + '<p class="precinct-note">Precinct’s top 5 candidates shown</p>')
+                    .setHTML('<span class="precinct-name">' + feature.properties.precinct + '</span><span class="county-name">' + feature.properties.county + ' County</span>' + tipinfo(obj) + '<p class="precinct-note">Precinct’s top 3 candidates shown</p>')
                     .addTo(map);
             });
 
@@ -299,8 +291,22 @@ map.on('load', function() {
             });
     }
 
+    function tipinfo(obj) {
+      var tipstring = '<table class="tableResults"><thead><tr><th></th><th class="cand">Candidate</th><th class="votes">Votes</th><th class="pct">Pct.</th></tr></thead><tbody>';
+
+      for (var i=0; i < 3; i++) {
+        tipstring = tipstring + '<tr><td class="' + obj[i].party + '"><span class="dot ' + obj[i].party + '"></span></td><td class="cand">' + obj[i].name + ' <span>' + obj[i].party + '</span></td><td class="votes">' + obj[i].votes + '</td><td class="pct">' + obj[i].votes_pct + '%</td></tr>';
+      }
+
+      tipstring = tipstring + '</tbody></table>'
+
+      return tipstring;
+    }
+
     tooltips('precincts');
 });
+
+
 
 
 /********** MOBILE ZOOM ADJUSTMENTS **********/
