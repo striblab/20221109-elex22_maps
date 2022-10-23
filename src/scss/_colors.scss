@@ -1,0 +1,267 @@
+.center {
+    margin-top:25px;
+    margin-bottom:25px;
+    margin-left:auto;
+    margin-right:auto;
+    max-width:100%;
+    text-align:center;
+  }
+
+  .switch:hover {
+    opacity:0.6;
+    cursor:pointer;
+  }
+  
+  .selected {
+    border-bottom:3px solid #000000;
+  }
+
+  .legend {
+    font-size:1em;
+  }
+
+  .mainLegend1 .legend div {
+    height:10px;
+    width:20%;
+    text-align:center;
+    font-size:1em;
+    display:inline-block;
+    font-family: "Benton Sans",Helvetica,Arial,sans-serif;
+  }
+
+
+  .mainLegend2 .legend div {
+    height:10px;
+    width:14.2%;
+    text-align:center;
+    font-size:1em;
+    display:inline-block;
+    font-family: "Benton Sans",Helvetica,Arial,sans-serif;
+  }
+
+  #mainLegend2 .legend div {
+    height:10px;
+    width:12.62%;
+    text-align:center;
+    font-size:1em;
+    display:inline-block;
+    font-family: "Benton Sans",Helvetica,Arial,sans-serif;
+  }
+
+  .white {
+    background-color:#ffffff;
+  }
+  
+  .null {
+    fill: #F7F7F7;
+    background-color: #F7F7F7;
+  }
+  
+  .purple1 {
+    fill: #D9D3EB;
+    background-color: #D9D3EB;
+  }
+  
+  .purple2 {
+    fill: #B6AED4;
+    background-color: #B6AED4;
+  }
+      
+  .purple3 {
+    fill: #7D739C;
+    background-color: #7D739C;
+  }
+      
+  .purple4 {
+    fill: #62597D;
+    background-color: #62597D;
+  }
+      
+  .purple5 {
+    fill: #4A4061;
+    background-color: #4A4061;
+  }
+  
+  .red1 {
+    fill: #f3d1c9;
+    background-color: #f3d1c9;
+  }
+  
+  .red2 {
+    fill: #eaa99e;
+    background-color: #eaa99e;
+  }
+
+  .red3 {
+    fill: #d5837c;
+    background-color: #d5837c;
+  }
+
+  .red4 {
+    fill: #b9625f;
+    background-color: #b9625f;
+  }
+  
+  .red5 {
+    fill: #9b4242;
+    background-color: #9b4242;
+  }
+    
+  .blue1 {
+    fill: #DAE1E7;
+    background-color: #DAE1E7;
+  }
+
+  .blue2 {
+    fill: #b0bcc8;
+    background-color: #b0bcc8;
+  }
+  
+  .blue3 {
+    fill: #8697a9;
+    background-color: #8697a9;
+  }
+  
+  .blue4 {
+    fill: #5e758b;
+    background-color: #5e758b;
+  }
+  
+  .blue5 {
+    fill: #36546f;
+    background-color: #36546f;
+  }
+
+  .teal1 {
+    fill: #C5E8D8;
+    background-color: #C5E8D8;
+  }
+
+  .teal2 {
+    fill: #A0D1BF;
+    background-color: #A0D1BF;
+  }
+  
+  .teal3 {
+    fill: #76B69C;
+    background-color: #76B69C;
+  }
+  
+  .teal4 {
+    fill: #409E84;
+    background-color: #409E84;
+  }
+  
+  .teal5 {
+    fill: #006D55;
+    background-color: #006D55;
+  }
+
+  .blue6 {
+    fill: #003553;
+    background-color: #003553;
+  }
+   
+  
+  .orange1 {
+    fill: #F5D9C0;
+    background-color: #F5D9C0;
+  }
+      
+  .orange2 {
+    fill: #E0A379;
+    background-color: #E0A379;
+  }
+      
+  .orange3 {
+    fill: #D47D55;
+    background-color: #D47D55;
+  }
+      
+  .orange4 {
+    fill: #C36142;
+    background-color: #C36142;
+  }
+    
+  .orange5 {
+    fill: #B1492F;
+    background-color: #B1492F;
+  }
+  
+  .green1 {
+    fill: #D6E6CC;
+    background-color: #D6E6CC;
+  }
+      
+  .green2 {
+    fill: #b2ccac;
+    background-color: #b2ccac;
+  }
+      
+  .green3 {
+    fill: #8ab48b;
+    background-color: #8ab48b;
+  }
+  
+  .green4 {
+    fill: #5f9c6f;
+    background-color: #5f9c6f;
+  }
+    
+  .green5 {
+    fill: #308454;
+    background-color: #308454;
+  }
+
+  .gray1 {
+    fill: #e6e6e6;
+    background-color: #e6e6e6;
+  }
+      
+  .gray2 {
+    fill: #bfbfbf;
+    background-color: #bfbfbf;
+  }
+      
+  .gray3 {
+    fill: #8c8c8c;
+    background-color: #8c8c8c;
+  }
+  
+  .gray4 {
+    fill: #595959;
+    background-color: #595959;
+  }
+    
+  .gray5 {
+    fill: #252525;
+    background-color: #252525;
+  }
+  
+  .green6 {
+    fill: #004C21;
+    background-color: #004C21;
+  }
+  
+  .dot {
+    height: 17px;
+    width: 17px;
+    border-radius: 50%;
+    display: inline-block;
+    margin-left:6px;
+    margin-bottom: 2px;
+  }
+  
+  .reddot {
+    background-color: #d5837c;
+  }
+
+  .strong {
+    opacity:0.8;
+  }
+  .middle {
+    opacity:0.5;
+  }
+  .weak {
+    opacity:0.2;
+  }

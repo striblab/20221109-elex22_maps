@@ -1,0 +1,250 @@
+html, body {
+	position: relative;
+	width: 100%;
+	height: 100%;
+	overflow-x: hidden;
+}
+html {
+	-webkit-font-smoothing: antialiased;
+	overflow-y: auto !important;
+}
+body {
+	color: #333;
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+#proj-container a {
+	color: rgb(0,100,200) !important;;
+	text-decoration: none;
+}
+#proj-container a:hover {
+	text-decoration: underline;
+}
+#proj-container a:visited {
+	color: rgb(0,100,200) !important;
+}
+h2 {
+	font-size: 1.4em;
+	line-height: 1.4em;
+	text-align: center;
+	font-family: "Benton Sans",Helvetica,Arial,sans-serif;
+	font-weight: bold;
+	margin-bottom: 20px;
+}
+.chartTitle {
+	font-size: 19px;
+    font-style: normal;
+    font-weight: 700;
+    font-family: "Benton Sans",Helvetica,Arial,sans-serif;
+    line-height: 20px;
+    margin: 0 0 10px;
+    text-decoration: none;
+}
+.dataTitle {
+    font-size: 12px;
+    letter-spacing: .2px;
+    line-height: 14px;
+	margin: 5px 0 10px;
+	font-family: "Benton Sans",Helvetica,Arial,sans-serif;
+	text-transform: uppercase!important;
+	text-align:left;
+}
+label {
+	display: block;
+}
+input, button, select, textarea {
+	margin: 0 0 0 0;
+}
+input:disabled {
+	color: #ccc;
+}
+input[type="range"] {
+	height: 0;
+}
+button {
+	background-color: #f4f4f4;
+	outline: none;
+}
+button:active {
+	background-color: #ddd;
+}
+button:focus {
+	border-color: #666;
+}
+.hero-override .article-headline {
+	font-family: "Whitman Display",Georgia,Times,serif;
+	font-size: 60px !important;
+	font-weight: 400 !important;
+	text-align: center;
+	letter-spacing: -1.85px;
+	line-height: 102%;
+	margin-top: 0;
+}
+.hero-override .article-headline, .clean-sheet .hero-override .article-headline {
+	max-width: 970px;
+	margin: auto;
+}
+.hero-override p {
+	max-width: 525px;
+	margin: 0 auto;
+	font-size: 17px;
+	font-weight: normal;
+	text-align: left;
+	margin-top: 15px;
+	margin-bottom: 25px;
+	line-height:140%;
+	-webkit-font-smoothing: antialiased;
+	font-family: "Poynter Serif RE",Georgia,Times,serif;
+}
+#proj-container {
+	max-width:100%;
+	margin-right:auto;
+	margin-left:auto;
+}
+.container-lg p {
+	max-width: 520px;
+	margin: 0 auto;
+	font-size: 17px;
+	text-align: left;
+	margin-top: 15px;
+	margin-bottom: 25px;
+	line-height:140%;
+	-webkit-font-smoothing: antialiased;
+	font-family: "Poynter Serif RE",Georgia,Times,serif;
+}
+.rule {
+	margin-left: auto;
+	margin-right: auto;
+	width: 33%;
+	border-bottom: 1px solid #dfdfdf;
+	margin-bottom: 40px;
+	padding-bottom: 40px;
+}
+#credits {
+	max-width: 520px;
+	margin-right:auto;
+	margin-left:auto;
+}
+
+.chatter { 
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 20px;
+    margin: 5px 0 10px;
+    text-decoration: none;
+	font-family: "Benton Sans",Helvetica,Arial,sans-serif;
+}
+.dataline {
+	max-width: 100%;
+	font-family: "Benton Sans",Helvetica,Arial,sans-serif !important;
+	font-size: 12px;
+	font-weight:normal;
+	color: #989898;
+	margin-top: 16px !important;
+	margin-bottom: 16px !important;
+}
+.note {
+	margin-top:6px;
+	margin-bottom:6px;
+}
+
+element.style {
+	margin-top: 0;
+	margin-bottom: 0;
+}
+#wrapper {
+	margin-right:auto;
+	margin-left:auto;
+	width:100%;
+	@media only screen and (max-width: 600px) {
+		width:100%;
+	}
+}
+
+.article-author-hcard {
+	margin-bottom: 1em;
+}
+.article-author-contact {
+	border-top: 1px solid #d3d3d3;
+	padding-top: 1em;
+	margin-top: 0.5em !important;
+	zoom: 1;
+	clear: both;
+}
+.article-author-contact a {
+	font-weight:lighter !important;
+}
+.article-author-contact p {
+	margin-bottom: 0 !important;
+}
+div.article-byline-mod {
+	margin-top: 5px !important;
+	padding-bottom: 20px !important;
+}
+.article-byline-mod {
+	text-align: center;
+	padding: 0 24px 36px 24px;
+	margin-top: 0px;
+}
+.article-byline {
+	display: inline-block;
+	font-family: "Benton Sans",Helvetica,Arial,sans-serif;
+	font-size: 15px;
+	line-height: 12px;
+	margin-top: 12px;
+	max-width: 600px;
+	border-right: 1px solid #d3d3d3;
+	padding-right: 1em;
+	margin-right: 1em;
+}
+.article-byline a {
+	color:#333333 !important;
+}
+.article-byline a:hover {
+	color:#333333;
+	text-decoration:none;
+}
+.article-dateline {
+	display: inline-block;
+	color: #909090;
+	font-family: "Benton Sans",Helvetica,Arial,sans-serif;
+	font-size: 12px;
+	font-weight: bold;
+	letter-spacing: 0.5px;
+	text-transform: uppercase;
+	line-height: 12px;
+	margin-top: 12px;
+}
+h3, h2 {
+	text-align:center;
+	font-family: "Benton Sans",Helvetica,Arial,sans-serif !important;
+}
+h2 {
+	font-size:30px !important;
+}
+h3 {
+	font-size:20px !important;
+}
+.notes {
+	font-family: "Benton Sans",Helvetica,Arial,sans-serif !important;
+	line-height:140%;
+	margin-right:auto;
+	margin-left:auto;
+	max-width:520px;
+}
+.notes p {
+	font-family: "Benton Sans",Helvetica,Arial,sans-serif !important;
+}
+.jump {
+	text-align:center;
+	margin:10px;
+	font-family: "Benton Sans",Helvetica,Arial,sans-serif !important;
+}
+.back {
+	font-size:13px !important;
+}
+.back a {
+	text-decoration:underline;
+}

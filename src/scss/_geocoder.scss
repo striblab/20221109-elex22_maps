@@ -1,0 +1,27 @@
+.results {
+    padding:10px;
+    text-align:center;
+    visibility:hidden;
+}
+.mapboxgl-ctrl-top-right {
+    width: 96%;
+}
+
+.geocoder {
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 520px;
+}
+.mapboxgl-ctrl-geocoder {
+width: 100% !important;
+font-size: 15px;
+line-height: 20px;
+max-width: 100% !important;
+}
+.notfound {
+    visibility:hidden;
+}
+
+.results {
+    font-family: "Benton Sans",Helvetica,Arial,sans-serif !important;
+}

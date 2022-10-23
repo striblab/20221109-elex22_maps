@@ -1,0 +1,16 @@
+<link rel='stylesheet' href='https://static.startribune.com/news/projects/all/20220215-redistrict/build/global.css?34732362'>
+<link rel='stylesheet' href='https://static.startribune.com/news/projects/all/20220215-redistrict/build/bundle.css?34732362'>
+
+<style>
+.series-article .l-article-body .article-body {
+width:100%;
+}
+</style>
+
+<div class="article-lcd-body-content">
+	<div class="hero-override">
+		<div id="proj-container"></div>
+	</div>
+
+	<script src='https://static.startribune.com/news/projects/all/20220215-redistrict/build/bundle.js?34732362'></script>
+</div>

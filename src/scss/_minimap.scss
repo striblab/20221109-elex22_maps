@@ -1,0 +1,37 @@
+.new {
+    display:none;
+}
+.minimap {
+    margin-right:auto;
+    margin-left:auto;
+    text-align:center;
+    display:none !important;
+}
+.tlabel {
+    padding:10px;
+    height:34px;
+    vertical-align:middle;
+
+}
+.minimap img {
+    width:80px;
+}
+.district {
+    display:inline-block;
+    width:24%;
+    margin-bottom:30px;
+}
+.dlabel {
+    font-weight:normal;
+    padding:2px;
+    font-size:10px;
+}
+.nowMap {
+    display:inline-block;
+}
+.newMap {
+    display:inline-block;
+}
+.switcher {
+    text-align:center;
+}

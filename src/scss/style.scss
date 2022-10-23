@@ -1,0 +1,45 @@
+// strib fonts
+
+//Benton Sans Regular
+@font-face {
+    font-family: "Benton Sans";
+    src: url("https://apps.startribune.com/fonts/Benton-Sans-Regular/c80c8df9-343a-4ee8-a64b-6213022724fd-2.eot");
+    src: url("https://apps.startribune.com/fonts/Benton-Sans-Regular/c80c8df9-343a-4ee8-a64b-6213022724fd-2.eot?") format("embedded-opentype"), url("https://apps.startribune.com/fonts/Benton-Sans-Regular/c80c8df9-343a-4ee8-a64b-6213022724fd-3.woff") format("woff"), url("https://apps.startribune.com/fonts/Benton-Sans-Regular/c80c8df9-343a-4ee8-a64b-6213022724fd-1.ttf") format("truetype");
+    font-style: normal;
+    font-weight: normal;
+}
+
+//Benton Sans Regular Italic
+@font-face {
+    font-family: "Benton Sans";
+    src: url("https://apps.startribune.com/fonts/Benton-Sans-Regular-Italic/2c74d4f4-5f5a-4841-9646-6cb371baa21a-2.eot");
+    src: url("https://apps.startribune.com/fonts/Benton-Sans-Regular-Italic/2c74d4f4-5f5a-4841-9646-6cb371baa21a-2.eot?") format("embedded-opentype"), url("https://apps.startribune.com/fonts/Benton-Sans-Regular-Italic/2c74d4f4-5f5a-4841-9646-6cb371baa21a-3.woff") format("woff"), url("https://apps.startribune.com/fonts/Benton-Sans-Regular-Italic/2c74d4f4-5f5a-4841-9646-6cb371baa21a-1.ttf") format("truetype");
+    font-style: italic;
+    font-weight: normal;
+}
+
+//Benton Sans Bold
+@font-face {
+    font-family: "Benton Sans";
+    src: url("https://apps.startribune.com/fonts/Benton-Sans-Bold/34ba72ff-8e42-428e-b0a6-d43e43d09b7f-2.eot");
+    src: url("https://apps.startribune.com/fonts/Benton-Sans-Bold/34ba72ff-8e42-428e-b0a6-d43e43d09b7f-2.eot?") format("embedded-opentype"), url("https://apps.startribune.com/fonts/Benton-Sans-Bold/34ba72ff-8e42-428e-b0a6-d43e43d09b7f-3.woff") format("woff"), url("https://apps.startribune.com/fonts/Benton-Sans-Bold/34ba72ff-8e42-428e-b0a6-d43e43d09b7f-1.ttf") format("truetype");
+    font-style: normal;
+    font-weight: bold;
+}
+
+//Benton Sans Condensed Medium
+@font-face {
+    font-family: "Benton Sans Condensed Medium";
+    src: url("https://apps.startribune.com/fonts/Benton-Sans-Condensed-Medium/06f4dbf6-2449-4b99-9621-e8abb9e595a2-2.eot");
+    src: url("https://apps.startribune.com/fonts/Benton-Sans-Condensed-Medium/06f4dbf6-2449-4b99-9621-e8abb9e595a2-2.eot?") format("embedded-opentype"), url("https://apps.startribune.com/fonts/Benton-Sans-Condensed-Medium/06f4dbf6-2449-4b99-9621-e8abb9e595a2-3.woff") format("woff"), url("https://apps.startribune.com/fonts/Benton-Sans-Condensed-Medium/06f4dbf6-2449-4b99-9621-e8abb9e595a2-1.ttf") format("truetype");
+    font-style: normal;
+    font-weight: normal;
+}
+
+// Project specific styles.  Split styles into files per component
+@import 'global';
+@import 'slider';
+@import 'colors';
+@import 'minimap';
+@import 'map';
+@import 'geocoder';

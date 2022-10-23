@@ -1,0 +1,367 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<title>StribLab Election 2022 Precinct Mapper</title>
+<link rel="stylesheet" type="text/css" href="view.css" media="all">
+<link rel='icon' type='image/png' href='favicon.png'>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.1/jquery.min.js"></script>
+</head>
+<body id="main_body" >
+	<div id="form_container">
+		<h1>StribLab Election 2022 Precinct Mapper</h1>
+		<form id="form_id" class="appnitro" method="post" onsubmit="return false">
+		<div class="form_description">
+			<h2>StribLab Election 2022 Precinct Mapper</h2>
+			<p>Configure and generate precinct result maps in embeddable Mapbox visualizations.</p>
+		</div>						
+		
+		<ul>	
+		<li>
+		<label class="description" for="eOffice">Select contest</label>
+		<div>
+		<select class="element select medium" id="eOffice" name="eOffice"> 
+			<option value="" selected="selected"></option>
+			<option value="0">Governor</option>
+			<option value="1">Attorney General</option>
+			<option value="2">Secretary of State</option>
+			<option value="3">State Auditor</option>
+			<option value="4">Congressional District 1</option>
+			<option value="5">Congressional District 2</option>
+			<option value="6">Congressional District 3</option>
+			<option value="7">Congressional District 4</option>
+			<option value="8">Congressional District 5</option>
+			<option value="9">Congressional District 6</option>
+			<option value="10">Congressional District 7</option>
+			<option value="11">Congressional District 8</option>
+			<option value="12">State Senate District 1</option>
+			<option value="13">State Senate District 2</option>
+			<option value="14">State Senate District 3</option>
+			<option value="15">State Senate District 4</option>
+			<option value="16">State Senate District 5</option>
+			<option value="17">State Senate District 6</option>
+			<option value="18">State Senate District 7</option>
+			<option value="19">State Senate District 8</option>
+			<option value="20">State Senate District 9</option>
+			<option value="21">State Senate District 10</option>
+			<option value="22">State Senate District 11</option>
+			<option value="23">State Senate District 12</option>
+			<option value="24">State Senate District 13</option>
+			<option value="25">State Senate District 14</option>
+			<option value="26">State Senate District 15</option>
+			<option value="27">State Senate District 16</option>
+			<option value="28">State Senate District 17</option>
+			<option value="29">State Senate District 18</option>
+			<option value="30">State Senate District 19</option>
+			<option value="31">State Senate District 20</option>
+			<option value="32">State Senate District 21</option>
+			<option value="33">State Senate District 22</option>
+			<option value="34">State Senate District 23</option>
+			<option value="35">State Senate District 24</option>
+			<option value="36">State Senate District 25</option>
+			<option value="37">State Senate District 26</option>
+			<option value="38">State Senate District 27</option>
+			<option value="39">State Senate District 28</option>
+			<option value="40">State Senate District 29</option>
+			<option value="41">State Senate District 30</option>
+			<option value="42">State Senate District 31</option>
+			<option value="43">State Senate District 32</option>
+			<option value="44">State Senate District 33</option>
+			<option value="45">State Senate District 34</option>
+			<option value="46">State Senate District 35</option>
+			<option value="47">State Senate District 36</option>
+			<option value="48">State Senate District 37</option>
+			<option value="49">State Senate District 38</option>
+			<option value="50">State Senate District 39</option>
+			<option value="51">State Senate District 40</option>
+			<option value="52">State Senate District 41</option>
+			<option value="53">State Senate District 42</option>
+			<option value="54">State Senate District 43</option>
+			<option value="55">State Senate District 44</option>
+			<option value="56">State Senate District 45</option>
+			<option value="57">State Senate District 46</option>
+			<option value="58">State Senate District 47</option>
+			<option value="59">State Senate District 48</option>
+			<option value="60">State Senate District 49</option>
+			<option value="61">State Senate District 50</option>
+			<option value="62">State Senate District 51</option>
+			<option value="63">State Senate District 52</option>
+			<option value="64">State Senate District 53</option>
+			<option value="65">State Senate District 54</option>
+			<option value="66">State Senate District 55</option>
+			<option value="67">State Senate District 56</option>
+			<option value="68">State Senate District 57</option>
+			<option value="69">State Senate District 58</option>
+			<option value="70">State Senate District 59</option>
+			<option value="71">State Senate District 60</option>
+			<option value="72">State Senate District 61</option>
+			<option value="73">State Senate District 62</option>
+			<option value="74">State Senate District 63</option>
+			<option value="75">State Senate District 64</option>
+			<option value="76">State Senate District 65</option>
+			<option value="77">State Senate District 66</option>
+			<option value="78">State Senate District 67</option>
+			<option value="79">State House District 01A</option>
+			<option value="80">State House District 01B</option>
+			<option value="81">State House District 02A</option>
+			<option value="82">State House District 02B</option>
+			<option value="83">State House District 03A</option>
+			<option value="84">State House District 03B</option>
+			<option value="85">State House District 04A</option>
+			<option value="86">State House District 04B</option>
+			<option value="87">State House District 05A</option>
+			<option value="88">State House District 05B</option>
+			<option value="89">State House District 06A</option>
+			<option value="90">State House District 06B</option>
+			<option value="91">State House District 07A</option>
+			<option value="92">State House District 07B</option>
+			<option value="93">State House District 08A</option>
+			<option value="94">State House District 08B</option>
+			<option value="95">State House District 09A</option>
+			<option value="96">State House District 09B</option>
+			<option value="97">State House District 10A</option>
+			<option value="98">State House District 10B</option>
+			<option value="99">State House District 11A</option>
+			<option value="100">State House District 11B</option>
+			<option value="101">State House District 12A</option>
+			<option value="102">State House District 12B</option>
+			<option value="103">State House District 13A</option>
+			<option value="104">State House District 13B</option>
+			<option value="105">State House District 14A</option>
+			<option value="106">State House District 14B</option>
+			<option value="107">State House District 15A</option>
+			<option value="108">State House District 15B</option>
+			<option value="109">State House District 16A</option>
+			<option value="110">State House District 16B</option>
+			<option value="111">State House District 17A</option>
+			<option value="112">State House District 17B</option>
+			<option value="113">State House District 18A</option>
+			<option value="114">State House District 18B</option>
+			<option value="115">State House District 19A</option>
+			<option value="116">State House District 19B</option>
+			<option value="117">State House District 20A</option>
+			<option value="118">State House District 20B</option>
+			<option value="119">State House District 21A</option>
+			<option value="120">State House District 21B</option>
+			<option value="121">State House District 22A</option>
+			<option value="122">State House District 22B</option>
+			<option value="123">State House District 23A</option>
+			<option value="124">State House District 23B</option>
+			<option value="125">State House District 24A</option>
+			<option value="126">State House District 24B</option>
+			<option value="127">State House District 25A</option>
+			<option value="128">State House District 25B</option>
+			<option value="129">State House District 26A</option>
+			<option value="130">State House District 26B</option>
+			<option value="131">State House District 27A</option>
+			<option value="132">State House District 27B</option>
+			<option value="133">State House District 28A</option>
+			<option value="134">State House District 28B</option>
+			<option value="135">State House District 29A</option>
+			<option value="136">State House District 29B</option>
+			<option value="137">State House District 30A</option>
+			<option value="138">State House District 30B</option>
+			<option value="139">State House District 31A</option>
+			<option value="140">State House District 31B</option>
+			<option value="141">State House District 32A</option>
+			<option value="142">State House District 32B</option>
+			<option value="143">State House District 33A</option>
+			<option value="144">State House District 33B</option>
+			<option value="145">State House District 34A</option>
+			<option value="146">State House District 34B</option>
+			<option value="147">State House District 35A</option>
+			<option value="148">State House District 35B</option>
+			<option value="149">State House District 36A</option>
+			<option value="150">State House District 36B</option>
+			<option value="151">State House District 37A</option>
+			<option value="152">State House District 37B</option>
+			<option value="153">State House District 38A</option>
+			<option value="154">State House District 38B</option>
+			<option value="155">State House District 39A</option>
+			<option value="156">State House District 39B</option>
+			<option value="157">State House District 40A</option>
+			<option value="158">State House District 40B</option>
+			<option value="159">State House District 41A</option>
+			<option value="160">State House District 41B</option>
+			<option value="161">State House District 42A</option>
+			<option value="162">State House District 42B</option>
+			<option value="163">State House District 43A</option>
+			<option value="164">State House District 43B</option>
+			<option value="165">State House District 44A</option>
+			<option value="166">State House District 44B</option>
+			<option value="167">State House District 45A</option>
+			<option value="168">State House District 45B</option>
+			<option value="169">State House District 46A</option>
+			<option value="170">State House District 46B</option>
+			<option value="171">State House District 47A</option>
+			<option value="172">State House District 47B</option>
+			<option value="173">State House District 48A</option>
+			<option value="174">State House District 48B</option>
+			<option value="175">State House District 49A</option>
+			<option value="176">State House District 49B</option>
+			<option value="177">State House District 50A</option>
+			<option value="178">State House District 50B</option>
+			<option value="179">State House District 51A</option>
+			<option value="180">State House District 51B</option>
+			<option value="181">State House District 52A</option>
+			<option value="182">State House District 52B</option>
+			<option value="183">State House District 53A</option>
+			<option value="184">State House District 53B</option>
+			<option value="185">State House District 54A</option>
+			<option value="186">State House District 54B</option>
+			<option value="187">State House District 55A</option>
+			<option value="188">State House District 55B</option>
+			<option value="189">State House District 56A</option>
+			<option value="190">State House District 56B</option>
+			<option value="191">State House District 57A</option>
+			<option value="192">State House District 57B</option>
+			<option value="193">State House District 58A</option>
+			<option value="194">State House District 58B</option>
+			<option value="195">State House District 59A</option>
+			<option value="196">State House District 59B</option>
+			<option value="197">State House District 60A</option>
+			<option value="198">State House District 60B</option>
+			<option value="199">State House District 61A</option>
+			<option value="200">State House District 61B</option>
+			<option value="201">State House District 62A</option>
+			<option value="202">State House District 62B</option>
+			<option value="203">State House District 63A</option>
+			<option value="204">State House District 63B</option>
+			<option value="205">State House District 64A</option>
+			<option value="206">State House District 64B</option>
+			<option value="207">State House District 65A</option>
+			<option value="208">State House District 65B</option>
+			<option value="209">State House District 66A</option>
+			<option value="210">State House District 66B</option>
+			<option value="211">State House District 67A</option>
+			<option value="212">State House District 67B</option>
+		</select>
+		</div> 
+		</li>
+		<li>
+		<label class="description" for="eDistricts">District borders</label>
+		<span>
+			<input id="eDistricts_1" name="eDistricts" class="element radio" type="radio" value="1" />
+			<label class="choice" for="eDistricts_1">Enable</label>
+			<input id="eDistricts_2" name="eDistricts" class="element radio" type="radio" value="0" />
+			<label class="choice" for="eDistricts_2">Disable</label>
+		</span> 
+		</li>
+		<li>
+		<label class="description" for="eIsolate">Zoom mode</label>
+		<span>
+			<input id="eIsolate_1" name="eIsolate" class="element radio" type="radio" value="0" />
+			<label class="choice" for="eIsolate_1">State</label>
+			<input id="eIsolate_2" name="eIsolate" class="element radio" type="radio" value="1" />
+			<label class="choice" for="eIsolate_2">Metro</label>
+			<input id="eIsolate_3" name="eIsolate" class="element radio" type="radio" value="2" />
+			<label class="choice" for="eIsolate_3">Isolate districts</label>
+		</span> 
+		</li>
+		<li>
+		<label class="description" for="eInteract">Map interactivity [tooltips, controls, etc]</label>
+		<span>
+			<input id="eInteract_1" name="eInteract" class="element radio" type="radio" value="1" />
+			<label class="choice" for="eInteract_1">Enable</label>
+			<input id="eInteract_2" name="eInteract" class="element radio" type="radio" value="0" />
+			<label class="choice" for="eInteract_2">Disable</label>
+		</span> 
+		</li>
+		<li>
+		<label class="description" for="eShading">Result shading mode</label>
+		<span>
+			<input id="eShading_1" name="eShading" class="element radio" type="radio" value="0" />
+			<label class="choice" for="eShading_1">Partisan margin + vote density</label>
+			<input id="eShading_2" name="eShading" class="element radio" type="radio" value="1" />
+			<label class="choice" for="eShading_2">Classic partisan margin ramp</label>
+			<input id="eShading_3" name="eShading" class="element radio" type="radio" value="2" />
+			<label class="choice" for="eShading_3">Partisan binary [Red vs. Blue]</label>
+		</span> 
+		</li>
+		<li>
+			<label class="description" for="eHed">Dataviz hed text</label>
+			<div>
+				<input id="eHed" name="eHed" class="element text medium" type="text" maxlength="255" value=""/> 
+			</div> 
+		</li>
+		<li>
+			<label class="description" for="eChatter">Dataviz chatter text</label>
+			<div>
+				<textarea id="eChatter" name="eChatter" class="element textarea medium"></textarea> 
+			</div> 
+		</li>s
+		<li >
+			<label class="description" for="eHeight">Map height in px </label>
+			<div>
+				<input id="eHeight" name="eHeight" class="element text medium" type="text" maxlength="255" value="600"/> 
+			</div> 
+		</li>
+		<li class="buttons">
+			    <input type="hidden" name="form_id" value="42838" />
+				<input id="saveForm" class="button_text" type="submit" name="submission" value="GENERATE" />
+		</li>
+			</ul>
+		</form>	
+
+		<div id="file_container">
+							<h1>&nbsp;</h1>
+			<div class="files">
+			<div class="form_description">
+
+				<h2>Processed election results files</h2>
+				<p>GEOJSON downloads usable as shapefiles for print and digital.</p>
+			</div>
+
+				<strong>GUBERNATORIAL RACE SHAPEFILES</strong>
+			<ul>
+				<li><a href="../data/gov-results-geo.json">by Precinct</a></li>
+				<li><a href="../data/gov-counties.json">by County</a></li>
+			</ul>
+				<strong>AG RACE SHAPEFILES</strong>
+			<ul>
+				<li><a href="../data/ag-results-geo.json">by Precinct</a></li>
+				<li><a href="../data/ag-counties.json">by County</a></li>
+			</ul>
+				<strong>SOS RACE SHAPEFILES</strong>
+			<ul>
+				<li><a href="../data/sos-results-geo.json">by Precinct</a></li>
+				<li><a href="../data/sos-counties.json">by County</a></li>
+			</ul>
+				<strong>SA RACE SHAPEFILES</strong>
+			<ul>
+				<li><a href="../data/sa-results-geo.json">by Precinct</a></li>
+				<li><a href="../data/sa-counties.json">by County</a></li>
+			</ul>
+				<strong>CONGRESSIONAL RACES SHAPEFILES</strong>
+			<ul>
+				<li><a href="../data/con-results-geo.json">by Precinct</a></li>
+				<li><a href="../data/con-district.json">by Congressional District</a></li>
+			</ul>
+				<strong>STATE SENATE RACES SHAPEFILES</strong>
+			<ul>
+				<li><a href="../data/sen-results-geo.json">by Precinct</a></li>
+				<li><a href="../data/sen-district.json">by State Senate District</a></li>
+			</ul>
+				<strong>STATE HOUSE RACES SHAPEFILES</strong>
+			<ul>
+				<li><a href="../data/leg-results-geo.json">by Precinct</a></li>
+				<li><a href="../data/leg-district.json">by State House District</a></li>
+			</ul>
+			<strong>BASE BOUNDARY SHAPEFILES</strong>
+			<ul>
+				<li><a href="../data/precincts.json">Minnesota Voting Precincts</a></li>
+				<li><a href="../data/counties.json">Minnesota Counties</a></li>
+				<li><a href="../data/congress2022.json">Congressional Districts</a></li>
+				<li><a href="../data/senate2022.json">State Senate Districts</a></li>
+				<li><a href="../data/house2022.json">State House Districts</a></li>
+			</ul>
+			</div>
+		</div>
+	</div>
+			<div id="footer">
+			Jeff Hargarten, Star Tribune
+		</div>
+	</body>
+	<script type="text/javascript" src="view.js"></script>
+	<script type="text/javascript" src="submit.js"></script>
+</html>
