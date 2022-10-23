@@ -21,6 +21,6 @@ $("#form_id").submit(function( event ) {
 
   console.log(district);
 
-  window.open('http://localhost:8080/?office=' + district + "&overlay=" + boundaries + "&filter=" + isolate +"&interactive=" + interactive + "&shading=" + shading + "&height=" + height + "&title=" + hed + "&chatter=" + chatter, '_blank');
+  window.open('https://static.startribune.com/news/projects/all/elex22maps/build/?office=' + district + "&overlay=" + boundaries + "&filter=" + isolate +"&interactive=" + interactive + "&shading=" + shading + "&height=" + height + "&title=" + hed + "&chatter=" + chatter, '_blank');
   
 });
