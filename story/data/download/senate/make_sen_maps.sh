@@ -123,5 +123,4 @@ mapshaper $DISTRICT_STR-results-geo.json \
   -o $DISTRICT_STR.svg &&
 
 rm *.tmp.* &&
-rm sen.csv &&
 rm precincts-final.json

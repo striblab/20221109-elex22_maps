@@ -9,9 +9,9 @@ echo "Downloading precinct results ..." &&
 echo "state;county_id;precinct_id;office_id;office_name;district;\
 cand_order;cand_name;suffix;incumbent;party;counties_reporting;\
 counties_voting;votes;votes_pct;votes_office" | \
-  cat - <(wget -O - -o /dev/null 'https://electionresultsfiles.sos.state.mn.us/20181106/allracesbycounty.txt') > gov.csv &&
+  cat - <(wget -O - -o /dev/null 'https://electionresultsfiles.sos.state.mn.us/20181106/allracesbycounty.txt') > gov-counties.csv &&
 
-csv2json -s ";" gov.csv | ndjson-cat | \
+csv2json -s ";" gov-counties.csv | ndjson-cat | \
   ndjson-split | \
   ndjson-filter "d.office_id == \"$OFFICE_ID\"" > $DISTRICT_STR.tmp.ndjson &&
 
@@ -53,8 +53,7 @@ mapshaper $DISTRICT_STR-counties.json \
   -proj +proj=utm +zone=15 +ellps=GRS80 +datum=NAD83 +units=m +no_defs \
   -colorizer name=calcFill colors="$MAPSHAPER_COLORS" nodata='#dfdfdf' categories="$MAPSHAPER_CATEGORIES" \
   -style fill='calcFill(winner)' \
-  -o $DISTRICT_STR.svg &&
+  -o $DISTRICT_STR-counties.svg &&
 
 rm *.tmp.* &&
-rm gov.csv &&
 rm counties-final.json

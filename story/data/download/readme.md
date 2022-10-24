@@ -11,4 +11,3 @@ CASE
   ELSE NULL 
 END 
 
-3. manually compile district-level results

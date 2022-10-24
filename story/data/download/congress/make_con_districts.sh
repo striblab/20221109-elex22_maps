@@ -16,9 +16,9 @@ echo "Downloading precinct results ..." &&
 echo "state;county_id;precinct_id;office_id;office_name;district;\
 cand_order;cand_name;suffix;incumbent;party;districts_reporting;\
 districts_voting;votes;votes_pct;votes_office" | \
-  cat - <(wget -O - -o /dev/null 'https://electionresultsfiles.sos.state.mn.us/20181106/ushouse.txt') > con.csv &&
+  cat - <(wget -O - -o /dev/null 'https://electionresultsfiles.sos.state.mn.us/20181106/ushouse.txt') > con-district.csv &&
 
-csv2json -s ";" con.csv | ndjson-cat | \
+csv2json -s ";" con-district.csv | ndjson-cat | \
   ndjson-split | \
   ndjson-filter "d.office_id == \"$OFFICE_ID1\" || d.office_id == \"$OFFICE_ID2\" || d.office_id == \"$OFFICE_ID3\" || d.office_id == \"$OFFICE_ID4\" || d.office_id == \"$OFFICE_ID5\" || d.office_id == \"$OFFICE_ID6\" || d.office_id == \"$OFFICE_ID7\" || d.office_id == \"$OFFICE_ID8\"" > $DISTRICT_STR.tmp.ndjson &&
 
@@ -64,5 +64,4 @@ mapshaper $DISTRICT_STR-district.json \
   -o $DISTRICT_STR-district.svg &&
 
 rm *.tmp.* &&
-rm con.csv &&
 rm districts-final.json

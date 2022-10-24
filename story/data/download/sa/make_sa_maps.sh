@@ -56,5 +56,4 @@ mapshaper $DISTRICT_STR-results-geo.json \
   -o $DISTRICT_STR.svg &&
 
 rm *.tmp.* &&
-rm sa.csv &&
 rm precincts-final.json

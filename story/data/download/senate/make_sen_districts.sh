@@ -76,9 +76,9 @@ echo "Downloading precinct results ..." &&
 echo "state;county_id;precinct_id;office_id;office_name;district;\
 cand_order;cand_name;suffix;incumbent;party;districts_reporting;\
 districts_voting;votes;votes_pct;votes_office" | \
-  cat - <(wget -O - -o /dev/null 'https://electionresultsfiles.sos.state.mn.us/20181106/stsenate.txt') > sen.csv &&
+  cat - <(wget -O - -o /dev/null 'https://electionresultsfiles.sos.state.mn.us/20181106/stsenate.txt') > sen-district.csv &&
 
-csv2json -s ";" sen.csv | ndjson-cat | \
+csv2json -s ";" sen-district.csv | ndjson-cat | \
   ndjson-split | \
   ndjson-filter "d.office_id == \"$OFFICE_ID1\" || d.office_id == \"$OFFICE_ID2\" || d.office_id == \"$OFFICE_ID3\" || d.office_id == \"$OFFICE_ID4\" || d.office_id == \"$OFFICE_ID5\" || d.office_id == \"$OFFICE_ID6\" || d.office_id == \"$OFFICE_ID7\" || d.office_id == \"$OFFICE_ID8\" || d.office_id == \"$OFFICE_ID9\" || d.office_id == \"$OFFICE_ID10\" || d.office_id == \"$OFFICE_ID11\" || d.office_id == \"$OFFICE_ID12\" || d.office_id == \"$OFFICE_ID13\" || d.office_id == \"$OFFICE_ID14\" || d.office_id == \"$OFFICE_ID15\" || d.office_id == \"$OFFICE_ID16\" || d.office_id == \"$OFFICE_ID17\" || d.office_id == \"$OFFICE_ID18\" || d.office_id == \"$OFFICE_ID19\" || d.office_id == \"$OFFICE_ID20\" || d.office_id == \"$OFFICE_ID21\" || d.office_id == \"$OFFICE_ID22\" || d.office_id == \"$OFFICE_ID23\" || d.office_id == \"$OFFICE_ID24\" || d.office_id == \"$OFFICE_ID25\" || d.office_id == \"$OFFICE_ID26\" || d.office_id == \"$OFFICE_ID27\" || d.office_id == \"$OFFICE_ID28\" || d.office_id == \"$OFFICE_ID29\" || d.office_id == \"$OFFICE_ID30\" || d.office_id == \"$OFFICE_ID31\" || d.office_id == \"$OFFICE_ID32\" || d.office_id == \"$OFFICE_ID33\" || d.office_id == \"$OFFICE_ID34\" || d.office_id == \"$OFFICE_ID35\" || d.office_id == \"$OFFICE_ID36\" || d.office_id == \"$OFFICE_ID37\" || d.office_id == \"$OFFICE_ID38\" || d.office_id == \"$OFFICE_ID39\" || d.office_id == \"$OFFICE_ID40\" || d.office_id == \"$OFFICE_ID41\" || d.office_id == \"$OFFICE_ID42\" || d.office_id == \"$OFFICE_ID43\" || d.office_id == \"$OFFICE_ID44\" || d.office_id == \"$OFFICE_ID45\" || d.office_id == \"$OFFICE_ID46\" || d.office_id == \"$OFFICE_ID47\" || d.office_id == \"$OFFICE_ID48\" || d.office_id == \"$OFFICE_ID49\" || d.office_id == \"$OFFICE_ID50\" || d.office_id == \"$OFFICE_ID51\" || d.office_id == \"$OFFICE_ID52\" || d.office_id == \"$OFFICE_ID53\" || d.office_id == \"$OFFICE_ID54\" || d.office_id == \"$OFFICE_ID55\" || d.office_id == \"$OFFICE_ID56\" || d.office_id == \"$OFFICE_ID57\" || d.office_id == \"$OFFICE_ID58\" || d.office_id == \"$OFFICE_ID59\" || d.office_id == \"$OFFICE_ID60\" || d.office_id == \"$OFFICE_ID61\" || d.office_id == \"$OFFICE_ID62\" || d.office_id == \"$OFFICE_ID63\" || d.office_id == \"$OFFICE_ID64\" || d.office_id == \"$OFFICE_ID65\" || d.office_id == \"$OFFICE_ID66\" || d.office_id == \"$OFFICE_ID67\"" > $DISTRICT_STR.tmp.ndjson &&
 
@@ -118,5 +118,4 @@ mapshaper $DISTRICT_STR-district.json \
   -o $DISTRICT_STR-district.svg &&
 
 rm *.tmp.* &&
-rm sen.csv &&
 rm districts-final.json
