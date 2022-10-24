@@ -12,7 +12,7 @@ mapboxgl.accessToken = 'pk.eyJ1Ijoic3RhcnRyaWJ1bmUiLCJhIjoiY2sxYjRnNjdqMGtjOTNjc
 
 let raceData = directory.races;
 
-function makeMap(zoom, center, interactive, shading, opacity, dataSource, overSource, filter, district, overlaid) {
+function makeMap(zoom, center, interactive, shading, opacity, dataSource, overSource, filter, district, overlaid, office) {
 
 /********** MAP CONFIG VARIABLES **********/
 let condition = 'mousemove';
@@ -206,7 +206,7 @@ map.on('load', function() {
             'layout': {},
             'type': 'line',
             'paint': {
-              'line-color': '#000000'
+              'line-color': '#333333'
             }
         }, "settlement-subdivision-label");
     }
@@ -227,7 +227,7 @@ map.on('load', function() {
             'layout': {},
             'type': 'line',
             'paint': {
-              'line-color': '#000000'
+              'line-color': '#333333'
             },
             filter: ['==', 'DISTRICT', district]
         }, "settlement-subdivision-label");
@@ -276,8 +276,13 @@ map.on('load', function() {
 
                 var obj = jq.parseJSON(feature.properties.votes_obj);
 
+                var geo = feature.properties.county + ' County';
+                if (office > 3 && office < 12) { geo = 'Congressional District ' + feature.properties.congdist; }
+                else if (office > 11 && office < 79) { geo = 'Senate District ' + feature.properties.mnsendist; }
+                else if (office > 78) { geo = 'House District ' + feature.properties.mnlegdist; }
+
                 popup.setLngLat(e.lngLat)
-                    .setHTML('<span class="precinct-name">' + feature.properties.precinct + '</span><span class="county-name">' + feature.properties.county + ' County</span>' + tipinfo(obj) + '<p class="precinct-note">Precinct’s top 3 candidates shown</p>')
+                    .setHTML('<span class="precinct-name">' + feature.properties.precinct + '</span><span class="county-name">' + geo + '</span>' + tipinfo(obj, office) + '<p class="precinct-note">Precinct’s top 3 candidates shown</p>')
                     .addTo(map);
             });
 
@@ -291,7 +296,7 @@ map.on('load', function() {
             });
     }
 
-    function tipinfo(obj) {
+    function tipinfo(obj, office) {
       var tipstring = '<table class="tableResults"><thead><tr><th></th><th class="cand">Candidate</th><th class="votes">Votes</th><th class="pct">Pct.</th></tr></thead><tbody>';
 
       for (var i=0; i < 3; i++) {
@@ -469,30 +474,37 @@ jq(document).ready(function() {
       centers[0] = [-94.351646, 46.607469]; //default desktop centerpoint
       centers[1] = [-93.218950, 44.935852]; //default metro area centerpoint
       centers[2] = [-93.907810, 45.940497]; //default mobile centerpoint
+      centers[3] = [-94.351646, 46.607469]; //default desktop centerpoint
 
       var zooms = [];
       zooms[0] = 5.5;
       zooms[1] = 9; //default metro area zoom level
       zooms[2] = 5.5;
+      zooms[3] = 6;
 
       jq("#map").css("height",height+"px");
 
 
       /********** CHATTER CONFIGURATION **********/
+      var text = jq.urlParam('text') ?? 1;
       var title = jq.urlParam('title') ?? 'title test';
       var chatter = jq.urlParam('chatter') ?? 'chatter test';
+
+      if (text == 0) { jq("#text").hide(); }
 
       jq(".chartTitle").html(decodeURI(title));
       jq(".chatter").html(decodeURI(chatter));
       
 
     /********** RENDER **********/
-        makeMap(zooms[filter], centers[filter], interactive, shades[shading], opacities[shading], dataSource, overSource, filter, district, overlay);
+        makeMap(zooms[filter], centers[filter], interactive, shades[shading], opacities[shading], dataSource, overSource, filter, district, overlay, office);
     });
 </script>
 
-<div class="chartTitle">TITLE HERE</div>
-<div class="chatter">chatter here</div>
+<div id="text">
+  <div class="chartTitle">TITLE HERE</div>
+  <div class="chatter">chatter here</div>
+</div>
 <div class="map" id="map">
 
       <div class="legend" id="legend0">
