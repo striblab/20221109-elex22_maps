@@ -35,6 +35,7 @@ sudo chmod +x <LOCALPATH>/20221109-elex22maps/story/data/download/governor/make_
 5. Deploy the project to AWS S3 instance as normal
 
 
+## About the workflow
 
 This is a project template for [Svelte](https://svelte.dev) apps. It lives at https://github.com/striblab/svelte3-template-webpack and is a fork of https://github.com/sveltejs/template-webpack.
 
