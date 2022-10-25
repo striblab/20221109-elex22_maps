@@ -21,18 +21,26 @@ Macbook instructions for local data ingestion of new precinct-level and county-l
 
 1. Open Terminal
 
-2. Make the desired bash scripts executable (using the story/data/download/governor folder as an example)
+2. Verify your interactive shell is set to bash (zsh is the current MacOSX default shell and this breaks EVERYTHING)
+
+```bash
+chsh -s /bin/bash
+```
+
+3. Make the desired bash scripts executable (using the story/data/download/governor folder as an example)
 
 ```bash
 sudo chmod +x <LOCALPATH>/20221109-elex22maps/story/data/download/governor/make_gov_maps.sh
 sudo chmod +x <LOCALPATH>/20221109-elex22maps/story/data/download/governor/make_gov_counties.sh
 ```
 
-3. This will produce bound GEOJSON shapefiles, results CSVs and SVG maps for the gubernatorial contest on both precinct and county levels.
+4. This will produce bound GEOJSON shapefiles, results CSVs and SVG maps for the gubernatorial contest on both precinct and county levels.
 
-4. Move gov-counties.json, gov-results-geo.json, gov-counties.svg, gov.svg, gov-counties.csv and gov.csv to the public/data folder
+5. Move gov-counties.json, gov-results-geo.json, gov-counties.svg, gov.svg, gov-counties.csv and gov.csv to the public/data folder
 
-5. Deploy the project to AWS S3 instance as normal
+6. Deploy the project to AWS S3 instance as normal to update the maps
+
+7. Push project changes to Github and so it populates to the configuration tool
 
 
 ## About the workflow
