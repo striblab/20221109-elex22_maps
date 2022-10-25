@@ -1,0 +1,1 @@
+<strib type="embed" url="https://static.startribune.com/news/projects/all/elex22maps/build/?office=0&overlay=1&filter=3&interactive=1&shading=0&height=850&text=0&title=&chatter=" iframe_height="901" css_desktop_height="901px" css_mobile_height="922px" scale="xl"></strib>

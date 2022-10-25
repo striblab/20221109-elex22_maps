@@ -1,0 +1,27 @@
+state;county_id;precinct_id;office_id;office_name;district;cand_order;cand_name;suffix;incumbent;party;districts_reporting;districts_voting;votes;votes_pct;votes_office
+MN;;;0104;U.S. Representative District 1;1;0301;Jim Hagedorn;;;R;698;698;146200;50.13;291661
+MN;;;0104;U.S. Representative District 1;1;0401;Dan Feehan;;;DFL;698;698;144885;49.68;291661
+MN;;;0104;U.S. Representative District 1;1;9901;WRITE-IN**;;;WI;698;698;576;0.20;291661
+MN;;;0105;U.S. Representative District 2;2;0301;Jason Lewis;;;R;292;292;159344;47.15;337968
+MN;;;0105;U.S. Representative District 2;2;0401;Angie Craig;;;DFL;292;292;177958;52.66;337968
+MN;;;0105;U.S. Representative District 2;2;9901;WRITE-IN**;;;WI;292;292;666;0.20;337968
+MN;;;0106;U.S. Representative District 3;3;0301;Erik Paulsen;;;R;248;248;160839;44.19;363949
+MN;;;0106;U.S. Representative District 3;3;0401;Dean Phillips;;;DFL;248;248;202404;55.61;363949
+MN;;;0106;U.S. Representative District 3;3;9901;WRITE-IN**;;;WI;248;248;706;0.19;363949
+MN;;;0107;U.S. Representative District 4;4;0301;Greg Ryan;;;R;225;225;97747;29.75;328614
+MN;;;0107;U.S. Representative District 4;4;0401;Betty McCollum;;;DFL;225;225;216865;65.99;328614
+MN;;;0107;U.S. Representative District 4;4;0601;Susan Pendergast Sindt;;;LMN;225;225;13776;4.19;328614
+MN;;;0107;U.S. Representative District 4;4;9901;WRITE-IN**;;;WI;225;225;226;0.07;328614
+MN;;;0108;U.S. Representative District 5;5;0301;Jennifer Zielinski;;;R;236;236;74440;21.68;343358
+MN;;;0108;U.S. Representative District 5;5;0401;Ilhan Omar;;;DFL;236;236;267703;77.97;343358
+MN;;;0108;U.S. Representative District 5;5;9901;WRITE-IN**;;;WI;236;236;1215;0.35;343358
+MN;;;0109;U.S. Representative District 6;6;0301;Tom Emmer;;;R;279;279;192931;61.11;315726
+MN;;;0109;U.S. Representative District 6;6;0401;Ian Todd;;;DFL;279;279;122332;38.75;315726
+MN;;;0109;U.S. Representative District 6;6;9901;WRITE-IN**;;;WI;279;279;463;0.15;315726
+MN;;;0110;U.S. Representative District 7;7;0301;Dave Hughes;;;R;1329;1329;134668;47.84;281509
+MN;;;0110;U.S. Representative District 7;7;0401;Collin C. Peterson;;;DFL;1329;1329;146672;52.10;281509
+MN;;;0110;U.S. Representative District 7;7;9901;WRITE-IN**;;;WI;1329;1329;169;0.06;281509
+MN;;;0111;U.S. Representative District 8;8;0301;Pete Stauber;;;R;806;806;159364;50.72;314211
+MN;;;0111;U.S. Representative District 8;8;0401;Joe Radinovich;;;DFL;806;806;141950;45.18;314211
+MN;;;0111;U.S. Representative District 8;8;1101;Ray Skip Sandman;;;IP;806;806;12741;4.05;314211
+MN;;;0111;U.S. Representative District 8;8;9901;WRITE-IN**;;;WI;806;806;156;0.05;314211
