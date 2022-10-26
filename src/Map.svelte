@@ -372,70 +372,70 @@ jq(document).ready(function() {
 
       var shades = [];
 
-      shades[0] = ['case', ['==', ['get', 'wmargin'], null], "#ffffff", [
+      shades[0] = ['case', ['==', ['get', 'wmargin'], null], "#e0e0e0", [
                   'interpolate',
                   ['linear'],
                   ['get', 'wmargin'],
                     -80,
-                    '#9b4242',
+                    '#750000',
                     -60,
-                    '#b9625f',
+                    '#750000',
                     -40,
-                    '#d5837c',
+                    '#AE191C',
                     -20,
-                    '#eaa99e',
+                    '#AE191C',
                     -6,
-                    '#f3d1c9',
+                    '#DA9190',
                     -0,
                     '#ccc900',
                      6,
-                    '#DAE1E7',
+                    '#8FAECE',
                      20,
-                    '#b0bcc8',
+                    '#115E9B',
                      40,
-                    '#8697a9',
+                    '#115E9B',
                      60,
-                    '#5e758b',
+                    '#003168',
                      80,
-                    '#36546f'
+                    '#003168'
                 ]];
-      shades[1] = ['case', ['==', ['get', 'wmargin'], null], "#ffffff", [
+      shades[1] = ['case', ['==', ['get', 'wmargin'], null], "#e0e0e0", [
                   'interpolate',
                   ['linear'],
                   ['get', 'wmargin'],
                     -80,
-                    '#9b4242',
+                    '#750000',
                     -60,
-                    '#b9625f',
+                    '#750000',
                     -40,
-                    '#d5837c',
+                    '#AE191C',
                     -20,
-                    '#eaa99e',
+                    '#AE191C',
                     -6,
-                    '#f3d1c9',
+                    '#DA9190',
                     -0,
                     '#ccc900',
                      6,
-                    '#DAE1E7',
+                    '#8FAECE',
                      20,
-                    '#b0bcc8',
+                    '#115E9B',
                      40,
-                    '#8697a9',
+                    '#115E9B',
                      60,
-                    '#5e758b',
+                    '#003168',
                      80,
-                    '#36546f'
+                    '#003168'
                 ]];
-      shades[2] = ['case', ['==', ['get', 'wmargin'], null], "#ffffff", [
+      shades[2] = ['case', ['==', ['get', 'wmargin'], null], "#e0e0e0", [
                   'interpolate',
                   ['linear'],
                   ['get', 'wmargin'],
                     -1,
-                    '#9b4242',
+                    '#AE191C',
                     0,
-                    '#ccc900',
+                    '#cfcdda',
                     1,
-                    '#36546f'
+                    '#115E9B'
                   ]];
 
       var opacities = [];
@@ -509,19 +509,19 @@ jq(document).ready(function() {
 
       <div class="legend" id="legend0">
         <div><span>&nbsp;</span><span style="text-align:right;">&larr;</span><span style="text-align:right;">D</span><span>&nbsp;</span><span>R</span><span>&rarr;</span><span>&nbsp;</span></div>
-        <div class="strong "><span style="background-color: #5e758b"></span><span style="background-color: #8697a9"></span><span style="background-color: #DAE1E7"></span><span style="background-color: #ccc900"></span><span style="background-color: #f3d1c9"></span><span style="background-color: #d5837c"></span><span style="background-color: #9b4242"></span> &darr; votes</div>
-        <div class="middle"><span style="background-color: #5e758b"></span><span style="background-color: #8697a9"></span><span style="background-color: #DAE1E7"></span><span style="background-color: #ccc900"></span><span style="background-color: #f3d1c9"></span><span style="background-color: #d5837c"></span><span style="background-color: #9b4242"></span></div>
-        <div class="weak"><span style="background-color: #5e758b"></span><span style="background-color: #8697a9"></span><span style="background-color: #DAE1E7"></span><span style="background-color: #ccc900"></span><span style="background-color: #f3d1c9"></span><span style="background-color: #d5837c"></span><span style="background-color: #9b4242"></span></div>
+        <div class="strong "><span style="background-color: #003168"></span><span style="background-color: #115E9B"></span><span style="background-color: #003168"></span><span style="background-color: #cfcdda"></span><span style="background-color: #da9190"></span><span style="background-color: #ae19ac"></span><span style="background-color: #750000"></span> &darr; votes</div>
+        <div class="middle"><span style="background-color: #003168"></span><span style="background-color: #115E9B"></span><span style="background-color: #003168"></span><span style="background-color: #cfcdda"></span><span style="background-color: #da9190"></span><span style="background-color: #ae19ac"></span><span style="background-color: #750000"></span></div>
+        <div class="weak"><span style="background-color: #003168"></span><span style="background-color: #115E9B"></span><span style="background-color: #003168"></span><span style="background-color: #cfcdda"></span><span style="background-color: #da9190"></span><span style="background-color: #ae19ac"></span><span style="background-color: #750000"></span></div>
       </div>
 
       <div class="legend" id="legend1">
         <div><span>&nbsp;</span><span style="text-align:right;">&larr;</span><span style="text-align:right;">D</span><span>&nbsp;</span><span>R</span><span>&rarr;</span><span>&nbsp;</span></div>
-        <div class="strong "><span style="background-color: #5e758b"></span><span style="background-color: #8697a9"></span><span style="background-color: #DAE1E7"></span><span style="background-color: #ccc900"></span><span style="background-color: #f3d1c9"></span><span style="background-color: #d5837c"></span><span style="background-color: #9b4242"></span></div>
+        <div class="strong "><span style="background-color: #003168"></span><span style="background-color: #115E9B"></span><span style="background-color: #003168"></span><span style="background-color: #cfcdda"></span><span style="background-color: #da9190"></span><span style="background-color: #ae19ac"></span><span style="background-color: #750000"></span></div>
       </div>
 
       <div class="legend" id="legend2">
         <div><span style="text-align:right;">D</span><span>&nbsp;</span><span>R</span></div>
-        <div class="strong "><span style="background-color: #5e758b"></span><span style="background-color: #ccc900"></span><span style="background-color: #9b4242"></span></div>
+        <div class="strong "><span style="background-color: #115E9B"></span><span style="background-color: #cfcdda"></span><span style="background-color: #ae19ac"></span></div>
       </div>
 </div>
       <div class="dataline">Map: Jeff Hargarten, Star Tribune • Source: Minnesota Secretary of State</div>

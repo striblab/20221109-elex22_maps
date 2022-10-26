@@ -62,5 +62,6 @@ mapshaper $DISTRICT_STR-results-geo.json \
   -style fill='calcFill(winner)' \
   -o $DISTRICT_STR.svg &&
 
+rm con.csv &&
 rm *.tmp.* &&
 rm precincts-final.json

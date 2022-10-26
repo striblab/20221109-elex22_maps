@@ -117,5 +117,6 @@ mapshaper $DISTRICT_STR-district.json \
   -style fill='calcFill(winner)' \
   -o $DISTRICT_STR-district.svg &&
 
+rm sen-district.csv &&
 rm *.tmp.* &&
 rm districts-final.json

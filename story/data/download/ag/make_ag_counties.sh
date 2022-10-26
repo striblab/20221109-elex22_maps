@@ -55,5 +55,6 @@ mapshaper $DISTRICT_STR-counties.json \
   -style fill='calcFill(winner)' \
   -o $DISTRICT_STR-counties.svg &&
 
+rm ag-counties.csv &&
 rm *.tmp.* &&
 rm counties-final.json
