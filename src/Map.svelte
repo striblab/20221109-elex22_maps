@@ -387,7 +387,7 @@ jq(document).ready(function() {
                     -6,
                     '#DA9190',
                     -0,
-                    '#ccc900',
+                    '#cfcdda',
                      6,
                     '#8FAECE',
                      20,
@@ -414,7 +414,7 @@ jq(document).ready(function() {
                     -6,
                     '#DA9190',
                     -0,
-                    '#ccc900',
+                    '#cfcdda',
                      6,
                     '#8FAECE',
                      20,
@@ -509,19 +509,19 @@ jq(document).ready(function() {
 
       <div class="legend" id="legend0">
         <div><span>&nbsp;</span><span style="text-align:right;">&larr;</span><span style="text-align:right;">D</span><span>&nbsp;</span><span>R</span><span>&rarr;</span><span>&nbsp;</span></div>
-        <div class="strong "><span style="background-color: #003168"></span><span style="background-color: #115E9B"></span><span style="background-color: #003168"></span><span style="background-color: #cfcdda"></span><span style="background-color: #da9190"></span><span style="background-color: #ae19ac"></span><span style="background-color: #750000"></span> &darr; votes</div>
-        <div class="middle"><span style="background-color: #003168"></span><span style="background-color: #115E9B"></span><span style="background-color: #003168"></span><span style="background-color: #cfcdda"></span><span style="background-color: #da9190"></span><span style="background-color: #ae19ac"></span><span style="background-color: #750000"></span></div>
-        <div class="weak"><span style="background-color: #003168"></span><span style="background-color: #115E9B"></span><span style="background-color: #003168"></span><span style="background-color: #cfcdda"></span><span style="background-color: #da9190"></span><span style="background-color: #ae19ac"></span><span style="background-color: #750000"></span></div>
+        <div class="strong "><span style="background-color: #003168"></span><span style="background-color: #115E9B"></span><span style="background-color: #8faece"></span><span style="background-color: #cfcdda"></span><span style="background-color: #da9190"></span><span style="background-color: #ae191c"></span><span style="background-color: #750000"></span> &darr; votes</div>
+        <div class="middle"><span style="background-color: #003168"></span><span style="background-color: #115E9B"></span><span style="background-color: #8faece"></span><span style="background-color: #cfcdda"></span><span style="background-color: #da9190"></span><span style="background-color: #ae191c"></span><span style="background-color: #750000"></span></div>
+        <div class="weak"><span style="background-color: #003168"></span><span style="background-color: #115E9B"></span><span style="background-color: #8faece"></span><span style="background-color: #cfcdda"></span><span style="background-color: #da9190"></span><span style="background-color: #ae191c"></span><span style="background-color: #750000"></span></div>
       </div>
 
       <div class="legend" id="legend1">
         <div><span>&nbsp;</span><span style="text-align:right;">&larr;</span><span style="text-align:right;">D</span><span>&nbsp;</span><span>R</span><span>&rarr;</span><span>&nbsp;</span></div>
-        <div class="strong "><span style="background-color: #003168"></span><span style="background-color: #115E9B"></span><span style="background-color: #003168"></span><span style="background-color: #cfcdda"></span><span style="background-color: #da9190"></span><span style="background-color: #ae19ac"></span><span style="background-color: #750000"></span></div>
+        <div class="strong "><span style="background-color: #003168"></span><span style="background-color: #115E9B"></span><span style="background-color: #8faece"></span><span style="background-color: #cfcdda"></span><span style="background-color: #da9190"></span><span style="background-color: #ae191c"></span><span style="background-color: #750000"></span></div>
       </div>
 
       <div class="legend" id="legend2">
         <div><span style="text-align:right;">D</span><span>&nbsp;</span><span>R</span></div>
-        <div class="strong "><span style="background-color: #115E9B"></span><span style="background-color: #cfcdda"></span><span style="background-color: #ae19ac"></span></div>
+        <div class="strong "><span style="background-color: #115E9B"></span><span style="background-color: #cfcdda"></span><span style="background-color: #ae191c"></span></div>
       </div>
 </div>
       <div class="dataline">Map: Jeff Hargarten, Star Tribune • Source: Minnesota Secretary of State</div>
