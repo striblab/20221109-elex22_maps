@@ -210,4 +210,5 @@
 {"index":209,"office":"house","district":"66A","latitude":46.607469,"longitude":-94.351646,"precincts":"leg-results-geo.json","overlay":"house2022.json"},
 {"index":210,"office":"house","district":"66B","latitude":46.607469,"longitude":-94.351646,"precincts":"leg-results-geo.json","overlay":"house2022.json"},
 {"index":211,"office":"house","district":"67A","latitude":46.607469,"longitude":-94.351646,"precincts":"leg-results-geo.json","overlay":"house2022.json"},
-{"index":212,"office":"house","district":"67B","latitude":46.607469,"longitude":-94.351646,"precincts":"leg-results-geo.json","overlay":"house2022.json"}]}
+{"index":212,"office":"house","district":"67B","latitude":46.607469,"longitude":-94.351646,"precincts":"leg-results-geo.json","overlay":"house2022.json"},
+{"index":213,"office":"hca","district":"0","latitude":46.607469,"longitude":-94.351646,"precincts":"hca-results-geo.json","overlay":"counties.json"}]}
