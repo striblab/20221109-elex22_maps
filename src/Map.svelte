@@ -80,7 +80,7 @@ class MetroReset {
   _createButton(className) {
     const el = window.document.createElement('button')
     el.className = className;
-    el.innerHTML = '<img width="15" src="https://static.startribune.com/news/projects/all/20220215-redistrict/build/img/metro.png" alt="metro" />';
+    el.innerHTML = '<img width="22" src="https://static.startribune.com/news/projects/all/elex22maps/build/img/metro.png" alt="metro" />';
     el.addEventListener('click',(e)=>{
      // e.style.display = 'none'
      // e.stopPropagation()
@@ -300,7 +300,10 @@ map.on('load', function() {
       var tipstring = '<table class="tableResults"><thead><tr><th></th><th class="cand">Candidate</th><th class="votes">Votes</th><th class="pct">Pct.</th></tr></thead><tbody>';
 
       for (var i=0; i < 3; i++) {
-        tipstring = tipstring + '<tr><td class="' + obj[i].party + '"><span class="dot ' + obj[i].party + '"></span></td><td class="cand">' + obj[i].name + ' <span>' + obj[i].party + '</span></td><td class="votes">' + obj[i].votes + '</td><td class="pct">' + obj[i].votes_pct + '%</td></tr>';
+        var name = String(obj[i].name).substring(0, String(obj[i].name).indexOf('and'));
+        if (office > 0) { name = obj[i].name; }
+
+        tipstring = tipstring + '<tr><td class="' + obj[i].party + '"><span class="dot ' + obj[i].party + '"></span></td><td class="cand">' + name + ' <span>' + obj[i].party + '</span></td><td class="votes">' + obj[i].votes + '</td><td class="pct">' + obj[i].votes_pct + '%</td></tr>';
       }
 
       tipstring = tipstring + '</tbody></table>'
@@ -372,7 +375,7 @@ jq(document).ready(function() {
 
       var shades = [];
 
-      shades[0] = ['case', ['==', ['get', 'wmargin'], null], "#e0e0e0", [
+      shades[0] = ['case', ['==', ['get', 'wmargin'], null], "#ffffff", [
                   'interpolate',
                   ['linear'],
                   ['get', 'wmargin'],
@@ -399,7 +402,7 @@ jq(document).ready(function() {
                      80,
                     '#003168'
                 ]];
-      shades[1] = ['case', ['==', ['get', 'wmargin'], null], "#e0e0e0", [
+      shades[1] = ['case', ['==', ['get', 'wmargin'], null], "#ffffff", [
                   'interpolate',
                   ['linear'],
                   ['get', 'wmargin'],
@@ -413,7 +416,7 @@ jq(document).ready(function() {
                     '#AE191C',
                     -6,
                     '#DA9190',
-                    -0,
+                    0,
                     '#cfcdda',
                      6,
                     '#8FAECE',
@@ -426,7 +429,7 @@ jq(document).ready(function() {
                      80,
                     '#003168'
                 ]];
-      shades[2] = ['case', ['==', ['get', 'wmargin'], null], "#e0e0e0", [
+      shades[2] = ['case', ['==', ['get', 'wmargin'], null], "#ffffff", [
                   'interpolate',
                   ['linear'],
                   ['get', 'wmargin'],
@@ -508,20 +511,29 @@ jq(document).ready(function() {
 <div class="map" id="map">
 
       <div class="legend" id="legend0">
+        <strong>Lead margin by vote density</strong>
         <div><span>&nbsp;</span><span style="text-align:right;">&larr;</span><span style="text-align:right;">D</span><span>&nbsp;</span><span>R</span><span>&rarr;</span><span>&nbsp;</span></div>
-        <div class="strong "><span style="background-color: #003168"></span><span style="background-color: #115E9B"></span><span style="background-color: #8faece"></span><span style="background-color: #cfcdda"></span><span style="background-color: #da9190"></span><span style="background-color: #ae191c"></span><span style="background-color: #750000"></span> &darr; votes</div>
+        <div class="strong"><span style="background-color: #003168"></span><span style="background-color: #115E9B"></span><span style="background-color: #8faece"></span><span style="background-color: #cfcdda"></span><span style="background-color: #da9190"></span><span style="background-color: #ae191c"></span><span style="background-color: #750000"></span> &darr; votes</div>
         <div class="middle"><span style="background-color: #003168"></span><span style="background-color: #115E9B"></span><span style="background-color: #8faece"></span><span style="background-color: #cfcdda"></span><span style="background-color: #da9190"></span><span style="background-color: #ae191c"></span><span style="background-color: #750000"></span></div>
         <div class="weak"><span style="background-color: #003168"></span><span style="background-color: #115E9B"></span><span style="background-color: #8faece"></span><span style="background-color: #cfcdda"></span><span style="background-color: #da9190"></span><span style="background-color: #ae191c"></span><span style="background-color: #750000"></span></div>
+
+        <div class="strong"><span style="background-color: #ffffff; border: 1px black solid;"></span> NO DATA</div>
       </div>
 
       <div class="legend" id="legend1">
+        <strong>Lead margin</strong>
         <div><span>&nbsp;</span><span style="text-align:right;">&larr;</span><span style="text-align:right;">D</span><span>&nbsp;</span><span>R</span><span>&rarr;</span><span>&nbsp;</span></div>
         <div class="strong "><span style="background-color: #003168"></span><span style="background-color: #115E9B"></span><span style="background-color: #8faece"></span><span style="background-color: #cfcdda"></span><span style="background-color: #da9190"></span><span style="background-color: #ae191c"></span><span style="background-color: #750000"></span></div>
+
+        <div class="strong"><span style="background-color: #ffffff; border: 1px black solid;"></span> NO DATA</div>
       </div>
 
       <div class="legend" id="legend2">
+        <strong>Leader by party</strong>
         <div><span style="text-align:right;">D</span><span>&nbsp;</span><span>R</span></div>
         <div class="strong "><span style="background-color: #115E9B"></span><span style="background-color: #cfcdda"></span><span style="background-color: #ae191c"></span></div>
+
+        <div class="strong"><span style="background-color: #ffffff; border: 1px black solid;"></span> NO DATA</div>
       </div>
 </div>
       <div class="dataline">Map: Jeff Hargarten, Star Tribune • Source: Minnesota Secretary of State</div>
