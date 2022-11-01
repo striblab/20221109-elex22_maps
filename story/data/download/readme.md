@@ -1,4 +1,4 @@
-0. sudo chmod +x /Users/hargaja/Desktop/workspace/microcanvas/REACTOR/20221109-elex22maps/story/data/download/sos/make_sos_counties.sh
+0. sudo chmod +x /Users/hargaja/Desktop/workspace/microcanvas/REACTOR/20221109-elex22maps/story/data/download/hca/make_hc_maps.sh
 
 1. ./make_potus_maps.sh
 
