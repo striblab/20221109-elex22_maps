@@ -22,8 +22,17 @@ cd /Users/hargaja/Desktop/workspace/microcanvas/REACTOR/20221109-elex22maps/stor
 
 ./make_gov_counties.sh
 
+./make_gov_metro.sh
+
 QGIS > gov-results-geo.json > gov.csv
 
 QGIS > gov-counties.json > gov-counties.csv
 
-move all to public/data
+move all to desktop
+
+
+REPEAT FOR ALL RACES
+
+GITHUB COMMIT
+
+AWS DEPLOY
