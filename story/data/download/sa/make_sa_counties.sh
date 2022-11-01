@@ -39,7 +39,7 @@ echo "Joining results to precinct map ..." &&
 ndjson-split 'd.objects.counties.geometries' < counties-longlat.tmp.json | \
   ndjson-map -r d3 '{"type": d.type, "arcs": d.arcs, "properties": {"id": d.properties.COUNTY_COD, "county": d.properties.COUNTY_NAM, "area_sqmi": d.properties.SHAPE_area * 0.00000038610}}' | \
   ndjson-join --left 'd.properties.id' 'd.id' - <(cat joined.tmp.ndjson) | \
-   ndjson-map '{"type": d[0].type, "arcs": d[0].arcs, "properties": {"id": d[0].properties.id, "county": d[0].properties.county, "area_sqmi": d[0].properties.SHAPE_area, "winner": d[1] != null ? d[1].winner : null, "winner_margin": d[1] != null ? d[1].winner_margin : null, "votes_sqmi": d[1] != null ? d[1].total_votes / d[0].properties.area_sqmi : null, "total_votes": d[1] != null ? d[1].total_votes : null, "votes_obj": d[1] != null ? d[1].votes_obj : null}}' | \
+   ndjson-map '{"type": d[0].type, "arcs": d[0].arcs, "properties": {"id": d[0].properties.id, "county": d[0].properties.county, "area_sqmi": d[0].properties.SHAPE_area, "winner": d[1] != null ? d[1].winner : null, "winner_margin": d[1] != null ? d[1].winner_margin : null, "wmargin": d[1] != null && d[1].winner == "R" ? d[1].winner_margin * -1 : d[1] != null ? d[1].winner_margin * 1 : null, "votes_sqmi": d[1] != null ? d[1].total_votes / d[0].properties.area_sqmi : null, "total_votes": d[1] != null ? d[1].total_votes : null, "votes_obj": d[1] != null ? d[1].votes_obj : null}}' | \
    ndjson-reduce 'p.geometries.push(d), p' '{"type": "GeometryCollection", "geometries":[]}' > counties.geometries.tmp.ndjson &&
 
 echo "Putting it all together ..." &&

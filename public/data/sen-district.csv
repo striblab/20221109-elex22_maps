@@ -1,4 +1,0 @@
-state;county_id;precinct_id;office_id;office_name;district;cand_order;cand_name;suffix;incumbent;party;districts_reporting;districts_voting;votes;votes_pct;votes_office
-MN;;;0133;State Senator District 13;13;0301;Jeff Howe;;;R;47;47;21714;57.38;37842
-MN;;;0133;State Senator District 13;13;0401;Joe Perske;;;DFL;47;47;16108;42.57;37842
-MN;;;0133;State Senator District 13;13;9901;WRITE-IN**;;;WI;47;47;20;0.05;37842

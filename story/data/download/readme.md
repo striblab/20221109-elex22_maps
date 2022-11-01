@@ -11,3 +11,19 @@ CASE
   ELSE NULL 
 END 
 
+
+
+
+POST-ELECTION PROCESSING
+
+cd /Users/hargaja/Desktop/workspace/microcanvas/REACTOR/20221109-elex22maps/story/data/download/governor
+
+./make_gov_maps.sh
+
+./make_gov_counties.sh
+
+QGIS > gov-results-geo.json > gov.csv
+
+QGIS > gov-counties.json > gov-counties.csv
+
+move all to public/data

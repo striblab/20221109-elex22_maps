@@ -18,11 +18,11 @@ csv2json -s ";" sa.csv | ndjson-cat | \
 echo "Downloading precinct maps ..." &&
   wget ftp://ftp.gisdata.mn.gov/pub/gdrs/data/pub/us_mn_state_sos/bdry_votingdistricts/shp_bdry_votingdistricts.zip && \
   unzip shp_bdry_votingdistricts.zip  && \
-  shp2json bdry_votingdistricts.shp | \
-  mapshaper - -quiet -proj longlat from=bdry_votingdistricts.prj -o ./bdry_votingdistricts.json format=geojson && \
+  shp2json bdry_votingdistrictis.shp | \
+  mapshaper - -quiet -proj longlat from=bdry_votingdistrictis.prj -o ./bdry_votingdistricts.json format=geojson && \
   cat bdry_votingdistricts.json | \
   geo2topo precincts=- > ./precincts-longlat.tmp.json && \
-  rm bdry_votingdistricts.* && \
+  rm bdry_votingdistrictis.* && \
   rm -rf ./metadata && \
   rm shp_bdry_votingdistricts.zip &&
 
@@ -37,9 +37,9 @@ cat $DISTRICT_STR.tmp.ndjson | \
 
 echo "Joining results to precinct map ..." &&
 ndjson-split 'd.objects.precincts.geometries' < precincts-longlat.tmp.json | \
-  ndjson-map -r d3 '{"type": d.type, "arcs": d.arcs, "properties": {"id": d3.format("02")(d.properties.COUNTYCODE) + d.properties.PCTCODE, "congdist": d.properties.CONGDIST, "mnsendist": d.properties.MNSENDIST, "mnlegdist": d.properties.MNLEGDIST, "county": d.properties.COUNTYNAME, "precinct": d.properties.PCTNAME, "area_sqmi": 90000000 * 0.00000038610}}' | \
+  ndjson-map -r d3 '{"type": d.type, "arcs": d.arcs, "properties": {"id": d3.format("02")(d.properties.COUNTYCODE) + d.properties.PCTCODE, "congdist": d.properties.CONGDIST, "mnsendist": d.properties.MNSENDIST, "mnlegdist": d.properties.MNLEGDIST, "county": d.properties.COUNTYNAME, "precinct": d.properties.PCTNAME, "area_sqmi": d.properties.Shape_Area * 0.00000038610}}' | \
   ndjson-join --left 'd.properties.id' 'd.id' - <(cat joined.tmp.ndjson) | \
-   ndjson-map '{"type": d[0].type, "arcs": d[0].arcs, "properties": {"id": d[0].properties.id, "congdist": d[0].properties.congdist, "mnsendist": d[0].properties.mnsendist, "mnlegdist": d[0].properties.mnlegdist, "county": d[0].properties.county, "precinct": d[0].properties.precinct, "area_sqmi": d[0].properties.area_sqmi, "winner": d[1] != null ? d[1].winner : null, "winner_margin": d[1] != null ? d[1].winner_margin : null, "votes_sqmi": d[1] != null ? d[1].total_votes / d[0].properties.area_sqmi : null, "total_votes": d[1] != null ? d[1].total_votes : null, "votes_obj": d[1] != null ? d[1].votes_obj : null}}' | \
+   ndjson-map '{"type": d[0].type, "arcs": d[0].arcs, "properties": {"id": d[0].properties.id, "congdist": d[0].properties.congdist, "mnsendist": d[0].properties.mnsendist, "mnlegdist": d[0].properties.mnlegdist, "county": d[0].properties.county, "precinct": d[0].properties.precinct, "area_sqmi": d[0].properties.area_sqmi, "winner": d[1] != null ? d[1].winner : null, "winner_margin": d[1] != null ? d[1].winner_margin : null, "wmargin": d[1] != null && d[1].winner == "R" ? d[1].winner_margin * -1 : d[1] != null ? d[1].winner_margin * 1 : null, "votes_sqmi": d[1] != null ? d[1].total_votes / d[0].properties.area_sqmi : null, "total_votes": d[1] != null ? d[1].total_votes : null, "votes_obj": d[1] != null ? d[1].votes_obj : null}}' | \
    ndjson-reduce 'p.geometries.push(d), p' '{"type": "GeometryCollection", "geometries":[]}' > precincts.geometries.tmp.ndjson &&
 
 echo "Putting it all together ..." &&
