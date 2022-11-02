@@ -478,6 +478,7 @@ jq(document).ready(function() {
                   ];
           opacities[1] = 0.8;
           opacities[2] = 1;
+          opacities[3] = 1;
 
           jq("#legend"+shading).show();
 
