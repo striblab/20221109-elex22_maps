@@ -441,6 +441,18 @@ jq(document).ready(function() {
                     '#115E9B'
                   ]];
 
+      shades[3] = ['case', ['==', ['get', 'wmargin'], null], "#ffffff", [
+                  'interpolate',
+                  ['linear'],
+                  ['get', 'wmargin'],
+                    -1,
+                    '#ffa31a',
+                    0,
+                    '#cfcdda',
+                    1,
+                    '#61bf1a'
+                  ]];
+
       var opacities = [];
 
           opacities[0] = [
@@ -533,6 +545,13 @@ jq(document).ready(function() {
         <div><span style="text-align:right;">D</span><span>&nbsp;</span><span>R</span></div>
         <div class="strong "><span style="background-color: #115E9B"></span><span style="background-color: #cfcdda"></span><span style="background-color: #ae191c"></span></div>
 
+        <div class="strong"><span style="background-color: #ffffff; border: 1px black solid;"></span> NO DATA</div>
+      </div>
+
+      <div class="legend" id="legend3">
+        <strong>Leader by candidate</strong>
+        <div class="strong"><span style="background-color: #ffa31a; border: 1px white solid;"></span> Dimick</div>
+        <div class="strong"><span style="background-color: #61bf1a; border: 1px white solid;"></span> Moriarty</div>
         <div class="strong"><span style="background-color: #ffffff; border: 1px black solid;"></span> NO DATA</div>
       </div>
 </div>
