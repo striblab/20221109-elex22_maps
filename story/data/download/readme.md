@@ -16,6 +16,8 @@ END
 
 POST-ELECTION PROCESSING
 
+change the target precinct urls
+
 cd /Users/hargaja/Desktop/workspace/microcanvas/REACTOR/20221109-elex22maps/story/data/download/governor
 
 ./make_gov_maps.sh
@@ -32,6 +34,8 @@ move all to desktop
 
 
 REPEAT FOR ALL RACES
+
+MOVE DESKTOP FILES TO PUBLIC/DATA
 
 GITHUB COMMIT
 
