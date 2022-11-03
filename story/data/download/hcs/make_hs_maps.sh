@@ -1,17 +1,17 @@
 #!/bin/bash
 
-OFFICE_ID="0405"
+OFFICE_ID="0404"
 DISTRICT_STR="hca"
 MAPSHAPER_COLORS="#5f9c6f,#ae6d4c"
-MAPSHAPER_CATEGORIES="Mark Haase,Michael Freeman"
+MAPSHAPER_CATEGORIES="Dave Hutch,Rich Stanek"
 
 echo "Downloading precinct results ..." &&
 echo "state;county_id;precinct_id;office_id;office_name;district;\
 cand_order;cand_name;suffix;incumbent;party;precincts_reporting;\
 precincts_voting;votes;votes_pct;votes_office" | \
-  cat - <(wget -O - -o /dev/null 'https://electionresultsfiles.sos.state.mn.us/20181106/allracesbyprecinct.txt') > hca.csv &&
+  cat - <(wget -O - -o /dev/null 'https://electionresultsfiles.sos.state.mn.us/20181106/allracesbyprecinct.txt') > hcs.csv &&
 
-csv2json -s ";" hca.csv | ndjson-cat | \
+csv2json -s ";" hcs.csv | ndjson-cat | \
   ndjson-split | \
   ndjson-filter "d.office_id == \"$OFFICE_ID\"" > $DISTRICT_STR.tmp.ndjson &&
 
@@ -50,6 +50,6 @@ mapshaper $DISTRICT_STR-results-geo.json \
   -style fill='calcFill(winner)' \
   -o $DISTRICT_STR.svg && 
 
-rm hca.csv &&
+rm hcs.csv &&
 rm *.tmp.* &&
 rm precincts-final.json

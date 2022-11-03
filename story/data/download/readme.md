@@ -1,4 +1,4 @@
-0. sudo chmod +x /Users/hargaja/Desktop/workspace/microcanvas/REACTOR/20221109-elex22maps/story/data/download/ag/make_ag_metro.sh
+0. sudo chmod +x /Users/hargaja/Desktop/workspace/microcanvas/REACTOR/20221109-elex22maps/story/data/download/hcs/make_hs_maps.sh
 
 1. ./make_potus_maps.sh
 

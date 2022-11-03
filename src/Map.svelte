@@ -469,6 +469,34 @@ jq(document).ready(function() {
                     '#308454'
                   ]];
 
+      shades[4] = ['case', ['==', ['get', 'wmargin'], null], "#ffffff", [
+                  'interpolate',
+                  ['linear'],
+                  ['get', 'wmargin'],
+                    -80,
+                    '#8f4b31',
+                    -60,
+                    '#ae6d4c',
+                    -40,
+                    '#cc906e',
+                    -20,
+                    '#e1b79c',
+                    -1,
+                    '#f4dfcf',
+                    0,
+                    '#cfcdda',
+                     1,
+                    '#c5e8d8',
+                     20,
+                    '#b2ccac',
+                     40,
+                    '#8ab48b',
+                     60,
+                    '#5f9c6f',
+                     80,
+                    '#308454'
+                  ]];
+
       var opacities = [];
 
           opacities[0] = [
@@ -495,6 +523,7 @@ jq(document).ready(function() {
           opacities[1] = 0.8;
           opacities[2] = 1;
           opacities[3] = 0.8;
+          opacities[4] = 0.8;
 
           jq("#legend"+shading).show();
 
@@ -571,6 +600,14 @@ jq(document).ready(function() {
         <strong>Candidate lead</strong>
         <div class="strong"><span style="background-color: #ae6d4c; border: 1px white solid;"></span> Holton Dimick</div>
         <div class="strong"><span style="background-color: #5f9c6f; border: 1px white solid;"></span> Moriarty</div>
+        <div class="strong"><span style="background-color: #cfcdda; border: 1px white solid;"></span> Tie/very close</div>
+        <div class="strong"><span style="background-color: #ffffff; border: 1px black solid;"></span> No data</div>
+      </div>
+
+      <div class="legend" id="legend4">
+        <strong>Candidate lead</strong>
+        <div class="strong"><span style="background-color: #ae6d4c; border: 1px white solid;"></span> Banks</div>
+        <div class="strong"><span style="background-color: #5f9c6f; border: 1px white solid;"></span> Witt</div>
         <div class="strong"><span style="background-color: #cfcdda; border: 1px white solid;"></span> Tie/very close</div>
         <div class="strong"><span style="background-color: #ffffff; border: 1px black solid;"></span> No data</div>
       </div>
