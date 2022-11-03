@@ -1,7 +1,7 @@
 #!/bin/bash
 
 OFFICE_ID="0404"
-DISTRICT_STR="hca"
+DISTRICT_STR="hcs"
 MAPSHAPER_COLORS="#5f9c6f,#ae6d4c"
 MAPSHAPER_CATEGORIES="Dave Hutch,Rich Stanek"
 
