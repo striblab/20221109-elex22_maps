@@ -96,7 +96,7 @@ var scale = new mapboxgl.ScaleControl({
   unit: 'imperial'
   });
 
-if (interactive == 1) {
+
     if (/Android|webOS|iPhone|iPad|iPod|BlackBerry|IEMobile|Opera Mini/i.test(navigator.userAgent)) {
       //map.dragPan.disable();
       map.keyboard.disable();
@@ -104,17 +104,17 @@ if (interactive == 1) {
       map.touchZoomRotate.disableRotation();
       map.scrollZoom.disable();
       map.addControl(new mapboxgl.NavigationControl({ showCompass: false }),'bottom-left');
-      map.addControl(toggleControl,'bottom-left');
-      map.addControl(toggleControlM,'bottom-left');
       condition = 'click';
       mclick = true;
     } else {
       map.addControl(scale);
       map.getCanvas().style.cursor = 'pointer';
       map.addControl(new mapboxgl.NavigationControl({ showCompass: false }),'bottom-left');
+    }
+
+if (interactive == 1) {
       map.addControl(toggleControl,'bottom-left');
       map.addControl(toggleControlM,'bottom-left');
-    }
 
     jq('#map .statereset').on('click', function(){
       if ((jq("#map").width() < 520)) { 
@@ -133,7 +133,7 @@ if (interactive == 1) {
       });
     });
 } else {
-  jq("#map").css('pointer-events','none');
+  //jq("#map").css('pointer-events','none');
 }
 
 /********** ADD MAP LAYERS **********/
@@ -532,15 +532,15 @@ jq(document).ready(function() {
       var height = jq.urlParam('height') ?? 600;
 
       var centers = [];
-      centers[0] = [-94.351646, 46.607469]; //default desktop centerpoint
-      centers[1] = [-93.218950, 44.935852]; //default metro area centerpoint
+      centers[0] = [-94.033266, 46.472926]; //default desktop centerpoint
+      centers[1] = [-93.344398, 44.971057]; //default metro area centerpoint
       centers[2] = [-93.907810, 45.940497]; //default mobile centerpoint
       centers[3] = [-94.351646, 46.607469]; //default desktop centerpoint
       centers[4] = [-93.480770, 45.001034]; //default hennepin centerpoint
 
       var zooms = [];
       zooms[0] = 5.5;
-      zooms[1] = 9; //default metro area zoom level
+      zooms[1] = 8; //default metro area zoom level
       zooms[2] = 5.5;
       zooms[3] = 6;
       zooms[4] = 9; //default metro area zoom level
