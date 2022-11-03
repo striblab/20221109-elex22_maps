@@ -491,12 +491,14 @@ jq(document).ready(function() {
       centers[1] = [-93.218950, 44.935852]; //default metro area centerpoint
       centers[2] = [-93.907810, 45.940497]; //default mobile centerpoint
       centers[3] = [-94.351646, 46.607469]; //default desktop centerpoint
+      centers[4] = [-93.480770, 45.001034]; //default hennepin centerpoint
 
       var zooms = [];
       zooms[0] = 5.5;
       zooms[1] = 9; //default metro area zoom level
       zooms[2] = 5.5;
       zooms[3] = 6;
+      zooms[4] = 9; //default metro area zoom level
 
       jq("#map").css("height",height+"px");
 
