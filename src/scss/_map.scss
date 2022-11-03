@@ -776,13 +776,13 @@ a.mapboxgl-ctrl-logo.mapboxgl-compact{
     background-color: #AE191C;
 }
 .mapboxgl-popup-content table.tableResults tbody td .dot.WI {
-    background-color: #efefef;
+    background-color: #dfdfdf;
 }
-.mapboxgl-popup-content table.tableResults tbody td .dot.NP {
-    background-color: #ffa31a;
+.mapboxgl-popup-content table.tableResults tbody td .dot.Banks, .dot.Stanek, .dot.Dimick, .dot.Freeman {
+    background-color: #e1b79c;
 }
-.mapboxgl-popup-content table.tableResults tbody td .dot {
-    background-color: #8dc63f;
+.mapboxgl-popup-content table.tableResults tbody td .dot.Witt, .dot.Moriarty, .dot.Hutch, .dot.Haase {
+    background-color: #5f9c6f;
 }
 .mapboxgl-popup-content .precinct-note {
     font-size: 12px;

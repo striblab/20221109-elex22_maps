@@ -303,7 +303,7 @@ map.on('load', function() {
         var name = String(obj[i].name).substring(0, String(obj[i].name).indexOf('and'));
         if (office > 0) { name = obj[i].name; }
 
-        tipstring = tipstring + '<tr><td class="' + obj[i].party + '"><span class="dot ' + obj[i].party + '"></span></td><td class="cand">' + name + ' <span>' + obj[i].party + '</span></td><td class="votes">' + obj[i].votes + '</td><td class="pct">' + obj[i].votes_pct + '%</td></tr>';
+        tipstring = tipstring + '<tr><td class="' + obj[i].party + '"><span class="dot ' + obj[i].party + ' ' + obj[i].name + '"></span></td><td class="cand">' + name + ' <span>' + obj[i].party + '</span></td><td class="votes">' + obj[i].votes + '</td><td class="pct">' + obj[i].votes_pct + '%</td></tr>';
       }
 
       tipstring = tipstring + '</tbody></table>'
@@ -598,7 +598,7 @@ jq(document).ready(function() {
 
       <div class="legend" id="legend3">
         <strong>Candidate lead</strong>
-        <div class="strong"><span style="background-color: #ae6d4c; border: 1px white solid;"></span> Holton Dimick</div>
+        <div class="strong"><span style="background-color: #e1b79c; border: 1px white solid;"></span> Holton Dimick</div>
         <div class="strong"><span style="background-color: #5f9c6f; border: 1px white solid;"></span> Moriarty</div>
         <div class="strong"><span style="background-color: #cfcdda; border: 1px white solid;"></span> Tie/very close</div>
         <div class="strong"><span style="background-color: #ffffff; border: 1px black solid;"></span> No data</div>
@@ -606,7 +606,7 @@ jq(document).ready(function() {
 
       <div class="legend" id="legend4">
         <strong>Candidate lead</strong>
-        <div class="strong"><span style="background-color: #ae6d4c; border: 1px white solid;"></span> Banks</div>
+        <div class="strong"><span style="background-color: #e1b79c; border: 1px white solid;"></span> Banks</div>
         <div class="strong"><span style="background-color: #5f9c6f; border: 1px white solid;"></span> Witt</div>
         <div class="strong"><span style="background-color: #cfcdda; border: 1px white solid;"></span> Tie/very close</div>
         <div class="strong"><span style="background-color: #ffffff; border: 1px black solid;"></span> No data</div>
