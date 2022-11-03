@@ -18,8 +18,8 @@ function makeMap(zoom, center, interactive, shading, opacity, dataSource, overSo
 let condition = 'mousemove';
 var mclick = false;
 let statecenter = [-94.351646, 46.607469];
-let metrocenter = [-93.218950, 44.935852];
-let metrozoom = 9;
+let metrocenter = [-93.344398, 44.971057];
+let metrozoom = 8;
 let statezoom = 5.5;
 
 /********** INITIALIZE MAP **********/
