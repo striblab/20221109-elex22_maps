@@ -2,7 +2,7 @@
 
 OFFICE_ID="0404"
 DISTRICT_STR="hca"
-MAPSHAPER_COLORS="#61bf1a,#ffa31a"
+MAPSHAPER_COLORS="#5f9c6f,#ae6d4c"
 MAPSHAPER_CATEGORIES="Dave Hutch,Rich Stanek"
 
 echo "Downloading precinct results ..." &&

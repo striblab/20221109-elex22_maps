@@ -279,7 +279,7 @@ map.on('load', function() {
                 var geo = feature.properties.county + ' County';
                 if (office > 3 && office < 12) { geo = 'Congressional District ' + feature.properties.congdist; }
                 else if (office > 11 && office < 79) { geo = 'Senate District ' + feature.properties.mnsendist; }
-                else if (office > 78) { geo = 'House District ' + feature.properties.mnlegdist; }
+                else if (office > 78 && office < 213) { geo = 'House District ' + feature.properties.mnlegdist; }
 
                 popup.setLngLat(e.lngLat)
                     .setHTML('<span class="precinct-name">' + feature.properties.precinct + '</span><span class="county-name">' + geo + '</span>' + tipinfo(obj, office) + '<p class="precinct-note">Precinct’s top 3 candidates shown</p>')
@@ -387,11 +387,11 @@ jq(document).ready(function() {
                     '#AE191C',
                     -20,
                     '#AE191C',
-                    -6,
+                    -1,
                     '#DA9190',
                     -0,
                     '#cfcdda',
-                     6,
+                     1,
                     '#8FAECE',
                      20,
                     '#115E9B',
@@ -414,11 +414,11 @@ jq(document).ready(function() {
                     '#AE191C',
                     -20,
                     '#AE191C',
-                    -6,
+                    -1,
                     '#DA9190',
                     0,
                     '#cfcdda',
-                     6,
+                     1,
                     '#8FAECE',
                      20,
                     '#115E9B',
@@ -445,12 +445,28 @@ jq(document).ready(function() {
                   'interpolate',
                   ['linear'],
                   ['get', 'wmargin'],
+                    -80,
+                    '#8f4b31',
+                    -60,
+                    '#ae6d4c',
+                    -40,
+                    '#cc906e',
+                    -20,
+                    '#e1b79c',
                     -1,
-                    '#ffa31a',
+                    '#f4dfcf',
                     0,
                     '#cfcdda',
-                    1,
-                    '#61bf1a'
+                     1,
+                    '#c5e8d8',
+                     20,
+                    '#b2ccac',
+                     40,
+                    '#8ab48b',
+                     60,
+                    '#5f9c6f',
+                     80,
+                    '#308454'
                   ]];
 
       var opacities = [];
@@ -478,7 +494,7 @@ jq(document).ready(function() {
                   ];
           opacities[1] = 0.8;
           opacities[2] = 1;
-          opacities[3] = 1;
+          opacities[3] = 0.8;
 
           jq("#legend"+shading).show();
 
@@ -553,9 +569,10 @@ jq(document).ready(function() {
 
       <div class="legend" id="legend3">
         <strong>Leader by candidate</strong>
-        <div class="strong"><span style="background-color: #ffa31a; border: 1px white solid;"></span> Dimick</div>
-        <div class="strong"><span style="background-color: #61bf1a; border: 1px white solid;"></span> Moriarty</div>
-        <div class="strong"><span style="background-color: #ffffff; border: 1px black solid;"></span> NO DATA</div>
+        <div class="strong"><span style="background-color: #ae6d4c; border: 1px white solid;"></span> Holton Dimick</div>
+        <div class="strong"><span style="background-color: #5f9c6f; border: 1px white solid;"></span> Moriarty</div>
+        <div class="strong"><span style="background-color: #cfcdda; border: 1px white solid;"></span> Tie/very close</div>
+        <div class="strong"><span style="background-color: #ffffff; border: 1px black solid;"></span> No data</div>
       </div>
 </div>
       <div class="dataline">Map: Jeff Hargarten, Star Tribune • Source: Minnesota Secretary of State</div>
