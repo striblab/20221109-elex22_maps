@@ -697,7 +697,18 @@ a.mapboxgl-ctrl-logo.mapboxgl-compact{
 	margin-right: 0;
 	width: 14px;
     }
-    
+
+    .nodata span  {
+        height: 6px !important;
+        font-size: 10px;
+        color: #888888;
+    }
+
+    .nodata  {
+        font-size: 10px;
+        color: #888888;
+    }
+
 
 	.mapboxgl-popup {
 		max-width: 400px;
