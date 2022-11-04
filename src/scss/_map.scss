@@ -769,6 +769,9 @@ a.mapboxgl-ctrl-logo.mapboxgl-compact{
     border-radius: 50%;
     display: inline-block;
 }
+.mapboxgl-popup-content table.tableResults tbody td .dot {
+    background-color: #d0b527;
+}
 .mapboxgl-popup-content table.tableResults tbody td .dot.DFL {
     background-color: #115E9B;
 }
@@ -778,14 +781,11 @@ a.mapboxgl-ctrl-logo.mapboxgl-compact{
 .mapboxgl-popup-content table.tableResults tbody td .dot.WI {
     background-color: #dfdfdf;
 }
-.mapboxgl-popup-content table.tableResults tbody td .dot.Banks, .dot.Stanek, .dot.Dimick, .dot.Freeman {
-    background-color: #e1b79c;
+.mapboxgl-popup-content table.tableResults tbody td .dot.Banks, .mapboxgl-popup-content table.tableResults tbody td .dot.Stanek, .mapboxgl-popup-content table.tableResults tbody td .dot.Dimick, .mapboxgl-popup-content table.tableResults tbody td .dot.Freeman {
+    background-color: #dca58b;
 }
-.mapboxgl-popup-content table.tableResults tbody td .dot.Witt, .dot.Moriarty, .dot.Hutch, .dot.Haase {
-    background-color: #5f9c6f;
-}
-.mapboxgl-popup-content table.tableResults tbody td .dot {
-    background-color: #5f9c6f;
+.mapboxgl-popup-content table.tableResults tbody td .dot.Witt, .mapboxgl-popup-content table.tableResults tbody td .dot.Moriarty, .mapboxgl-popup-content table.tableResults tbody td .dot.Hutch, .mapboxgl-popup-content table.tableResults tbody td .dot.Haase {
+    background-color: #45a394;
 }
 .mapboxgl-popup-content .precinct-note {
     font-size: 12px;

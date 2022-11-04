@@ -3,6 +3,7 @@ import directory from './data/directory.json';
 import { onMount } from 'svelte';
 import * as jq from 'jquery';
 import * as d3 from 'd3';
+import mn from './data/mn.json';
 import * as mapboxgl from 'mapbox-gl';
 import * as MapboxGeocoder from '@mapbox/mapbox-gl-geocoder';
 import '@mapbox/mapbox-gl-geocoder/dist/mapbox-gl-geocoder.css';
@@ -20,7 +21,7 @@ var mclick = false;
 let statecenter = [-94.351646, 46.607469];
 let metrocenter = [-93.344398, 44.971057];
 let metrozoom = 8;
-let statezoom = 5.5;
+let statezoom = zoom;
 
 /********** INITIALIZE MAP **********/
 const map = new mapboxgl.Map({
@@ -144,6 +145,7 @@ map.on('load', function() {
     'fill-color','#ededed' 
   );
 
+
       map.addSource('precincts', {
         type: 'geojson',
         data: './data/' + dataSource,
@@ -250,6 +252,22 @@ map.on('load', function() {
       }
   
      
+      map.addSource('mn', {
+        type: 'geojson',
+        data: mn
+      });
+
+      map.addLayer({
+            'id': 'mn',
+            'interactive': true,
+            'source': 'mn',
+            'layout': {},
+            'type': 'line',
+            'paint': {
+              'line-color': '#999999'
+            }
+        }, "settlement-subdivision-label");
+
       //map.setPaintProperty('precincts-l', 'line-width', ['interpolate',['exponential', 0.5], ['zoom'],5,0.5,13,1.5]);
 
 /********** TOOLTIP AND HOVER EFFECTS **********/
@@ -312,14 +330,13 @@ map.on('load', function() {
     }
 
     tooltips('precincts');
-});
-
-
 
 
 /********** MOBILE ZOOM ADJUSTMENTS **********/
 jq(document).ready(function() {
   map.resize();
+
+  if (office > 0) {
   var cachedWidth = jq(window).width();
   if ((jq("#map").width() < 520)) {
       map.zoom(mzoom);
@@ -335,7 +352,25 @@ jq(document).ready(function() {
       }
     }
   });
+}
+else {
+      map.on('resize', function (e) {
+          var f = map.queryRenderedFeatures({layers:['mn']});
+          if (f.length === 0) return
+          var bbox = turf.bbox({
+            type: 'FeatureCollection',
+            features: f
+          });
+          map.fitBounds(bbox, {padding: 20}); 
+   })
+}
 });
+
+
+
+});
+
+
 }
 
     onMount(() => {
@@ -375,7 +410,7 @@ jq(document).ready(function() {
 
       var shades = [];
 
-      shades[0] = ['case', ['==', ['get', 'wmargin'], null], "#ffffff", [
+      shades[0] = ['case', ['==', ['get', 'wmargin'], null], "#f0f0f0", [
                   'interpolate',
                   ['linear'],
                   ['get', 'wmargin'],
@@ -387,38 +422,15 @@ jq(document).ready(function() {
                     '#AE191C',
                     -20,
                     '#AE191C',
-                    -1,
+                    -2,
                     '#DA9190',
-                    -0,
-                    '#cfcdda',
-                     1,
-                    '#8FAECE',
-                     20,
-                    '#115E9B',
-                     40,
-                    '#115E9B',
-                     60,
-                    '#003168',
-                     80,
-                    '#003168'
-                ]];
-      shades[1] = ['case', ['==', ['get', 'wmargin'], null], "#ffffff", [
-                  'interpolate',
-                  ['linear'],
-                  ['get', 'wmargin'],
-                    -80,
-                    '#750000',
-                    -60,
-                    '#750000',
-                    -40,
-                    '#AE191C',
-                    -20,
-                    '#AE191C',
                     -1,
-                    '#DA9190',
+                    '#c5c2d9',
                     0,
                     '#cfcdda',
                      1,
+                    '#c5c2d9',
+                     2,
                     '#8FAECE',
                      20,
                     '#115E9B',
@@ -429,7 +441,38 @@ jq(document).ready(function() {
                      80,
                     '#003168'
                 ]];
-      shades[2] = ['case', ['==', ['get', 'wmargin'], null], "#ffffff", [
+      shades[1] = ['case', ['==', ['get', 'wmargin'], null], "#f0f0f0", [
+                  'interpolate',
+                  ['linear'],
+                  ['get', 'wmargin'],
+                    -80,
+                    '#750000',
+                    -60,
+                    '#750000',
+                    -40,
+                    '#AE191C',
+                    -20,
+                    '#AE191C',
+                    -2,
+                    '#DA9190',
+                    -1,
+                    '#c5c2d9',
+                    0,
+                    '#cfcdda',
+                     1,
+                    '#c5c2d9',
+                     2,
+                    '#8FAECE',
+                     20,
+                    '#115E9B',
+                     40,
+                    '#115E9B',
+                     60,
+                    '#003168',
+                     80,
+                    '#003168'
+                ]];
+      shades[2] = ['case', ['==', ['get', 'wmargin'], null], "#f0f0f0", [
                   'interpolate',
                   ['linear'],
                   ['get', 'wmargin'],
@@ -441,60 +484,68 @@ jq(document).ready(function() {
                     '#115E9B'
                   ]];
 
-      shades[3] = ['case', ['==', ['get', 'wmargin'], null], "#ffffff", [
+      shades[3] = ['case', ['==', ['get', 'wmargin'], null], "#f0f0f0", [
                   'interpolate',
                   ['linear'],
                   ['get', 'wmargin'],
                     -80,
-                    '#8f4b31',
+                    '#95412c',
                     -60,
-                    '#ae6d4c',
+                    '#b06047',
                     -40,
-                    '#cc906e',
+                    '#c78268',
                     -20,
-                    '#e1b79c',
+                    '#dca58b',
+                    -2,
+                    '#eec8b2',
                     -1,
-                    '#f4dfcf',
+                    '#c5c2d9',
                     0,
                     '#cfcdda',
                      1,
-                    '#c5e8d8',
+                    '#c5c2d9',
+                     2,
+                    '#a2dace',
                      20,
-                    '#b2ccac',
+                    '#72bfb0',
                      40,
-                    '#8ab48b',
+                    '#45a394',
                      60,
-                    '#5f9c6f',
+                    '#1d8676',
                      80,
-                    '#308454'
+                    '#006956'
                   ]];
 
-      shades[4] = ['case', ['==', ['get', 'wmargin'], null], "#ffffff", [
+      shades[4] = ['case', ['==', ['get', 'wmargin'], null], "#f0f0f0", [
                   'interpolate',
                   ['linear'],
                   ['get', 'wmargin'],
                     -80,
-                    '#8f4b31',
+                    '#95412c',
                     -60,
-                    '#ae6d4c',
+                    '#b06047',
                     -40,
-                    '#cc906e',
+                    '#c78268',
                     -20,
-                    '#e1b79c',
+                    '#dca58b',
+                    -2,
+                    '#eec8b2',
                     -1,
-                    '#f4dfcf',
+                    '#c5c2d9',
                     0,
                     '#cfcdda',
                      1,
-                    '#c5e8d8',
+                    '#c5c2d9',
+                     2,
+                    '#a2dace',
                      20,
-                    '#b2ccac',
+                    '#72bfb0',
                      40,
-                    '#8ab48b',
+                    '#45a394',
                      60,
-                    '#5f9c6f',
+                    '#1d8676',
                      80,
-                    '#308454'
+                    '#006956'
                   ]];
 
       var opacities = [];
@@ -577,6 +628,8 @@ jq(document).ready(function() {
         <div class="middle"><span style="background-color: #003168"></span><span style="background-color: #115E9B"></span><span style="background-color: #8faece"></span><span style="background-color: #cfcdda"></span><span style="background-color: #da9190"></span><span style="background-color: #ae191c"></span><span style="background-color: #750000"></span></div>
         <div class="weak"><span style="background-color: #003168"></span><span style="background-color: #115E9B"></span><span style="background-color: #8faece"></span><span style="background-color: #cfcdda"></span><span style="background-color: #da9190"></span><span style="background-color: #ae191c"></span><span style="background-color: #750000"></span></div>
 
+        <div class="nodata"><span style="background-color: #cccccc; border: 1px black solid;"></span> Tie</div>
+
         <div class="nodata"><span style="background-color: #ffffff; border: 1px black solid;"></span> No data</div>
       </div>
 
@@ -584,6 +637,8 @@ jq(document).ready(function() {
         <strong>Lead margin</strong>
         <div><span>&nbsp;</span><span style="text-align:right;">&larr;</span><span style="text-align:right;">D</span><span>&nbsp;</span><span>R</span><span>&rarr;</span><span>&nbsp;</span></div>
         <div class="strong "><span style="background-color: #003168"></span><span style="background-color: #115E9B"></span><span style="background-color: #8faece"></span><span style="background-color: #cfcdda"></span><span style="background-color: #da9190"></span><span style="background-color: #ae191c"></span><span style="background-color: #750000"></span></div>
+
+        <div class="nodata"><span style="background-color: #cccccc; border: 1px black solid;"></span> Tie</div>
 
         <div class="nodata"><span style="background-color: #ffffff; border: 1px black solid;"></span> No data</div>
       </div>
@@ -593,23 +648,27 @@ jq(document).ready(function() {
         <div><span style="text-align:right;">D</span><span>&nbsp;</span><span>R</span></div>
         <div class="strong "><span style="background-color: #115E9B"></span><span style="background-color: #cfcdda"></span><span style="background-color: #ae191c"></span></div>
 
+        <div class="nodata"><span style="background-color: #cccccc; border: 1px black solid;"></span> Tie</div>
+
         <div class="nodata"><span style="background-color: #ffffff; border: 1px black solid;"></span> No data</div>
       </div>
 
       <div class="legend" id="legend3">
         <strong>Candidate lead</strong>
-        <div class="strong"><span style="background-color: #e1b79c; border: 1px white solid;"></span> Holton Dimick</div>
-        <div class="strong"><span style="background-color: #5f9c6f; border: 1px white solid;"></span> Moriarty</div>
-        <div class="strong"><span style="background-color: #cfcdda; border: 1px white solid;"></span> Tie/very close</div>
-        <div class="strong"><span style="background-color: #ffffff; border: 1px black solid;"></span> No data</div>
+        <div class="strong"><span style="background-color: #dca58b; border: 1px white solid;"></span> Holton Dimick</div>
+        <div class="strong"><span style="background-color: #45a394; border: 1px white solid;"></span> Moriarty</div>
+        <div class="strong"><span style="background-color: #cccccc; border: 1px white solid;"></span> Tie</div>
+        <div class="strong"><span style="background-color: #c5c2d9; border: 1px white solid;"></span> Close margin</div>
+        <div class="strong"><span style="background-color: #f0f0f0; border: 1px black solid;"></span> No data</div>
       </div>
 
       <div class="legend" id="legend4">
         <strong>Candidate lead</strong>
-        <div class="strong"><span style="background-color: #e1b79c; border: 1px white solid;"></span> Banks</div>
-        <div class="strong"><span style="background-color: #5f9c6f; border: 1px white solid;"></span> Witt</div>
-        <div class="strong"><span style="background-color: #cfcdda; border: 1px white solid;"></span> Tie/very close</div>
-        <div class="strong"><span style="background-color: #ffffff; border: 1px black solid;"></span> No data</div>
+        <div class="strong"><span style="background-color: #dca58b; border: 1px white solid;"></span> Banks</div>
+        <div class="strong"><span style="background-color: #45a394; border: 1px white solid;"></span> Witt</div>
+        <div class="strong"><span style="background-color: #cccccc; border: 1px white solid;"></span> Tie</div>
+        <div class="strong"><span style="background-color: #c5c2d9; border: 1px white solid;"></span> Close margin</div>
+        <div class="strong"><span style="background-color: #f0f0f0; border: 1px black solid;"></span> No data</div>
       </div>
 </div>
       <div class="dataline">Map: Jeff Hargarten, Star Tribune • Source: Minnesota Secretary of State</div>
