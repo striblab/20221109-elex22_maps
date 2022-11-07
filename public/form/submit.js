@@ -7,6 +7,8 @@ var height;
 var hed;
 var chatter;
 var showtext;
+var clicky;
+var search;
 
 $("#form_id").submit(function( event ) {
   event.preventDefault();
@@ -20,7 +22,9 @@ $("#form_id").submit(function( event ) {
   chatter = $(this).find('[name=eChatter]').val();
   height = $(this).find('[name=eHeight]').val();
   showtext = $(this).find('[name=eText]:checked').val();
+  clicky = $(this).find('[name=eClicky]:checked').val();
+  search = $(this).find('[name=eSearch]:checked').val();
 
-  window.open('https://static.startribune.com/news/projects/all/elex22maps/build/?office=' + district + "&overlay=" + boundaries + "&filter=" + isolate +"&interactive=" + interactive + "&shading=" + shading + "&height=" + height+ "&text=" + showtext + "&title=" + hed + "&chatter=" + chatter, '_blank');
+  window.open('https://static.startribune.com/news/projects/all/elex22maps/build/?office=' + district + "&overlay=" + boundaries + "&filter=" + isolate +"&interactive=" + interactive + "&shading=" + shading + "&height=" + height+ "&text=" + showtext + "&clicky=" + clicky + "&search=" + search +"&title=" + hed + "&chatter=" + chatter, '_blank');
   
 });

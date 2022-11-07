@@ -3,11 +3,12 @@ import directory from './data/directory.json';
 import { onMount } from 'svelte';
 import * as jq from 'jquery';
 import * as d3 from 'd3';
-import mn from './data/mn.json';
 import * as mapboxgl from 'mapbox-gl';
 import * as MapboxGeocoder from '@mapbox/mapbox-gl-geocoder';
 import '@mapbox/mapbox-gl-geocoder/dist/mapbox-gl-geocoder.css';
 import * as turf from '@turf/turf';
+import mn from './data/mn.json';
+import mask from './data/mn-mask.json';
 
 mapboxgl.accessToken = 'pk.eyJ1Ijoic3RhcnRyaWJ1bmUiLCJhIjoiY2sxYjRnNjdqMGtjOTNjcGY1cHJmZDBoMiJ9.St9lE8qlWR5jIjkPYd3Wqw';
 
@@ -18,9 +19,9 @@ function makeMap(zoom, center, interactive, shading, opacity, dataSource, overSo
 /********** MAP CONFIG VARIABLES **********/
 let condition = 'mousemove';
 var mclick = false;
-let statecenter = [-94.351646, 46.607469];
+let statecenter = [-94.033266, 46.472926];
 let metrocenter = [-93.344398, 44.971057];
-let metrozoom = 8;
+let metrozoom = 9;
 let statezoom = zoom;
 
 /********** INITIALIZE MAP **********/
@@ -29,13 +30,60 @@ const map = new mapboxgl.Map({
   style: 'mapbox://styles/startribune/ck1b7427307bv1dsaq4f8aa5h',
   center: center,
   zoom: zoom,
-  minZoom: 5.2,
+  minZoom: 5.5,
   maxZoom: 14,
   //maxBounds: [-107.2,40.88,-78.92,51.62],
   scrollZoom: false,
   interactive: interactive
 });
 
+/********** GEOCODER CONFIGURATION **********/
+const geocoder = new MapboxGeocoder({
+      accessToken: mapboxgl.accessToken,     
+      marker: { color: '#5bbf48', size: 'small' },
+      countries: 'us',
+      bbox: [-97.24,43.5,-89.48,49.38],
+      proxmity: center,
+      placeholder: 'Search for location...',
+      zoom: 12,
+      mapboxgl: mapboxgl
+    });
+
+document.getElementById('geocoder').appendChild(geocoder.onAdd(map));
+
+
+/********** GEOCODER DISTRICT LOCATION RETURN **********/
+  var geoPoint;
+  var oldDistrict;
+  var newDistrict;
+
+  function searchWithin(layer, point) {
+    var polygon;
+    for (var i=0; i < layer.features.length; i++) {
+      polygon = turf.multiPolygon(layer.features[i].geometry.coordinates);
+      var test = turf.booleanPointInPolygon(point, polygon);
+      if (test == true) { return layer.features[i].properties.DISTRICT; }
+    }
+    return 'X';
+  }
+
+  geocoder.on('result', (event) => {
+    if (event.result.center[0] != null) {
+      geoPoint = [event.result.center[0], event.result.center[1]];
+      oldDistrict = searchWithin(con12, geoPoint);
+      newDistrict = searchWithin(con22, geoPoint);
+      if (oldDistrict != "X") { 
+        jq("#resultC").html('That location was centered within District <span class="nowD">' + oldDistrict + '</span>, and is now in <span class="newH">District <span class="newD">' + newDistrict + '</span></span>.')
+        jq("#resultC").css('visibility','visible');
+      } else {
+        jq("#resultC").html("Location not found within Minnesota's districts.");
+        jq("#resultC").css('visibility','visible');
+      }
+    } 
+  });
+  geocoder.on('clear', (event) => {
+    jq("#resultC").css('visibility','hidden');
+  });
 
 /********** SPECIAL STATE AND METRO RESET BUTTONS **********/
 class HomeReset {
@@ -104,18 +152,18 @@ var scale = new mapboxgl.ScaleControl({
       map.dragRotate.disable();
       map.touchZoomRotate.disableRotation();
       map.scrollZoom.disable();
-      map.addControl(new mapboxgl.NavigationControl({ showCompass: false }),'bottom-left');
+      map.addControl(new mapboxgl.NavigationControl({ showCompass: false }),'top-right');
       condition = 'click';
       mclick = true;
     } else {
       map.addControl(scale);
       map.getCanvas().style.cursor = 'pointer';
-      map.addControl(new mapboxgl.NavigationControl({ showCompass: false }),'bottom-left');
+      map.addControl(new mapboxgl.NavigationControl({ showCompass: false }),'top-right');
     }
 
 if (interactive == 1) {
-      map.addControl(toggleControl,'bottom-left');
-      map.addControl(toggleControlM,'bottom-left');
+      map.addControl(toggleControl,'top-right');
+      map.addControl(toggleControlM,'top-right');
 
     jq('#map .statereset').on('click', function(){
       if ((jq("#map").width() < 520)) { 
@@ -144,6 +192,23 @@ map.on('load', function() {
     'water',
     'fill-color','#ededed' 
   );
+
+      map.addSource('mask', {
+        type: 'geojson',
+        data: mask
+      });
+
+      map.addLayer({
+            'id': 'mask',
+            'interactive': true,
+            'source': 'mask',
+            'layout': {},
+            'type': 'fill',
+            'paint': {
+              'fill-color': "#ffffff",
+              'fill-opacity': 0.7
+            },
+        }, "settlement-subdivision-label");
 
 
       map.addSource('precincts', {
@@ -203,7 +268,7 @@ map.on('load', function() {
 
       map.addLayer({
             'id': 'overlay-l',
-            'interactive': true,
+            'interactive': false,
             'source': 'overlay',
             'layout': {},
             'type': 'line',
@@ -238,8 +303,10 @@ map.on('load', function() {
         map.setFilter('overlay', ['!=', 'DISTRICT', district]);
         map.setPaintProperty('overlay', 'fill-opacity', 1);
 
+        var loaded = 0;
+
         map.on('sourcedata', function (e) {
-          if (e.sourceId == 'overlay-f' && e.isSourceLoaded) {
+          if (e.sourceId == 'overlay-f' && e.isSourceLoaded && loaded == 0) {
           var f = map.queryRenderedFeatures({layers:['overlay-f']});
           if (f.length === 0) return
           var bbox = turf.bbox({
@@ -247,6 +314,8 @@ map.on('load', function() {
             features: f
           });
           map.fitBounds(bbox, {padding: 20}); 
+
+          loaded++;
           }   
         })
       }
@@ -278,6 +347,13 @@ map.on('load', function() {
           closeButton: mclick,
           closeOnClick: mclick
           });
+
+           // if (filter == 2) {
+           //    map.on('mousemove', 'overlay-l', function(e) {
+           //        popup.remove();
+           //    });
+           //    return null;
+           //  }
           
           map.on(condition, layer, function(e) {
                 map.getCanvas().style.cursor = 'default';
@@ -321,7 +397,7 @@ map.on('load', function() {
         var name = String(obj[i].name).substring(0, String(obj[i].name).indexOf('and'));
         if (office > 0) { name = obj[i].name; }
 
-        tipstring = tipstring + '<tr><td class="' + obj[i].party + '"><span class="dot ' + obj[i].party + ' ' + obj[i].name + '"></span></td><td class="cand">' + name + ' <span>' + obj[i].party + '</span></td><td class="votes">' + obj[i].votes + '</td><td class="pct">' + obj[i].votes_pct + '%</td></tr>';
+        tipstring = tipstring + '<tr><td class="' + obj[i].party + '"><span class="dot ' + obj[i].party + ' ' + obj[i].name + '"></span></td><td class="cand">' + name + ' <span>' + obj[i].party + '</span></td><td class="votes">' + obj[i].votes + '</td><td class="pct">' + d3.format(".1f")(Number(obj[i].votes_pct)) + '%</td></tr>';
       }
 
       tipstring = tipstring + '</tbody></table>'
@@ -336,22 +412,31 @@ map.on('load', function() {
 jq(document).ready(function() {
   map.resize();
 
-  if (office > 0) {
-  var cachedWidth = jq(window).width();
-  if ((jq("#map").width() < 520)) {
-      map.zoom(mzoom);
-  }
-  jq(window).resize(function() {
-    var newWidth = jq(window).width();
-    if(newWidth !== cachedWidth){
-      cachedWidth = newWidth;
-      if ((jq("#map").width() < 520)){
-        map.zoom(mzoom);
-      } else {
-        map.zoom(zoom);
-      }
-    }
-  });
+  if (office > 3 && filter == 2) {
+  // var cachedWidth = jq(window).width();
+  // if ((jq("#map").width() < 520)) {
+  //     map.zoom(mzoom);
+  // }
+  // jq(window).resize(function() {
+  //   var newWidth = jq(window).width();
+  //   if(newWidth !== cachedWidth){
+  //     cachedWidth = newWidth;
+  //     if ((jq("#map").width() < 520)){
+  //       map.zoom(mzoom);
+  //     } else {
+  //       map.zoom(zoom);
+  //     }
+  //   }
+  // });
+      map.on('resize', function (e) {
+          var f = map.queryRenderedFeatures({layers:['overlay-f']});
+          if (f.length === 0) return
+          var bbox = turf.bbox({
+            type: 'FeatureCollection',
+            features: f
+          });
+          map.fitBounds(bbox, {padding: 20}); 
+      })
 }
 else {
       map.on('resize', function (e) {
@@ -580,7 +665,11 @@ else {
 
       /********** MAP CONFIGURATION SETTINGS **********/
       var interactive = jq.urlParam('interactive') ?? 1;
+      var clicky = jq.urlParam('clicky') ?? 1;
       var height = jq.urlParam('height') ?? 600;
+      var search = jq.urlParam('search') ?? 1;
+
+
 
       var centers = [];
       centers[0] = [-94.033266, 46.472926]; //default desktop centerpoint
@@ -588,15 +677,27 @@ else {
       centers[2] = [-93.907810, 45.940497]; //default mobile centerpoint
       centers[3] = [-94.351646, 46.607469]; //default desktop centerpoint
       centers[4] = [-93.480770, 45.001034]; //default hennepin centerpoint
+      centers[5] = [-92.100487, 46.786671]; //default duluth centerpoint
+      centers[6] = [-94.156517, 45.559292]; //default stcloud centerpoint
+      centers[7] = [-96.767822, 46.873810]; //default moorhead centerpoint
+      centers[8] = [-94.005592, 44.166119]; //default mankato centerpoint
+      centers[9] = [-92.458870, 44.019329]; //default rochester centerpoint
 
       var zooms = [];
       zooms[0] = 5.5;
-      zooms[1] = 8; //default metro area zoom level
+      zooms[1] = 9; //default metro area zoom level
       zooms[2] = 5.5;
       zooms[3] = 6;
       zooms[4] = 9; //default metro area zoom level
+      zooms[5] = 9; //duluth zoom
+      zooms[6] = 9.2; //stcloud zoom
+      zooms[7] = 9.5; //moorhead zoom
+      zooms[8] = 10.2; //mankato zoom
+      zooms[9] = 10.2; //rochester zoom
 
       jq("#map").css("height",height+"px");
+      if (clicky == 0) { jq("#map").css("pointer-events","none"); }
+      if (search == 0) { jq("#geocoder").hide(); }
 
 
       /********** CHATTER CONFIGURATION **********/
@@ -619,7 +720,11 @@ else {
   <div class="chartTitle">TITLE HERE</div>
   <div class="chatter">chatter here</div>
 </div>
-<div class="map" id="map">
+
+
+      <div class="map" id="map">
+
+      <div id="geocoder" class="geocoder"></div>
 
       <div class="legend" id="legend0">
         <strong>Lead margin by vote density</strong>
@@ -670,5 +775,6 @@ else {
         <div class="strong"><span style="background-color: #c5c2d9; border: 1px white solid;"></span> Close margin</div>
         <div class="strong"><span style="background-color: #f0f0f0; border: 1px black solid;"></span> No data</div>
       </div>
-</div>
-      <div class="dataline">Map: Jeff Hargarten, Star Tribune • Source: Minnesota Secretary of State</div>
+    </div>
+
+      <div class="dataline">Map: Jeff Hargarten, Star Tribune • Source: <a href="https://www.sos.state.mn.us/elections-voting/election-results" target="_new">Minnesota Secretary of State</a>, <a href="https://gisdata.mn.gov/group/8c21f853-3cdd-4be6-9020-e22ae192dcb4?organization=us-mn-state-lcc&groups=boundaries" target="_new">Minnesota Geospatial Commons</a>, <a href="https://www.mapbox.com/about/maps/" target="_new">Mapbox</a>, <a href="https://www.openstreetmap.org/about/" target="_new">OpenStreetMap</a></div>
