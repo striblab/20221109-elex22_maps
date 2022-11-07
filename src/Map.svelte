@@ -14,7 +14,7 @@ mapboxgl.accessToken = 'pk.eyJ1Ijoic3RhcnRyaWJ1bmUiLCJhIjoiY2sxYjRnNjdqMGtjOTNjc
 
 let raceData = directory.races;
 
-function makeMap(zoom, center, interactive, shading, opacity, dataSource, overSource, filter, district, overlaid, office) {
+function makeMap(zoom, center, interactive, shading, opacity, dataSource, overSource, filter, district, overlaid, office, clicky) {
 
 /********** MAP CONFIG VARIABLES **********/
 let condition = 'mousemove';
@@ -145,7 +145,7 @@ var scale = new mapboxgl.ScaleControl({
   unit: 'imperial'
   });
 
-
+if (clicky == 1) {
     if (/Android|webOS|iPhone|iPad|iPod|BlackBerry|IEMobile|Opera Mini/i.test(navigator.userAgent)) {
       //map.dragPan.disable();
       map.keyboard.disable();
@@ -183,6 +183,7 @@ if (interactive == 1) {
     });
 } else {
   //jq("#map").css('pointer-events','none');
+}
 }
 
 /********** ADD MAP LAYERS **********/
@@ -712,7 +713,7 @@ else {
       
 
     /********** RENDER **********/
-        makeMap(zooms[filter], centers[filter], interactive, shades[shading], opacities[shading], dataSource, overSource, filter, district, overlay, office);
+        makeMap(zooms[filter], centers[filter], interactive, shades[shading], opacities[shading], dataSource, overSource, filter, district, overlay, office, clicky);
     });
 </script>
 
