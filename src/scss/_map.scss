@@ -661,9 +661,15 @@ a.mapboxgl-ctrl-logo.mapboxgl-compact{
 	margin-right:auto;
     margin-left:auto;
 
-    @media only screen and (max-width: 520px) {
-		height:580px !important;
+    @media only screen and (max-width: 500px) {
+		height:570px !important;
 	}
+}
+
+.hide {
+    @media only screen and (max-width: 500px) {
+        display:none;
+    }
 }
 
 .geocoder {

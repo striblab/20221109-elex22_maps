@@ -728,15 +728,15 @@ else {
       <div id="geocoder" class="geocoder"></div>
 
       <div class="legend" id="legend0">
-        <strong>Lead margin by vote density</strong>
+        <strong class="hide">Lead by vote density</strong>
         <div><span>&nbsp;</span><span style="text-align:right;">&larr;</span><span style="text-align:right;">D</span><span>&nbsp;</span><span>R</span><span>&rarr;</span><span>&nbsp;</span></div>
-        <div class="strong"><span style="background-color: #003168"></span><span style="background-color: #115E9B"></span><span style="background-color: #8faece"></span><span style="background-color: #cfcdda"></span><span style="background-color: #da9190"></span><span style="background-color: #ae191c"></span><span style="background-color: #750000"></span> &darr; votes</div>
+        <div class="strong hide"><span style="background-color: #003168"></span><span style="background-color: #115E9B"></span><span style="background-color: #8faece"></span><span style="background-color: #cfcdda"></span><span style="background-color: #da9190"></span><span style="background-color: #ae191c"></span><span style="background-color: #750000"></span> &darr; votes</div>
         <div class="middle"><span style="background-color: #003168"></span><span style="background-color: #115E9B"></span><span style="background-color: #8faece"></span><span style="background-color: #cfcdda"></span><span style="background-color: #da9190"></span><span style="background-color: #ae191c"></span><span style="background-color: #750000"></span></div>
-        <div class="weak"><span style="background-color: #003168"></span><span style="background-color: #115E9B"></span><span style="background-color: #8faece"></span><span style="background-color: #cfcdda"></span><span style="background-color: #da9190"></span><span style="background-color: #ae191c"></span><span style="background-color: #750000"></span></div>
+        <div class="weak hide"><span style="background-color: #003168"></span><span style="background-color: #115E9B"></span><span style="background-color: #8faece"></span><span style="background-color: #cfcdda"></span><span style="background-color: #da9190"></span><span style="background-color: #ae191c"></span><span style="background-color: #750000"></span></div>
 
-        <div class="nodata"><span style="background-color: #cccccc; border: 1px black solid;"></span> Tie</div>
+        <div class="nodata hide"><span style="background-color: #cccccc; border: 1px black solid;"></span> Tie</div>
 
-        <div class="nodata"><span style="background-color: #ffffff; border: 1px black solid;"></span> No data</div>
+        <div class="nodata hide"><span style="background-color: #ffffff; border: 1px black solid;"></span> No data</div>
       </div>
 
       <div class="legend" id="legend1">
