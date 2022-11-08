@@ -32,7 +32,7 @@ const map = new mapboxgl.Map({
   zoom: zoom,
   minZoom: 5.5,
   maxZoom: 14,
-  //maxBounds: [-107.2,40.88,-78.92,51.62],
+  maxBounds: [-107.2,40.88,-78.92,51.62],
   scrollZoom: false,
   interactive: interactive
 });
@@ -42,7 +42,7 @@ const geocoder = new MapboxGeocoder({
       accessToken: mapboxgl.accessToken,     
       marker: { color: '#5bbf48', size: 'small' },
       countries: 'us',
-      bbox: [-97.24,43.5,-89.48,49.38],
+      bbox: [-107.2,40.88,-78.92,51.62],
       proxmity: center,
       placeholder: 'Search for location...',
       zoom: 12,
