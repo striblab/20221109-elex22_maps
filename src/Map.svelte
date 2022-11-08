@@ -304,6 +304,11 @@ map.on('load', function() {
         map.setFilter('overlay', ['!=', 'DISTRICT', district]);
         map.setPaintProperty('overlay', 'fill-opacity', 1);
 
+
+        if (office > 3 && office < 12) { console.log(district); map.setFilter('precincts', ['==', 'congdist', String(district)]); }
+        else if (office > 11 && office < 79) { console.log(district); map.setFilter('precincts', ['==', 'mnsendist', String(district)]); }
+        else if (office > 78 && office < 213) { console.log(district); map.setFilter('precincts', ['==', 'mnlegdist', String(district)]); }
+
         var loaded = 0;
 
         map.on('sourcedata', function (e) {
