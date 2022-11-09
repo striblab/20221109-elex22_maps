@@ -399,9 +399,15 @@ map.on('load', function() {
     function tipinfo(obj, office) {
       var tipstring = '<table class="tableResults"><thead><tr><th></th><th class="cand">Candidate</th><th class="votes">Votes</th><th class="pct">Pct.</th></tr></thead><tbody>';
 
-      for (var i=0; i < 3; i++) {
-        var name = String(obj[i].name).substring(0, String(obj[i].name).indexOf('and'));
+      var length = 3;
+
+      if (obj.length < 3) { length = obj.length}
+
+      for (var i=0; i < length; i++) {
+        var name;
         if (office > 0) { name = obj[i].name; }
+        else { name = String(obj[i].name).substring(0, String(obj[i].name).indexOf('and')); }
+        
 
         tipstring = tipstring + '<tr><td class="' + obj[i].party + '"><span class="dot ' + obj[i].party + ' ' + obj[i].name + '"></span></td><td class="cand">' + name + ' <span>' + obj[i].party + '</span></td><td class="votes">' + obj[i].votes + '</td><td class="pct">' + d3.format(".1f")(Number(obj[i].votes_pct)) + '%</td></tr>';
       }
