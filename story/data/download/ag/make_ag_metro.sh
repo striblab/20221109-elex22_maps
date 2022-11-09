@@ -1,17 +1,17 @@
 #!/bin/bash
 
-OFFICE_ID="0335"
+OFFICE_ID="335"
 DISTRICT_STR="ag"
 MAPSHAPER_COLORS="#115E9B85,#AE191C85"
 MAPSHAPER_CATEGORIES="DFL,R"
 
-echo "Downloading precinct results ..." &&
-echo "state;county_id;precinct_id;office_id;office_name;district;\
-cand_order;cand_name;suffix;incumbent;party;precincts_reporting;\
-precincts_voting;votes;votes_pct;votes_office" | \
-  cat - <(wget -O - -o /dev/null 'https://electionresultsfiles.sos.state.mn.us/20181106/allracesbyprecinct.txt') > ag-metro.csv &&
+# echo "Downloading precinct results ..." &&
+# echo "state;county_id;precinct_id;office_id;office_name;district;\
+# cand_order;cand_name;suffix;incumbent;party;precincts_reporting;\
+# precincts_voting;votes;votes_pct;votes_office" | \
+#   cat - <(wget -O - -o /dev/null 'https://electionresultsfiles.sos.state.mn.us/20181106/allracesbyprecinct.txt') > ag-metro.csv &&
 
-csv2json -s ";" ag-metro.csv | ndjson-cat | \
+csv2json -s "," ag-metro.csv | ndjson-cat | \
   ndjson-split | \
   ndjson-filter "d.office_id == \"$OFFICE_ID\"" > $DISTRICT_STR.tmp.ndjson &&
 
@@ -32,7 +32,7 @@ cat $DISTRICT_STR.tmp.ndjson | \
 
 echo "Joining results to precinct map ..." &&
 ndjson-split 'd.objects.precincts.geometries' < precincts-longlat.tmp.json | \
-  ndjson-map -r d3 '{"type": d.type, "arcs": d.arcs, "properties": {"id": d3.format("02")(d.properties.COUNTYCODE) + d.properties.PCTCODE, "congdist": d.properties.CONGDIST, "mnsendist": d.properties.MNSENDIST, "mnlegdist": d.properties.MNLEGDIST, "county": d.properties.COUNTYNAME, "precinct": d.properties.PCTNAME, "area_sqmi": d.properties.Shape_Area * 0.00000038610}}' | \
+  ndjson-map -r d3 '{"type": d.type, "arcs": d.arcs, "properties": {"id": d.properties.COUNTYCODE + d.properties.PCTCODE, "congdist": d.properties.CONGDIST, "mnsendist": d.properties.MNSENDIST, "mnlegdist": d.properties.MNLEGDIST, "county": d.properties.COUNTYNAME, "precinct": d.properties.PCTNAME, "area_sqmi": d.properties.Shape_Area * 0.00000038610}}' | \
   ndjson-join --left 'd.properties.id' 'd.id' - <(cat joined.tmp.ndjson) | \
    ndjson-map '{"type": d[0].type, "arcs": d[0].arcs, "properties": {"id": d[0].properties.id, "congdist": d[0].properties.congdist, "mnsendist": d[0].properties.mnsendist, "mnlegdist": d[0].properties.mnlegdist, "county": d[0].properties.county, "precinct": d[0].properties.precinct, "area_sqmi": d[0].properties.area_sqmi, "winner": d[1] != null ? d[1].winner : null, "winner_margin": d[1] != null ? d[1].winner_margin : null, "wmargin": d[1] != null && d[1].winner == "R" ? d[1].winner_margin * -1 : d[1] != null ? d[1].winner_margin * 1 : null, "votes_sqmi": d[1] != null ? d[1].total_votes / d[0].properties.area_sqmi : null, "total_votes": d[1] != null ? d[1].total_votes : null, "votes_obj": d[1] != null ? d[1].votes_obj : null}}' | \
    ndjson-reduce 'p.geometries.push(d), p' '{"type": "GeometryCollection", "geometries":[]}' > precincts.geometries.tmp.ndjson &&
@@ -50,6 +50,6 @@ mapshaper $DISTRICT_STR-results-metro.json \
   -style fill='calcFill(winner)' \
   -o $DISTRICT_STR-metro.svg &&
 
-rm ag-metro.csv &&
+#rm ag-metro.csv &&
 rm *.tmp.* &&
 rm precincts-final.json
