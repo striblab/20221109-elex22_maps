@@ -16,7 +16,7 @@ echo "Downloading precinct results ..." &&
 echo "state;county_id;precinct_id;office_id;office_name;district;\
 cand_order;cand_name;suffix;incumbent;party;districts_reporting;\
 districts_voting;votes;votes_pct;votes_office" | \
-  cat - <(wget -O - -o /dev/null 'https://electionresultsfiles.sos.state.mn.us/20221108/ushousepct.txt') > con-district.csv &&
+  cat - <(wget -O - -o /dev/null 'https://electionresultsfiles.sos.state.mn.us/20221108/ushouse.txt') > con-district.csv &&
 
 csv2json -s ";" con-district.csv | ndjson-cat | \
   ndjson-split | \

@@ -1,68 +1,68 @@
 id,area_sqmi,winner,winner_margin,wmargin,votes_sqmi,total_votes,votes_obj
-"13",0.0002809961993124,R,"14.81",-14.81,134670860.647225,"37842","[ { ""name"": ""Jeff Howe"", ""votes"": 21714, ""votes_pct"": 57.380000, ""party"": ""R"" }, { ""name"": ""Joe Perske"", ""votes"": 16108, ""votes_pct"": 42.570000, ""party"": ""DFL"" }, { ""name"": ""WRITE-IN**"", ""votes"": 20, ""votes_pct"": 0.050000, ""party"": ""WI"" } ]"
-"1",0.003320278533,,,,,,
-"2",0.003401050653,,,,,,
-"3",0.005703766497,,,,,,
-"4",0.000517470525,,,,,,
-"5",0.001451044881,,,,,,
-"6",0.000657478107,,,,,,
-"7",0.001642338126,,,,,,
-"8",7.1729658e-05,,,,,,
-"9",0.001746256941,,,,,,
-"10",0.0013541394215349,,,,,,
-"11",0.0010959379689258,,,,,,
-"12",0.0013453221832479,,,,,,
-"14",4.85631595449e-05,,,,,,
-"15",0.0014850599365602,,,,,,
-"16",0.0010961793756342,,,,,,
-"17",0.0006093414929745,,,,,,
-"18",0.0002028394164654,,,,,,
-"19",0.0003351865736934,,,,,,
-"20",0.0006633366729561,,,,,,
-"21",0.0017980888150368,,,,,,
-"22",0.0008769902357502,,,,,,
-"23",0.0008470311946668,,,,,,
-"24",0.0002460294524259,,,,,,
-"25",4.02509454633e-05,,,,,,
-"26",0.0007693972873587,,,,,,
-"27",0.0002195273306655,,,,,,
-"28",0.0002596476781899,,,,,,
-"29",0.000226298314242,,,,,,
-"30",7.70290943994e-05,,,,,,
-"31",8.41046703354e-05,,,,,,
-"32",3.93703760736e-05,,,,,,
-"33",7.76645783199e-05,,,,,,
-"34",2.95380816588e-05,,,,,,
-"35",1.22807359818e-05,,,,,,
-"36",2.9066499891e-05,,,,,,
-"37",5.90996289312e-05,,,,,,
-"38",8.2478709027e-06,,,,,,
-"39",8.7377835402e-06,,,,,,
-"40",1.57673077848e-05,,,,,,
-"41",7.25102587638e-05,,,,,,
-"42",1.4132916369e-05,,,,,,
-"43",9.9145526337e-06,,,,,,
-"44",1.23822532548e-05,,,,,,
-"45",3.98367906651e-05,,,,,,
-"46",7.8496411851e-06,,,,,,
-"47",1.59632122221e-05,,,,,,
-"48",5.82861417138e-05,,,,,,
-"49",1.7792870238e-05,,,,,,
-"50",1.19597891985e-05,,,,,,
-"51",1.29041666325e-05,,,,,,
-"52",1.7678210121e-05,,,,,,
-"53",2.17444095297e-05,,,,,,
-"54",5.16938448312e-05,,,,,,
-"55",1.4040001404e-05,,,,,,
-"56",1.47123594189e-05,,,,,,
-"57",5.13075560283e-05,,,,,,
-"58",0.0002401380104409,,,,,,
-"59",4.3089613281e-06,,,,,,
-"60",4.8373746993e-06,,,,,,
-"61",4.6804362462e-06,,,,,,
-"62",2.5958684466e-06,,,,,,
-"63",5.3747235828e-06,,,,,,
-"64",5.5343133846e-06,,,,,,
-"65",5.6112248907e-06,,,,,,
-"66",6.4174043934e-06,,,,,,
-"67",6.8949618309e-06,,,,,,
+"1",0.003320278533,R,"94.62",-94.62,8456519.4518878,"28078","[ { ""name"": ""Mark Johnson"", ""votes"": 27324, ""votes_pct"": 97.310000, ""party"": ""R"" }, { ""name"": ""WRITE-IN"", ""votes"": 754, ""votes_pct"": 2.690000, ""party"": ""WI"" } ]"
+"2",0.003401050653,R,"20.01",-20.01,10001615.2273402,"34016","[ { ""name"": ""Steve Green"", ""votes"": 20395, ""votes_pct"": 59.960000, ""party"": ""R"" }, { ""name"": ""Leonard Alan Roy"", ""votes"": 13590, ""votes_pct"": 39.950000, ""party"": ""DFL"" }, { ""name"": ""WRITE-IN"", ""votes"": 31, ""votes_pct"": 0.090000, ""party"": ""WI"" } ]"
+"3",0.005703766497,DFL,"1.74",1.74,7492768.15986038,"42737","[ { ""name"": ""Grant Hauschild"", ""votes"": 21717, ""votes_pct"": 50.820000, ""party"": ""DFL"" }, { ""name"": ""Andrea Zupancich"", ""votes"": 20975, ""votes_pct"": 49.080000, ""party"": ""R"" }, { ""name"": ""WRITE-IN"", ""votes"": 45, ""votes_pct"": 0.110000, ""party"": ""WI"" } ]"
+"4",0.000517470525,DFL,"5.69",5.69,58641021.1480161,"30345","[ { ""name"": ""Rob Kupec"", ""votes"": 15929, ""votes_pct"": 52.490000, ""party"": ""DFL"" }, { ""name"": ""Dan Bohmer"", ""votes"": 14202, ""votes_pct"": 46.800000, ""party"": ""R"" }, { ""name"": ""WRITE-IN"", ""votes"": 214, ""votes_pct"": 0.710000, ""party"": ""WI"" } ]"
+"5",0.001451044881,R,"45.74",-45.74,27188683.4904867,"39452","[ { ""name"": ""Paul J. Utke"", ""votes"": 28732, ""votes_pct"": 72.830000, ""party"": ""R"" }, { ""name"": ""A. John Peters"", ""votes"": 10688, ""votes_pct"": 27.090000, ""party"": ""DFL"" }, { ""name"": ""WRITE-IN"", ""votes"": 32, ""votes_pct"": 0.080000, ""party"": ""WI"" } ]"
+"6",0.000657478107,R,"27.06",-27.06,62799049.2160981,"41289","[ { ""name"": ""Justin Eichorn"", ""votes"": 26218, ""votes_pct"": 63.500000, ""party"": ""R"" }, { ""name"": ""Steve Samuelson"", ""votes"": 15045, ""votes_pct"": 36.440000, ""party"": ""DFL"" }, { ""name"": ""WRITE-IN"", ""votes"": 26, ""votes_pct"": 0.060000, ""party"": ""WI"" } ]"
+"7",0.001642338126,R,"7.02",-7.02,23704619.2764327,"38931","[ { ""name"": ""Robert Farnsworth"", ""votes"": 20659, ""votes_pct"": 53.070000, ""party"": ""R"" }, { ""name"": ""Ben DeNucci"", ""votes"": 17926, ""votes_pct"": 46.050000, ""party"": ""DFL"" }, { ""name"": ""WRITE-IN"", ""votes"": 346, ""votes_pct"": 0.890000, ""party"": ""WI"" } ]"
+"8",7.1729658e-05,DFL,"43.26",43.26,516871277.986576,"37075","[ { ""name"": ""Jen McEwen"", ""votes"": 26518, ""votes_pct"": 71.530000, ""party"": ""DFL"" }, { ""name"": ""Alex Moe"", ""votes"": 10481, ""votes_pct"": 28.270000, ""party"": ""R"" }, { ""name"": ""WRITE-IN"", ""votes"": 76, ""votes_pct"": 0.200000, ""party"": ""WI"" } ]"
+"9",0.001746256941,R,"34.15",-34.15,23157531.4322544,"40439","[ { ""name"": ""Jordan Rasmusson"", ""votes"": 25372, ""votes_pct"": 62.740000, ""party"": ""R"" }, { ""name"": ""Cornel Walker"", ""votes"": 11560, ""votes_pct"": 28.590000, ""party"": ""DFL"" }, { ""name"": ""WRITE-IN"", ""votes"": 3507, ""votes_pct"": 8.670000, ""party"": ""WI"" } ]"
+"10",0.0013541394215349,R,"45.29",-45.29,28758486.2981528,"38943","[ { ""name"": ""Nathan Wesenberg"", ""votes"": 28239, ""votes_pct"": 72.510000, ""party"": ""R"" }, { ""name"": ""Suzanne M. Cekalla"", ""votes"": 10602, ""votes_pct"": 27.220000, ""party"": ""DFL"" }, { ""name"": ""WRITE-IN"", ""votes"": 102, ""votes_pct"": 0.260000, ""party"": ""WI"" } ]"
+"11",0.0010959379689258,R,"21.92",-21.92,33132349.6671904,"36311","[ { ""name"": ""Jason Rarick"", ""votes"": 22111, ""votes_pct"": 60.890000, ""party"": ""R"" }, { ""name"": ""Michelle Boyechko"", ""votes"": 14152, ""votes_pct"": 38.970000, ""party"": ""DFL"" }, { ""name"": ""WRITE-IN"", ""votes"": 48, ""votes_pct"": 0.130000, ""party"": ""WI"" } ]"
+"12",0.0013453221832479,R,"39.92",-39.92,28612476.9808445,"38493","[ { ""name"": ""Torrey Westrom"", ""votes"": 26179, ""votes_pct"": 68.010000, ""party"": ""R"" }, { ""name"": ""Kari Dorry"", ""votes"": 10813, ""votes_pct"": 28.090000, ""party"": ""DFL"" }, { ""name"": ""Ashley Klingbeil"", ""votes"": 1485, ""votes_pct"": 3.860000, ""party"": ""WTP"" }, { ""name"": ""WRITE-IN"", ""votes"": 16, ""votes_pct"": 0.040000, ""party"": ""WI"" } ]"
+"13",0.0002809961993124,R,"40.14",-40.14,138717178.721214,"38979","[ { ""name"": ""Jeff Howe"", ""votes"": 27295, ""votes_pct"": 70.020000, ""party"": ""R"" }, { ""name"": ""Alissa Brickman"", ""votes"": 11648, ""votes_pct"": 29.880000, ""party"": ""DFL"" }, { ""name"": ""WRITE-IN"", ""votes"": 36, ""votes_pct"": 0.090000, ""party"": ""WI"" } ]"
+"14",4.85631595449e-05,DFL,"4.71",4.71,604491146.68617,"29356","[ { ""name"": ""Aric Putnam"", ""votes"": 15350, ""votes_pct"": 52.290000, ""party"": ""DFL"" }, { ""name"": ""Tama Theis"", ""votes"": 13969, ""votes_pct"": 47.580000, ""party"": ""R"" }, { ""name"": ""WRITE-IN"", ""votes"": 37, ""votes_pct"": 0.130000, ""party"": ""WI"" } ]"
+"15",0.0014850599365602,R,"42.41",-42.41,24391608.1150921,"36223","[ { ""name"": ""Gary Dahms"", ""votes"": 25783, ""votes_pct"": 71.180000, ""party"": ""R"" }, { ""name"": ""Anita Gaul"", ""votes"": 10420, ""votes_pct"": 28.770000, ""party"": ""DFL"" }, { ""name"": ""WRITE-IN"", ""votes"": 20, ""votes_pct"": 0.060000, ""party"": ""WI"" } ]"
+"16",0.0010961793756342,R,"39.40",-39.4,32222828.4760095,"35322","[ { ""name"": ""Andrew Robert Lang"", ""votes"": 24608, ""votes_pct"": 69.670000, ""party"": ""R"" }, { ""name"": ""Fernando Alvarado"", ""votes"": 10692, ""votes_pct"": 30.270000, ""party"": ""DFL"" }, { ""name"": ""WRITE-IN"", ""votes"": 22, ""votes_pct"": 0.060000, ""party"": ""WI"" } ]"
+"17",0.0006093414929745,R,"40.40",-40.4,65039063.4101435,"39631","[ { ""name"": ""Glenn Gruenhagen"", ""votes"": 27810, ""votes_pct"": 70.170000, ""party"": ""R"" }, { ""name"": ""Chad Tschimperle"", ""votes"": 11797, ""votes_pct"": 29.770000, ""party"": ""DFL"" }, { ""name"": ""WRITE-IN"", ""votes"": 24, ""votes_pct"": 0.060000, ""party"": ""WI"" } ]"
+"18",0.0002028394164654,DFL,"15.67",15.67,163286803.803489,"33121","[ { ""name"": ""Nick Frentz"", ""votes"": 19136, ""votes_pct"": 57.780000, ""party"": ""DFL"" }, { ""name"": ""Mark Wright"", ""votes"": 13946, ""votes_pct"": 42.110000, ""party"": ""R"" }, { ""name"": ""WRITE-IN"", ""votes"": 39, ""votes_pct"": 0.120000, ""party"": ""WI"" } ]"
+"19",0.0003351865736934,R,"30.65",-30.65,102596591.567108,"34389","[ { ""name"": ""John R. Jasinski"", ""votes"": 22452, ""votes_pct"": 65.290000, ""party"": ""R"" }, { ""name"": ""Kate E. Falvey"", ""votes"": 11911, ""votes_pct"": 34.640000, ""party"": ""DFL"" }, { ""name"": ""WRITE-IN"", ""votes"": 26, ""votes_pct"": 0.080000, ""party"": ""WI"" } ]"
+"20",0.0006633366729561,R,"23.52",-23.52,61424313.8682859,"40745","[ { ""name"": ""Steve Drazkowski"", ""votes"": 25129, ""votes_pct"": 61.670000, ""party"": ""R"" }, { ""name"": ""Bradley Robert Drenckhahn"", ""votes"": 15546, ""votes_pct"": 38.150000, ""party"": ""DFL"" }, { ""name"": ""WRITE-IN"", ""votes"": 70, ""votes_pct"": 0.170000, ""party"": ""WI"" } ]"
+"21",0.0017980888150368,R,"95.60",-95.6,15825135.9788463,"28455","[ { ""name"": ""Bill Weber"", ""votes"": 27830, ""votes_pct"": 97.800000, ""party"": ""R"" }, { ""name"": ""WRITE-IN"", ""votes"": 625, ""votes_pct"": 2.200000, ""party"": ""WI"" } ]"
+"22",0.0008769902357502,R,"93.74",-93.74,35053982.0705102,"30742","[ { ""name"": ""Rich Draheim"", ""votes"": 29780, ""votes_pct"": 96.870000, ""party"": ""R"" }, { ""name"": ""WRITE-IN"", ""votes"": 962, ""votes_pct"": 3.130000, ""party"": ""WI"" } ]"
+"23",0.0008470311946668,R,"21.64",-21.64,39423577.5615512,"33393","[ { ""name"": ""Gene Dornink"", ""votes"": 20275, ""votes_pct"": 60.720000, ""party"": ""R"" }, { ""name"": ""Brandon Lawhead"", ""votes"": 13051, ""votes_pct"": 39.080000, ""party"": ""DFL"" }, { ""name"": ""WRITE-IN"", ""votes"": 67, ""votes_pct"": 0.200000, ""party"": ""WI"" } ]"
+"24",0.0002460294524259,R,"15.12",-15.12,147856281.600904,"36377","[ { ""name"": ""Carla Nelson"", ""votes"": 20929, ""votes_pct"": 57.530000, ""party"": ""R"" }, { ""name"": ""Aleta Borrud"", ""votes"": 15426, ""votes_pct"": 42.410000, ""party"": ""DFL"" }, { ""name"": ""WRITE-IN"", ""votes"": 22, ""votes_pct"": 0.060000, ""party"": ""WI"" } ]"
+"25",4.02509454633e-05,DFL,"19.09",19.09,835582856.821733,"33633","[ { ""name"": ""Liz Boldon"", ""votes"": 19673, ""votes_pct"": 58.490000, ""party"": ""DFL"" }, { ""name"": ""Ken Navitsky"", ""votes"": 13251, ""votes_pct"": 39.400000, ""party"": ""R"" }, { ""name"": ""Bill Rood"", ""votes"": 699, ""votes_pct"": 2.080000, ""party"": ""GLC"" }, { ""name"": ""WRITE-IN"", ""votes"": 10, ""votes_pct"": 0.030000, ""party"": ""WI"" } ]"
+"26",0.0007693972873587,R,"19.47",-19.47,47821847.8340518,"36794","[ { ""name"": ""Jeremy Miller"", ""votes"": 21444, ""votes_pct"": 58.280000, ""party"": ""R"" }, { ""name"": ""Daniel Wilson"", ""votes"": 14281, ""votes_pct"": 38.810000, ""party"": ""DFL"" }, { ""name"": ""Eric M. Leitzen"", ""votes"": 1060, ""votes_pct"": 2.880000, ""party"": ""LMN"" }, { ""name"": ""WRITE-IN"", ""votes"": 9, ""votes_pct"": 0.020000, ""party"": ""WI"" } ]"
+"27",0.0002195273306655,R,"43.59",-43.59,168051968.236308,"36892","[ { ""name"": ""Andrew Mathews"", ""votes"": 26479, ""votes_pct"": 71.770000, ""party"": ""R"" }, { ""name"": ""Emy Minzel"", ""votes"": 10397, ""votes_pct"": 28.180000, ""party"": ""DFL"" }, { ""name"": ""WRITE-IN"", ""votes"": 16, ""votes_pct"": 0.040000, ""party"": ""WI"" } ]"
+"28",0.0002596476781899,R,"34.46",-34.46,149125154.016132,"38720","[ { ""name"": ""Mark Koran"", ""votes"": 26012, ""votes_pct"": 67.180000, ""party"": ""R"" }, { ""name"": ""Victoria Ann Bird"", ""votes"": 12670, ""votes_pct"": 32.720000, ""party"": ""DFL"" }, { ""name"": ""WRITE-IN"", ""votes"": 38, ""votes_pct"": 0.100000, ""party"": ""WI"" } ]"
+"29",0.000226298314242,R,"36.15",-36.15,172140036.175179,"38955","[ { ""name"": ""Bruce Anderson"", ""votes"": 26505, ""votes_pct"": 68.040000, ""party"": ""R"" }, { ""name"": ""Chris Brazelton"", ""votes"": 12422, ""votes_pct"": 31.890000, ""party"": ""DFL"" }, { ""name"": ""WRITE-IN"", ""votes"": 28, ""votes_pct"": 0.070000, ""party"": ""WI"" } ]"
+"30",7.70290943994e-05,R,"30.41",-30.41,520751286.416687,"40113","[ { ""name"": ""Eric Lucero"", ""votes"": 26147, ""votes_pct"": 65.180000, ""party"": ""R"" }, { ""name"": ""Diane Nguyen"", ""votes"": 13946, ""votes_pct"": 34.770000, ""party"": ""DFL"" }, { ""name"": ""WRITE-IN"", ""votes"": 20, ""votes_pct"": 0.050000, ""party"": ""WI"" } ]"
+"31",8.41046703354e-05,R,"27.58",-27.58,479426408.060342,"40322","[ { ""name"": ""Cal K. Bahr"", ""votes"": 25705, ""votes_pct"": 63.750000, ""party"": ""R"" }, { ""name"": ""Jason Ruffalo"", ""votes"": 14585, ""votes_pct"": 36.170000, ""party"": ""DFL"" }, { ""name"": ""WRITE-IN"", ""votes"": 32, ""votes_pct"": 0.080000, ""party"": ""WI"" } ]"
+"32",3.93703760736e-05,R,"5.99",-5.99,944288668.477547,"37177","[ { ""name"": ""Michael Kreun"", ""votes"": 19684, ""votes_pct"": 52.950000, ""party"": ""R"" }, { ""name"": ""Kate Luthner"", ""votes"": 17459, ""votes_pct"": 46.960000, ""party"": ""DFL"" }, { ""name"": ""WRITE-IN"", ""votes"": 34, ""votes_pct"": 0.090000, ""party"": ""WI"" } ]"
+"33",7.76645783199e-05,R,"5.64",-5.64,563100977.898367,"43733","[ { ""name"": ""Karin Housley"", ""votes"": 23092, ""votes_pct"": 52.800000, ""party"": ""R"" }, { ""name"": ""Nancy McLean"", ""votes"": 20624, ""votes_pct"": 47.160000, ""party"": ""DFL"" }, { ""name"": ""WRITE-IN"", ""votes"": 17, ""votes_pct"": 0.040000, ""party"": ""WI"" } ]"
+"34",2.95380816588e-05,DFL,"9.82",9.82,1291180667.74108,"38139","[ { ""name"": ""John Hoffman"", ""votes"": 20925, ""votes_pct"": 54.870000, ""party"": ""DFL"" }, { ""name"": ""Karen Attia"", ""votes"": 17181, ""votes_pct"": 45.050000, ""party"": ""R"" }, { ""name"": ""WRITE-IN"", ""votes"": 33, ""votes_pct"": 0.090000, ""party"": ""WI"" } ]"
+"35",1.22807359818e-05,R,"0.54",-0.54,2805043610.66403,"34448","[ { ""name"": ""Jim Abeler"", ""votes"": 17300, ""votes_pct"": 50.220000, ""party"": ""R"" }, { ""name"": ""Kari Rehrauer"", ""votes"": 17114, ""votes_pct"": 49.680000, ""party"": ""DFL"" }, { ""name"": ""WRITE-IN"", ""votes"": 34, ""votes_pct"": 0.100000, ""party"": ""WI"" } ]"
+"36",2.9066499891e-05,DFL,"5.68",5.68,1520994965.53725,"44210","[ { ""name"": ""Heather Gustafson"", ""votes"": 23348, ""votes_pct"": 52.810000, ""party"": ""DFL"" }, { ""name"": ""Roger Chamberlain"", ""votes"": 20838, ""votes_pct"": 47.130000, ""party"": ""R"" }, { ""name"": ""WRITE-IN"", ""votes"": 24, ""votes_pct"": 0.050000, ""party"": ""WI"" } ]"
+"37",5.90996289312e-05,R,"9.84",-9.84,754217933.447437,"44574","[ { ""name"": ""Warren Limmer"", ""votes"": 24463, ""votes_pct"": 54.880000, ""party"": ""R"" }, { ""name"": ""Farhio Khalif"", ""votes"": 20077, ""votes_pct"": 45.040000, ""party"": ""DFL"" }, { ""name"": ""WRITE-IN"", ""votes"": 34, ""votes_pct"": 0.080000, ""party"": ""WI"" } ]"
+"38",8.2478709027e-06,DFL,"35.22",35.22,2678024457.53235,"22088","[ { ""name"": ""Susan Pha"", ""votes"": 14116, ""votes_pct"": 63.910000, ""party"": ""DFL"" }, { ""name"": ""Brad Kohler"", ""votes"": 6337, ""votes_pct"": 28.690000, ""party"": ""R"" }, { ""name"": ""Mary O'Connor"", ""votes"": 1602, ""votes_pct"": 7.250000, ""party"": ""LMN"" }, { ""name"": ""WRITE-IN"", ""votes"": 33, ""votes_pct"": 0.150000, ""party"": ""WI"" } ]"
+"39",8.7377835402e-06,DFL,"33.10",33.1,3538769283.73671,"30921","[ { ""name"": ""Mary K Kunesh"", ""votes"": 20560, ""votes_pct"": 66.490000, ""party"": ""DFL"" }, { ""name"": ""Pam Wolf"", ""votes"": 10326, ""votes_pct"": 33.390000, ""party"": ""R"" }, { ""name"": ""WRITE-IN"", ""votes"": 35, ""votes_pct"": 0.110000, ""party"": ""WI"" } ]"
+"40",1.57673077848e-05,DFL,"29.63",29.63,2594165126.87292,"40903","[ { ""name"": ""John Marty"", ""votes"": 26490, ""votes_pct"": 64.760000, ""party"": ""DFL"" }, { ""name"": ""Rachel Japuntich"", ""votes"": 14371, ""votes_pct"": 35.130000, ""party"": ""R"" }, { ""name"": ""WRITE-IN"", ""votes"": 42, ""votes_pct"": 0.100000, ""party"": ""WI"" } ]"
+"41",7.25102587638e-05,DFL,"0.75",0.75,590137185.131147,"42791","[ { ""name"": ""Judy Seeberger"", ""votes"": 21536, ""votes_pct"": 50.330000, ""party"": ""DFL"" }, { ""name"": ""Tom Dippel"", ""votes"": 21215, ""votes_pct"": 49.580000, ""party"": ""R"" }, { ""name"": ""WRITE-IN"", ""votes"": 40, ""votes_pct"": 0.090000, ""party"": ""WI"" } ]"
+"42",1.4132916369e-05,DFL,"15.44",15.44,2912774612.48522,"41166","[ { ""name"": ""Bonnie Westlin"", ""votes"": 23752, ""votes_pct"": 57.700000, ""party"": ""DFL"" }, { ""name"": ""Paul Hillen"", ""votes"": 17395, ""votes_pct"": 42.260000, ""party"": ""R"" }, { ""name"": ""WRITE-IN"", ""votes"": 19, ""votes_pct"": 0.050000, ""party"": ""WI"" } ]"
+"43",9.9145526337e-06,DFL,"55.57",55.57,3569298717.49479,"35388","[ { ""name"": ""Ann H. Rest"", ""votes"": 27350, ""votes_pct"": 77.290000, ""party"": ""DFL"" }, { ""name"": ""Andrew Thomas Schuler"", ""votes"": 7686, ""votes_pct"": 21.720000, ""party"": ""LMN"" }, { ""name"": ""WRITE-IN"", ""votes"": 352, ""votes_pct"": 0.990000, ""party"": ""WI"" } ]"
+"44",1.23822532548e-05,DFL,"19.22",19.22,2600495995.14673,"32200","[ { ""name"": ""Tou Xiong"", ""votes"": 19173, ""votes_pct"": 59.540000, ""party"": ""DFL"" }, { ""name"": ""Paul Babin"", ""votes"": 12984, ""votes_pct"": 40.320000, ""party"": ""R"" }, { ""name"": ""WRITE-IN"", ""votes"": 43, ""votes_pct"": 0.130000, ""party"": ""WI"" } ]"
+"45",3.98367906651e-05,DFL,"12.60",12.6,1214354851.18988,"48376","[ { ""name"": ""Kelly Morrison"", ""votes"": 27222, ""votes_pct"": 56.270000, ""party"": ""DFL"" }, { ""name"": ""Kathleen Fowke"", ""votes"": 21128, ""votes_pct"": 43.670000, ""party"": ""R"" }, { ""name"": ""WRITE-IN"", ""votes"": 26, ""votes_pct"": 0.050000, ""party"": ""WI"" } ]"
+"46",7.8496411851e-06,DFL,"94.52",94.52,4064007417.37772,"31901","[ { ""name"": ""Ron Latz"", ""votes"": 31027, ""votes_pct"": 97.260000, ""party"": ""DFL"" }, { ""name"": ""WRITE-IN"", ""votes"": 874, ""votes_pct"": 2.740000, ""party"": ""WI"" } ]"
+"47",1.59632122221e-05,DFL,"17.47",17.47,2447126521.68581,"39064","[ { ""name"": ""Nicole Mitchell"", ""votes"": 22936, ""votes_pct"": 58.710000, ""party"": ""DFL"" }, { ""name"": ""Dwight Dorau"", ""votes"": 16111, ""votes_pct"": 41.240000, ""party"": ""R"" }, { ""name"": ""WRITE-IN"", ""votes"": 17, ""votes_pct"": 0.040000, ""party"": ""WI"" } ]"
+"48",5.82861417138e-05,R,"8.73",-8.73,735852446.89211,"42890","[ { ""name"": ""Julia Coleman"", ""votes"": 23306, ""votes_pct"": 54.340000, ""party"": ""R"" }, { ""name"": ""Dan Kessler"", ""votes"": 19564, ""votes_pct"": 45.610000, ""party"": ""DFL"" }, { ""name"": ""WRITE-IN"", ""votes"": 20, ""votes_pct"": 0.050000, ""party"": ""WI"" } ]"
+"49",1.7792870238e-05,DFL,"24.61",24.61,2386854927.39106,"42469","[ { ""name"": ""Steve Cwodzinski"", ""votes"": 26448, ""votes_pct"": 62.280000, ""party"": ""DFL"" }, { ""name"": ""Marla Helseth"", ""votes"": 15998, ""votes_pct"": 37.670000, ""party"": ""R"" }, { ""name"": ""WRITE-IN"", ""votes"": 23, ""votes_pct"": 0.050000, ""party"": ""WI"" } ]"
+"50",1.19597891985e-05,DFL,"26.89",26.89,3767206867.29586,"45055","[ { ""name"": ""Alice Mann"", ""votes"": 28575, ""votes_pct"": 63.420000, ""party"": ""DFL"" }, { ""name"": ""Doug Fulton"", ""votes"": 16457, ""votes_pct"": 36.530000, ""party"": ""R"" }, { ""name"": ""WRITE-IN"", ""votes"": 23, ""votes_pct"": 0.050000, ""party"": ""WI"" } ]"
+"51",1.29041666325e-05,DFL,"39.40",39.4,2574982247.69611,"33228","[ { ""name"": ""Melissa Halvorson Wiklund"", ""votes"": 23141, ""votes_pct"": 69.640000, ""party"": ""DFL"" }, { ""name"": ""Frank Pafko"", ""votes"": 10049, ""votes_pct"": 30.240000, ""party"": ""R"" }, { ""name"": ""WRITE-IN"", ""votes"": 38, ""votes_pct"": 0.110000, ""party"": ""WI"" } ]"
+"52",1.7678210121e-05,DFL,"26.59",26.59,2326875838.58592,"41135","[ { ""name"": ""Jim Carlson"", ""votes"": 26005, ""votes_pct"": 63.220000, ""party"": ""DFL"" }, { ""name"": ""Stephen Lowell"", ""votes"": 15069, ""votes_pct"": 36.630000, ""party"": ""R"" }, { ""name"": ""WRITE-IN"", ""votes"": 61, ""votes_pct"": 0.150000, ""party"": ""WI"" } ]"
+"53",2.17444095297e-05,DFL,"16.60",16.6,1697769716.37589,"36917","[ { ""name"": ""Matt Klein"", ""votes"": 21501, ""votes_pct"": 58.240000, ""party"": ""DFL"" }, { ""name"": ""Chris Rausch"", ""votes"": 15374, ""votes_pct"": 41.640000, ""party"": ""R"" }, { ""name"": ""WRITE-IN"", ""votes"": 42, ""votes_pct"": 0.110000, ""party"": ""WI"" } ]"
+"54",5.16938448312e-05,R,"13.39",-13.39,705287063.073998,"36459","[ { ""name"": ""Eric Pratt"", ""votes"": 20632, ""votes_pct"": 56.590000, ""party"": ""R"" }, { ""name"": ""Alicia Donahue"", ""votes"": 15752, ""votes_pct"": 43.200000, ""party"": ""DFL"" }, { ""name"": ""WRITE-IN"", ""votes"": 75, ""votes_pct"": 0.210000, ""party"": ""WI"" } ]"
+"55",1.4040001404e-05,DFL,"10.71",10.71,2446652176.9872,"34351","[ { ""name"": ""Lindsey Port"", ""votes"": 18996, ""votes_pct"": 55.300000, ""party"": ""DFL"" }, { ""name"": ""Pam Myhra"", ""votes"": 15316, ""votes_pct"": 44.590000, ""party"": ""R"" }, { ""name"": ""WRITE-IN"", ""votes"": 39, ""votes_pct"": 0.110000, ""party"": ""WI"" } ]"
+"56",1.47123594189e-05,DFL,"13.41",13.41,2673058676.73945,"39327","[ { ""name"": ""Erin Maye Quade"", ""votes"": 22281, ""votes_pct"": 56.660000, ""party"": ""DFL"" }, { ""name"": ""Jim Bean"", ""votes"": 17008, ""votes_pct"": 43.250000, ""party"": ""R"" }, { ""name"": ""WRITE-IN"", ""votes"": 38, ""votes_pct"": 0.100000, ""party"": ""WI"" } ]"
+"57",5.13075560283e-05,R,"17.28",-17.28,806742772.490843,"41392","[ { ""name"": ""Zach Duckworth"", ""votes"": 24258, ""votes_pct"": 58.610000, ""party"": ""R"" }, { ""name"": ""Jackie Craig"", ""votes"": 17106, ""votes_pct"": 41.330000, ""party"": ""DFL"" }, { ""name"": ""WRITE-IN"", ""votes"": 28, ""votes_pct"": 0.070000, ""party"": ""WI"" } ]"
+"58",0.0002401380104409,R,"5.68",-5.68,166641673.788034,"40017","[ { ""name"": ""Bill Lieske"", ""votes"": 21125, ""votes_pct"": 52.790000, ""party"": ""R"" }, { ""name"": ""Clarice Grabau"", ""votes"": 18854, ""votes_pct"": 47.110000, ""party"": ""DFL"" }, { ""name"": ""WRITE-IN"", ""votes"": 38, ""votes_pct"": 0.090000, ""party"": ""WI"" } ]"
+"59",4.3089613281e-06,DFL,"96.56",96.56,5385288526.1869,"23205","[ { ""name"": ""Bobby Joe Champion"", ""votes"": 22806, ""votes_pct"": 98.280000, ""party"": ""DFL"" }, { ""name"": ""WRITE-IN"", ""votes"": 399, ""votes_pct"": 1.720000, ""party"": ""WI"" } ]"
+"60",4.8373746993e-06,DFL,"97.32",97.32,5549291024.29971,"26844","[ { ""name"": ""Kari Dziedzic"", ""votes"": 26484, ""votes_pct"": 98.660000, ""party"": ""DFL"" }, { ""name"": ""WRITE-IN"", ""votes"": 360, ""votes_pct"": 1.340000, ""party"": ""WI"" } ]"
+"61",4.6804362462e-06,DFL,"97.42",97.42,8087493987.49582,"37853","[ { ""name"": ""Scott Dibble"", ""votes"": 37366, ""votes_pct"": 98.710000, ""party"": ""DFL"" }, { ""name"": ""WRITE-IN"", ""votes"": 487, ""votes_pct"": 1.290000, ""party"": ""WI"" } ]"
+"62",2.5958684466e-06,DFL,"80.88",80.88,10356071793.7038,"26883","[ { ""name"": ""Omar Fateh"", ""votes"": 24271, ""votes_pct"": 90.280000, ""party"": ""DFL"" }, { ""name"": ""Andrew Schmitz"", ""votes"": 2528, ""votes_pct"": 9.400000, ""party"": ""R"" }, { ""name"": ""WRITE-IN"", ""votes"": 84, ""votes_pct"": 0.310000, ""party"": ""WI"" } ]"
+"63",5.3747235828e-06,DFL,"71.49",71.49,8487506249.80699,"45618","[ { ""name"": ""Zaynab Mohamed"", ""votes"": 39063, ""votes_pct"": 85.630000, ""party"": ""DFL"" }, { ""name"": ""Shawn Holster"", ""votes"": 6449, ""votes_pct"": 14.140000, ""party"": ""R"" }, { ""name"": ""WRITE-IN"", ""votes"": 106, ""votes_pct"": 0.230000, ""party"": ""WI"" } ]"
+"64",5.5343133846e-06,DFL,"68.53",68.53,7873424754.23433,"43574","[ { ""name"": ""Erin Murphy"", ""votes"": 36686, ""votes_pct"": 84.190000, ""party"": ""DFL"" }, { ""name"": ""Robert Bushard"", ""votes"": 6823, ""votes_pct"": 15.660000, ""party"": ""R"" }, { ""name"": ""WRITE-IN"", ""votes"": 65, ""votes_pct"": 0.150000, ""party"": ""WI"" } ]"
+"65",5.6112248907e-06,DFL,"60.47",60.47,4499195896.0409,"25246","[ { ""name"": ""Sandy Pappas"", ""votes"": 20228, ""votes_pct"": 80.120000, ""party"": ""DFL"" }, { ""name"": ""Paul Holmgren"", ""votes"": 4960, ""votes_pct"": 19.650000, ""party"": ""R"" }, { ""name"": ""WRITE-IN"", ""votes"": 58, ""votes_pct"": 0.230000, ""party"": ""WI"" } ]"
+"66",6.4174043934e-06,DFL,"60.36",60.36,4767192173.74917,"30593","[ { ""name"": ""Clare Oumou Verbeten"", ""votes"": 23987, ""votes_pct"": 78.410000, ""party"": ""DFL"" }, { ""name"": ""Mikki M Murray"", ""votes"": 5522, ""votes_pct"": 18.050000, ""party"": ""R"" }, { ""name"": ""Jeremy J. Peichel"", ""votes"": 1061, ""votes_pct"": 3.470000, ""party"": ""LIB"" }, { ""name"": ""WRITE-IN"", ""votes"": 23, ""votes_pct"": 0.080000, ""party"": ""WI"" } ]"
+"67",6.8949618309e-06,DFL,"93.54",93.54,2202042646.84351,"15183","[ { ""name"": ""Foung Hawj"", ""votes"": 14692, ""votes_pct"": 96.770000, ""party"": ""DFL"" }, { ""name"": ""WRITE-IN"", ""votes"": 491, ""votes_pct"": 3.230000, ""party"": ""WI"" } ]"
