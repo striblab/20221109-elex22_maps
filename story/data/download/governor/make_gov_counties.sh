@@ -9,7 +9,7 @@ echo "Downloading precinct results ..." &&
 echo "state;county_id;precinct_id;office_id;office_name;district;\
 cand_order;cand_name;suffix;incumbent;party;counties_reporting;\
 counties_voting;votes;votes_pct;votes_office" | \
-  cat - <(wget -O - -o /dev/null 'https://electionresultsfiles.sos.state.mn.us/20181106/allracesbycounty.txt') > gov-counties.csv &&
+  cat - <(wget -O - -o /dev/null 'https://electionresultsfiles.sos.state.mn.us/20221108/allracesbycounty.txt') > gov-counties.csv &&
 
 csv2json -s ";" gov-counties.csv | ndjson-cat | \
   ndjson-split | \

@@ -1,7 +1,7 @@
 #!/bin/bash
 
 OFFICE_ID1="0104"
-OFFICE_ID2="0104"
+OFFICE_ID2="0105"
 OFFICE_ID3="0106"
 OFFICE_ID4="0107"
 OFFICE_ID5="0108"
@@ -16,7 +16,7 @@ echo "Downloading precinct results ..." &&
 echo "state;county_id;precinct_id;office_id;office_name;district;\
 cand_order;cand_name;suffix;incumbent;party;precincts_reporting;\
 precincts_voting;votes;votes_pct;votes_office" | \
-  cat - <(wget -O - -o /dev/null 'https://electionresultsfiles.sos.state.mn.us/20181106/allracesbyprecinct.txt') > con.csv &&
+  cat - <(wget -O - -o /dev/null 'https://electionresultsfiles.sos.state.mn.us/20221108/ushousepct.txt') > con.csv &&
 
 csv2json -s ";" con.csv | ndjson-cat | \
   ndjson-split | \
