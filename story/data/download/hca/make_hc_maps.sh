@@ -3,13 +3,8 @@
 OFFICE_ID="0405"
 DISTRICT_STR="hca"
 MAPSHAPER_COLORS="#5f9c6f,#ae6d4c"
-MAPSHAPER_CATEGORIES="Mark Haase,Michael Freeman"
+MAPSHAPER_CATEGORIES="Mary Moriarty,Martha Holton Dimick"
 
-echo "Downloading precinct results ..." &&
-echo "state;county_id;precinct_id;office_id;office_name;district;\
-cand_order;cand_name;suffix;incumbent;party;precincts_reporting;\
-precincts_voting;votes;votes_pct;votes_office" | \
-  cat - <(wget -O - -o /dev/null 'https://electionresultsfiles.sos.state.mn.us/20181106/allracesbyprecinct.txt') > hca.csv &&
 
 csv2json -s ";" hca.csv | ndjson-cat | \
   ndjson-split | \
@@ -34,7 +29,7 @@ echo "Joining results to precinct map ..." &&
 ndjson-split 'd.objects.precincts.geometries' < precincts-longlat.tmp.json | \
   ndjson-map -r d3 '{"type": d.type, "arcs": d.arcs, "properties": {"id": d3.format("02")(d.properties.COUNTYCODE) + d.properties.PCTCODE, "congdist": d.properties.CONGDIST, "mnsendist": d.properties.MNSENDIST, "mnlegdist": d.properties.MNLEGDIST, "county": d.properties.COUNTYNAME, "precinct": d.properties.PCTNAME, "area_sqmi": d.properties.Shape_Area * 0.00000038610}}' | \
   ndjson-join --left 'd.properties.id' 'd.id' - <(cat joined.tmp.ndjson) | \
-   ndjson-map '{"type": d[0].type, "arcs": d[0].arcs, "properties": {"id": d[0].properties.id, "congdist": d[0].properties.congdist, "mnsendist": d[0].properties.mnsendist, "mnlegdist": d[0].properties.mnlegdist, "county": d[0].properties.county, "precinct": d[0].properties.precinct, "area_sqmi": d[0].properties.area_sqmi, "winner": d[1] != null ? d[1].winner : null, "winner_margin": d[1] != null ? d[1].winner_margin : null, "wmargin": d[1] != null && d[1].winner == "Michael Freeman" ? d[1].winner_margin * -1 : d[1] != null ? d[1].winner_margin * 1 : null, "votes_sqmi": d[1] != null ? d[1].total_votes / d[0].properties.area_sqmi : null, "total_votes": d[1] != null ? d[1].total_votes : null, "votes_obj": d[1] != null ? d[1].votes_obj : null}}' | \
+   ndjson-map '{"type": d[0].type, "arcs": d[0].arcs, "properties": {"id": d[0].properties.id, "congdist": d[0].properties.congdist, "mnsendist": d[0].properties.mnsendist, "mnlegdist": d[0].properties.mnlegdist, "county": d[0].properties.county, "precinct": d[0].properties.precinct, "area_sqmi": d[0].properties.area_sqmi, "winner": d[1] != null ? d[1].winner : null, "winner_margin": d[1] != null ? d[1].winner_margin : null, "wmargin": d[1] != null && d[1].winner == "Martha Holton Dimick" ? d[1].winner_margin * -1 : d[1] != null ? d[1].winner_margin * 1 : null, "votes_sqmi": d[1] != null ? d[1].total_votes / d[0].properties.area_sqmi : null, "total_votes": d[1] != null ? d[1].total_votes : null, "votes_obj": d[1] != null ? d[1].votes_obj : null}}' | \
    ndjson-reduce 'p.geometries.push(d), p' '{"type": "GeometryCollection", "geometries":[]}' > precincts.geometries.tmp.ndjson &&
 
 echo "Putting it all together ..." &&
@@ -50,6 +45,6 @@ mapshaper $DISTRICT_STR-results-geo.json \
   -style fill='calcFill(winner)' \
   -o $DISTRICT_STR.svg && 
 
-rm hca.csv &&
-rm *.tmp.* &&
+#rm hca.csv &&
+#rm *.tmp.* &&
 rm precincts-final.json
