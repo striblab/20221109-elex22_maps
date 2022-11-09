@@ -5,11 +5,11 @@ DISTRICT_STR="sa"
 MAPSHAPER_COLORS="#115E9B85,#AE191C85"
 MAPSHAPER_CATEGORIES="DFL,R"
 
-echo "Downloading precinct results ..." &&
-echo "state;county_id;precinct_id;office_id;office_name;district;\
-cand_order;cand_name;suffix;incumbent;party;precincts_reporting;\
-precincts_voting;votes;votes_pct;votes_office" | \
-  cat - <(wget -O - -o /dev/null 'https://electionresultsfiles.sos.state.mn.us/20181106/allracesbyprecinct.txt') > sa.csv &&
+# echo "Downloading precinct results ..." &&
+# echo "state;county_id;precinct_id;office_id;office_name;district;\
+# cand_order;cand_name;suffix;incumbent;party;precincts_reporting;\
+# precincts_voting;votes;votes_pct;votes_office" | \
+#   cat - <(wget -O - -o /dev/null 'https://electionresultsfiles.sos.state.mn.us/20181106/allracesbyprecinct.txt') > sa.csv &&
 
 csv2json -s ";" sa.csv | ndjson-cat | \
   ndjson-split | \
@@ -55,6 +55,6 @@ mapshaper $DISTRICT_STR-results-geo.json \
   -style fill='calcFill(winner)' \
   -o $DISTRICT_STR.svg &&
 
-rm sa.csv &&
+# rm sa.csv &&
 rm *.tmp.* &&
 rm precincts-final.json
