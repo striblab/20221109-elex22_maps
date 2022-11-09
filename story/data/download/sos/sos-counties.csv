@@ -1,0 +1,262 @@
+state,county_id,precinct_id,office_id,office_name,district,cand_order,cand_name,suffix,incumbent,party,counties_reporting,counties_voting,votes,votes_pct,votes_office
+MN,01,,332,Secretary of State,,301,Kim Crockett,,,R,51,51,4971,61.08,8139
+MN,01,,332,Secretary of State,,401,Steve Simon,,,DFL,51,51,3164,38.87,8139
+MN,01,,332,Secretary of State,,9901,WRITE-IN,,,WI,51,51,4,0.05,8139
+MN,02,,332,Secretary of State,,301,Kim Crockett,,,R,128,128,77459,50.11,154575
+MN,02,,332,Secretary of State,,401,Steve Simon,,,DFL,128,128,76974,49.8,154575
+MN,02,,332,Secretary of State,,9901,WRITE-IN,,,WI,128,128,142,0.09,154575
+MN,03,,332,Secretary of State,,301,Kim Crockett,,,R,47,47,9636,66.26,14542
+MN,03,,332,Secretary of State,,401,Steve Simon,,,DFL,47,47,4896,33.67,14542
+MN,03,,332,Secretary of State,,9901,WRITE-IN,,,WI,47,47,10,0.07,14542
+MN,04,,332,Secretary of State,,301,Kim Crockett,,,R,61,61,9272,51.78,17908
+MN,04,,332,Secretary of State,,401,Steve Simon,,,DFL,61,61,8622,48.15,17908
+MN,04,,332,Secretary of State,,9901,WRITE-IN,,,WI,61,61,14,0.08,17908
+MN,05,,332,Secretary of State,,301,Kim Crockett,,,R,27,27,10372,64.1,16181
+MN,05,,332,Secretary of State,,401,Steve Simon,,,DFL,27,27,5797,35.83,16181
+MN,05,,332,Secretary of State,,9901,WRITE-IN,,,WI,27,27,12,0.07,16181
+MN,06,,332,Secretary of State,,301,Kim Crockett,,,R,24,24,1447,60.27,2401
+MN,06,,332,Secretary of State,,401,Steve Simon,,,DFL,24,24,952,39.65,2401
+MN,06,,332,Secretary of State,,9901,WRITE-IN,,,WI,24,24,2,0.08,2401
+MN,07,,332,Secretary of State,,301,Kim Crockett,,,R,56,56,12228,46.9,26070
+MN,07,,332,Secretary of State,,401,Steve Simon,,,DFL,56,56,13824,53.03,26070
+MN,07,,332,Secretary of State,,9901,WRITE-IN,,,WI,56,56,18,0.07,26070
+MN,08,,332,Secretary of State,,301,Kim Crockett,,,R,33,33,7365,64.25,11463
+MN,08,,332,Secretary of State,,401,Steve Simon,,,DFL,33,33,4093,35.71,11463
+MN,08,,332,Secretary of State,,9901,WRITE-IN,,,WI,33,33,5,0.04,11463
+MN,09,,332,Secretary of State,,301,Kim Crockett,,,R,39,39,7541,47.98,15717
+MN,09,,332,Secretary of State,,401,Steve Simon,,,DFL,39,39,8166,51.96,15717
+MN,09,,332,Secretary of State,,9901,WRITE-IN,,,WI,39,39,10,0.06,15717
+MN,10,,332,Secretary of State,,301,Kim Crockett,,,R,38,38,27863,52.28,53299
+MN,10,,332,Secretary of State,,401,Steve Simon,,,DFL,38,38,25398,47.65,53299
+MN,10,,332,Secretary of State,,9901,WRITE-IN,,,WI,38,38,38,0.07,53299
+MN,11,,332,Secretary of State,,301,Kim Crockett,,,R,71,71,9596,63.76,15051
+MN,11,,332,Secretary of State,,401,Steve Simon,,,DFL,71,71,5450,36.21,15051
+MN,11,,332,Secretary of State,,9901,WRITE-IN,,,WI,71,71,5,0.03,15051
+MN,12,,332,Secretary of State,,301,Kim Crockett,,,R,25,25,3032,61.74,4911
+MN,12,,332,Secretary of State,,401,Steve Simon,,,DFL,25,25,1878,38.24,4911
+MN,12,,332,Secretary of State,,9901,WRITE-IN,,,WI,25,25,1,0.02,4911
+MN,13,,332,Secretary of State,,301,Kim Crockett,,,R,23,23,15698,61.65,25463
+MN,13,,332,Secretary of State,,401,Steve Simon,,,DFL,23,23,9752,38.3,25463
+MN,13,,332,Secretary of State,,9901,WRITE-IN,,,WI,23,23,13,0.05,25463
+MN,14,,332,Secretary of State,,301,Kim Crockett,,,R,56,56,10532,48.28,21816
+MN,14,,332,Secretary of State,,401,Steve Simon,,,DFL,56,56,11256,51.6,21816
+MN,14,,332,Secretary of State,,9901,WRITE-IN,,,WI,56,56,28,0.13,21816
+MN,15,,332,Secretary of State,,301,Kim Crockett,,,R,29,29,2585,73.54,3515
+MN,15,,332,Secretary of State,,401,Steve Simon,,,DFL,29,29,929,26.43,3515
+MN,15,,332,Secretary of State,,9901,WRITE-IN,,,WI,29,29,1,0.03,3515
+MN,16,,332,Secretary of State,,301,Kim Crockett,,,R,14,14,1021,31.76,3215
+MN,16,,332,Secretary of State,,401,Steve Simon,,,DFL,14,14,2192,68.18,3215
+MN,16,,332,Secretary of State,,9901,WRITE-IN,,,WI,14,14,2,0.06,3215
+MN,17,,332,Secretary of State,,301,Kim Crockett,,,R,29,29,3062,66.9,4577
+MN,17,,332,Secretary of State,,401,Steve Simon,,,DFL,29,29,1506,32.9,4577
+MN,17,,332,Secretary of State,,9901,WRITE-IN,,,WI,29,29,9,0.2,4577
+MN,18,,332,Secretary of State,,301,Kim Crockett,,,R,62,62,19470,62,31405
+MN,18,,332,Secretary of State,,401,Steve Simon,,,DFL,62,62,11919,37.95,31405
+MN,18,,332,Secretary of State,,9901,WRITE-IN,,,WI,62,62,16,0.05,31405
+MN,19,,332,Secretary of State,,301,Kim Crockett,,,R,142,142,81424,42.1,193398
+MN,19,,332,Secretary of State,,401,Steve Simon,,,DFL,142,142,111688,57.75,193398
+MN,19,,332,Secretary of State,,9901,WRITE-IN,,,WI,142,142,286,0.15,193398
+MN,20,,332,Secretary of State,,301,Kim Crockett,,,R,22,22,5951,64.95,9163
+MN,20,,332,Secretary of State,,401,Steve Simon,,,DFL,22,22,3203,34.96,9163
+MN,20,,332,Secretary of State,,9901,WRITE-IN,,,WI,22,22,9,0.1,9163
+MN,21,,332,Secretary of State,,301,Kim Crockett,,,R,35,35,12484,63.97,19515
+MN,21,,332,Secretary of State,,401,Steve Simon,,,DFL,35,35,7013,35.94,19515
+MN,21,,332,Secretary of State,,9901,WRITE-IN,,,WI,35,35,18,0.09,19515
+MN,22,,332,Secretary of State,,301,Kim Crockett,,,R,33,33,3871,65.02,5954
+MN,22,,332,Secretary of State,,401,Steve Simon,,,DFL,33,33,2079,34.92,5954
+MN,22,,332,Secretary of State,,9901,WRITE-IN,,,WI,33,33,4,0.07,5954
+MN,23,,332,Secretary of State,,301,Kim Crockett,,,R,37,37,5553,59.58,9321
+MN,23,,332,Secretary of State,,401,Steve Simon,,,DFL,37,37,3759,40.33,9321
+MN,23,,332,Secretary of State,,9901,WRITE-IN,,,WI,37,37,9,0.1,9321
+MN,24,,332,Secretary of State,,301,Kim Crockett,,,R,43,43,7480,58.11,12873
+MN,24,,332,Secretary of State,,401,Steve Simon,,,DFL,43,43,5386,41.84,12873
+MN,24,,332,Secretary of State,,9901,WRITE-IN,,,WI,43,43,7,0.05,12873
+MN,25,,332,Secretary of State,,301,Kim Crockett,,,R,40,40,12318,53.99,22815
+MN,25,,332,Secretary of State,,401,Steve Simon,,,DFL,40,40,10475,45.91,22815
+MN,25,,332,Secretary of State,,9901,WRITE-IN,,,WI,40,40,22,0.1,22815
+MN,26,,332,Secretary of State,,301,Kim Crockett,,,R,23,23,1759,60.26,2919
+MN,26,,332,Secretary of State,,401,Steve Simon,,,DFL,23,23,1154,39.53,2919
+MN,26,,332,Secretary of State,,9901,WRITE-IN,,,WI,23,23,6,0.21,2919
+MN,27,,332,Secretary of State,,301,Kim Crockett,,,R,397,397,156073,27.49,567697
+MN,27,,332,Secretary of State,,401,Steve Simon,,,DFL,397,397,411144,72.42,567697
+MN,27,,332,Secretary of State,,9901,WRITE-IN,,,WI,397,397,480,0.08,567697
+MN,28,,332,Secretary of State,,301,Kim Crockett,,,R,27,27,4985,57.64,8649
+MN,28,,332,Secretary of State,,401,Steve Simon,,,DFL,27,27,3660,42.32,8649
+MN,28,,332,Secretary of State,,9901,WRITE-IN,,,WI,27,27,4,0.05,8649
+MN,29,,332,Secretary of State,,301,Kim Crockett,,,R,37,37,6596,62.36,10578
+MN,29,,332,Secretary of State,,401,Steve Simon,,,DFL,37,37,3977,37.6,10578
+MN,29,,332,Secretary of State,,9901,WRITE-IN,,,WI,37,37,5,0.05,10578
+MN,30,,332,Secretary of State,,301,Kim Crockett,,,R,19,19,12320,66.2,18609
+MN,30,,332,Secretary of State,,401,Steve Simon,,,DFL,19,19,6278,33.74,18609
+MN,30,,332,Secretary of State,,9901,WRITE-IN,,,WI,19,19,11,0.06,18609
+MN,31,,332,Secretary of State,,301,Kim Crockett,,,R,76,76,11660,55.3,21085
+MN,31,,332,Secretary of State,,401,Steve Simon,,,DFL,76,76,9415,44.65,21085
+MN,31,,332,Secretary of State,,9901,WRITE-IN,,,WI,76,76,10,0.05,21085
+MN,32,,332,Secretary of State,,301,Kim Crockett,,,R,28,28,2980,65.99,4516
+MN,32,,332,Secretary of State,,401,Steve Simon,,,DFL,28,28,1533,33.95,4516
+MN,32,,332,Secretary of State,,9901,WRITE-IN,,,WI,28,28,3,0.07,4516
+MN,33,,332,Secretary of State,,301,Kim Crockett,,,R,20,20,4568,64.9,7038
+MN,33,,332,Secretary of State,,401,Steve Simon,,,DFL,20,20,2468,35.07,7038
+MN,33,,332,Secretary of State,,9901,WRITE-IN,,,WI,20,20,2,0.03,7038
+MN,34,,332,Secretary of State,,301,Kim Crockett,,,R,48,48,10921,60.86,17944
+MN,34,,332,Secretary of State,,401,Steve Simon,,,DFL,48,48,7018,39.11,17944
+MN,34,,332,Secretary of State,,9901,WRITE-IN,,,WI,48,48,5,0.03,17944
+MN,35,,332,Secretary of State,,301,Kim Crockett,,,R,39,39,1141,60.72,1879
+MN,35,,332,Secretary of State,,401,Steve Simon,,,DFL,39,39,738,39.28,1879
+MN,35,,332,Secretary of State,,9901,WRITE-IN,,,WI,39,39,0,0,1879
+MN,36,,332,Secretary of State,,301,Kim Crockett,,,R,22,22,3068,58.98,5202
+MN,36,,332,Secretary of State,,401,Steve Simon,,,DFL,22,22,2132,40.98,5202
+MN,36,,332,Secretary of State,,9901,WRITE-IN,,,WI,22,22,2,0.04,5202
+MN,37,,332,Secretary of State,,301,Kim Crockett,,,R,29,29,1853,59.43,3118
+MN,37,,332,Secretary of State,,401,Steve Simon,,,DFL,29,29,1263,40.51,3118
+MN,37,,332,Secretary of State,,9901,WRITE-IN,,,WI,29,29,2,0.06,3118
+MN,38,,332,Secretary of State,,301,Kim Crockett,,,R,19,19,2605,46.34,5621
+MN,38,,332,Secretary of State,,401,Steve Simon,,,DFL,19,19,3009,53.53,5621
+MN,38,,332,Secretary of State,,9901,WRITE-IN,,,WI,19,19,7,0.12,5621
+MN,39,,332,Secretary of State,,301,Kim Crockett,,,R,17,17,1317,73.82,1784
+MN,39,,332,Secretary of State,,401,Steve Simon,,,DFL,17,17,464,26.01,1784
+MN,39,,332,Secretary of State,,9901,WRITE-IN,,,WI,17,17,3,0.17,1784
+MN,40,,332,Secretary of State,,301,Kim Crockett,,,R,26,26,8090,62.15,13017
+MN,40,,332,Secretary of State,,401,Steve Simon,,,DFL,26,26,4919,37.79,13017
+MN,40,,332,Secretary of State,,9901,WRITE-IN,,,WI,26,26,8,0.06,13017
+MN,41,,332,Secretary of State,,301,Kim Crockett,,,R,20,20,1626,67.52,2408
+MN,41,,332,Secretary of State,,401,Steve Simon,,,DFL,20,20,781,32.43,2408
+MN,41,,332,Secretary of State,,9901,WRITE-IN,,,WI,20,20,1,0.04,2408
+MN,42,,332,Secretary of State,,301,Kim Crockett,,,R,33,33,6026,62.43,9653
+MN,42,,332,Secretary of State,,401,Steve Simon,,,DFL,33,33,3622,37.52,9653
+MN,42,,332,Secretary of State,,9901,WRITE-IN,,,WI,33,33,5,0.05,9653
+MN,43,,332,Secretary of State,,301,Kim Crockett,,,R,28,28,10586,65.18,16241
+MN,43,,332,Secretary of State,,401,Steve Simon,,,DFL,28,28,5644,34.75,16241
+MN,43,,332,Secretary of State,,9901,WRITE-IN,,,WI,28,28,11,0.07,16241
+MN,44,,332,Secretary of State,,301,Kim Crockett,,,R,19,19,906,56.73,1597
+MN,44,,332,Secretary of State,,401,Steve Simon,,,DFL,19,19,690,43.21,1597
+MN,44,,332,Secretary of State,,9901,WRITE-IN,,,WI,19,19,1,0.06,1597
+MN,45,,332,Secretary of State,,301,Kim Crockett,,,R,60,60,2921,73.41,3979
+MN,45,,332,Secretary of State,,401,Steve Simon,,,DFL,60,60,1055,26.51,3979
+MN,45,,332,Secretary of State,,9901,WRITE-IN,,,WI,60,60,3,0.08,3979
+MN,46,,332,Secretary of State,,301,Kim Crockett,,,R,37,37,5588,67.83,8238
+MN,46,,332,Secretary of State,,401,Steve Simon,,,DFL,37,37,2649,32.16,8238
+MN,46,,332,Secretary of State,,9901,WRITE-IN,,,WI,37,37,1,0.01,8238
+MN,47,,332,Secretary of State,,301,Kim Crockett,,,R,30,30,7138,66.59,10720
+MN,47,,332,Secretary of State,,401,Steve Simon,,,DFL,30,30,3573,33.33,10720
+MN,47,,332,Secretary of State,,9901,WRITE-IN,,,WI,30,30,9,0.08,10720
+MN,48,,332,Secretary of State,,301,Kim Crockett,,,R,25,25,7246,66.02,10975
+MN,48,,332,Secretary of State,,401,Steve Simon,,,DFL,25,25,3718,33.88,10975
+MN,48,,332,Secretary of State,,9901,WRITE-IN,,,WI,25,25,11,0.1,10975
+MN,49,,332,Secretary of State,,301,Kim Crockett,,,R,48,48,11226,73.9,15190
+MN,49,,332,Secretary of State,,401,Steve Simon,,,DFL,48,48,3954,26.03,15190
+MN,49,,332,Secretary of State,,9901,WRITE-IN,,,WI,48,48,10,0.07,15190
+MN,50,,332,Secretary of State,,301,Kim Crockett,,,R,39,39,7241,52.07,13906
+MN,50,,332,Secretary of State,,401,Steve Simon,,,DFL,39,39,6657,47.87,13906
+MN,50,,332,Secretary of State,,9901,WRITE-IN,,,WI,39,39,8,0.06,13906
+MN,51,,332,Secretary of State,,301,Kim Crockett,,,R,29,29,2657,69.17,3841
+MN,51,,332,Secretary of State,,401,Steve Simon,,,DFL,29,29,1182,30.77,3841
+MN,51,,332,Secretary of State,,9901,WRITE-IN,,,WI,29,29,2,0.05,3841
+MN,52,,332,Secretary of State,,301,Kim Crockett,,,R,26,26,7095,47.12,15058
+MN,52,,332,Secretary of State,,401,Steve Simon,,,DFL,26,26,7947,52.78,15058
+MN,52,,332,Secretary of State,,9901,WRITE-IN,,,WI,26,26,16,0.11,15058
+MN,53,,332,Secretary of State,,301,Kim Crockett,,,R,40,40,3988,67.05,5948
+MN,53,,332,Secretary of State,,401,Steve Simon,,,DFL,40,40,1956,32.89,5948
+MN,53,,332,Secretary of State,,9901,WRITE-IN,,,WI,40,40,4,0.07,5948
+MN,54,,332,Secretary of State,,301,Kim Crockett,,,R,33,33,1422,58.09,2448
+MN,54,,332,Secretary of State,,401,Steve Simon,,,DFL,33,33,1023,41.79,2448
+MN,54,,332,Secretary of State,,9901,WRITE-IN,,,WI,33,33,3,0.12,2448
+MN,55,,332,Secretary of State,,301,Kim Crockett,,,R,110,110,30164,44.94,67118
+MN,55,,332,Secretary of State,,401,Steve Simon,,,DFL,110,110,36930,55.02,67118
+MN,55,,332,Secretary of State,,9901,WRITE-IN,,,WI,110,110,24,0.04,67118
+MN,56,,332,Secretary of State,,301,Kim Crockett,,,R,91,91,18846,67.1,28087
+MN,56,,332,Secretary of State,,401,Steve Simon,,,DFL,91,91,9219,32.82,28087
+MN,56,,332,Secretary of State,,9901,WRITE-IN,,,WI,91,91,22,0.08,28087
+MN,57,,332,Secretary of State,,301,Kim Crockett,,,R,31,31,3473,64.33,5399
+MN,57,,332,Secretary of State,,401,Steve Simon,,,DFL,31,31,1921,35.58,5399
+MN,57,,332,Secretary of State,,9901,WRITE-IN,,,WI,31,31,5,0.09,5399
+MN,58,,332,Secretary of State,,301,Kim Crockett,,,R,47,47,7655,62.4,12268
+MN,58,,332,Secretary of State,,401,Steve Simon,,,DFL,47,47,4603,37.52,12268
+MN,58,,332,Secretary of State,,9901,WRITE-IN,,,WI,47,47,10,0.08,12268
+MN,59,,332,Secretary of State,,301,Kim Crockett,,,R,22,22,2812,75.01,3749
+MN,59,,332,Secretary of State,,401,Steve Simon,,,DFL,22,22,935,24.94,3749
+MN,59,,332,Secretary of State,,9901,WRITE-IN,,,WI,22,22,2,0.05,3749
+MN,60,,332,Secretary of State,,301,Kim Crockett,,,R,82,82,7188,67.08,10715
+MN,60,,332,Secretary of State,,401,Steve Simon,,,DFL,82,82,3522,32.87,10715
+MN,60,,332,Secretary of State,,9901,WRITE-IN,,,WI,82,82,5,0.05,10715
+MN,61,,332,Secretary of State,,301,Kim Crockett,,,R,31,31,3394,60.68,5593
+MN,61,,332,Secretary of State,,401,Steve Simon,,,DFL,31,31,2190,39.16,5593
+MN,61,,332,Secretary of State,,9901,WRITE-IN,,,WI,31,31,9,0.16,5593
+MN,62,,332,Secretary of State,,301,Kim Crockett,,,R,162,162,55129,25.73,214287
+MN,62,,332,Secretary of State,,401,Steve Simon,,,DFL,162,162,158893,74.15,214287
+MN,62,,332,Secretary of State,,9901,WRITE-IN,,,WI,162,162,265,0.12,214287
+MN,63,,332,Secretary of State,,301,Kim Crockett,,,R,21,21,1027,65.46,1569
+MN,63,,332,Secretary of State,,401,Steve Simon,,,DFL,21,21,539,34.35,1569
+MN,63,,332,Secretary of State,,9901,WRITE-IN,,,WI,21,21,3,0.19,1569
+MN,64,,332,Secretary of State,,301,Kim Crockett,,,R,43,43,4453,69.82,6378
+MN,64,,332,Secretary of State,,401,Steve Simon,,,DFL,43,43,1921,30.12,6378
+MN,64,,332,Secretary of State,,9901,WRITE-IN,,,WI,43,43,4,0.06,6378
+MN,65,,332,Secretary of State,,301,Kim Crockett,,,R,37,37,4041,64.74,6242
+MN,65,,332,Secretary of State,,401,Steve Simon,,,DFL,37,37,2197,35.2,6242
+MN,65,,332,Secretary of State,,9901,WRITE-IN,,,WI,37,37,4,0.06,6242
+MN,66,,332,Secretary of State,,301,Kim Crockett,,,R,32,32,12980,46.44,27952
+MN,66,,332,Secretary of State,,401,Steve Simon,,,DFL,32,32,14953,53.5,27952
+MN,66,,332,Secretary of State,,9901,WRITE-IN,,,WI,32,32,19,0.07,27952
+MN,67,,332,Secretary of State,,301,Kim Crockett,,,R,24,24,2862,70.56,4056
+MN,67,,332,Secretary of State,,401,Steve Simon,,,DFL,24,24,1193,29.41,4056
+MN,67,,332,Secretary of State,,9901,WRITE-IN,,,WI,24,24,1,0.02,4056
+MN,68,,332,Secretary of State,,301,Kim Crockett,,,R,44,44,4814,74.87,6430
+MN,68,,332,Secretary of State,,401,Steve Simon,,,DFL,44,44,1615,25.12,6430
+MN,68,,332,Secretary of State,,9901,WRITE-IN,,,WI,44,44,1,0.02,6430
+MN,69,,332,Secretary of State,,301,Kim Crockett,,,R,170,170,36558,39.78,91899
+MN,69,,332,Secretary of State,,401,Steve Simon,,,DFL,170,170,55260,60.13,91899
+MN,69,,332,Secretary of State,,9901,WRITE-IN,,,WI,170,170,81,0.09,91899
+MN,70,,332,Secretary of State,,301,Kim Crockett,,,R,53,53,34788,53.1,65516
+MN,70,,332,Secretary of State,,401,Steve Simon,,,DFL,53,53,30678,46.83,65516
+MN,70,,332,Secretary of State,,9901,WRITE-IN,,,WI,53,53,50,0.08,65516
+MN,71,,332,Secretary of State,,301,Kim Crockett,,,R,35,35,25911,64.58,40124
+MN,71,,332,Secretary of State,,401,Steve Simon,,,DFL,35,35,14192,35.37,40124
+MN,71,,332,Secretary of State,,9901,WRITE-IN,,,WI,35,35,21,0.05,40124
+MN,72,,332,Secretary of State,,301,Kim Crockett,,,R,25,25,4397,67.36,6528
+MN,72,,332,Secretary of State,,401,Steve Simon,,,DFL,25,25,2125,32.55,6528
+MN,72,,332,Secretary of State,,9901,WRITE-IN,,,WI,25,25,6,0.09,6528
+MN,73,,332,Secretary of State,,301,Kim Crockett,,,R,99,99,38485,59.63,64539
+MN,73,,332,Secretary of State,,401,Steve Simon,,,DFL,99,99,25999,40.28,64539
+MN,73,,332,Secretary of State,,9901,WRITE-IN,,,WI,99,99,55,0.09,64539
+MN,74,,332,Secretary of State,,301,Kim Crockett,,,R,26,26,9385,57.52,16317
+MN,74,,332,Secretary of State,,401,Steve Simon,,,DFL,26,26,6923,42.43,16317
+MN,74,,332,Secretary of State,,9901,WRITE-IN,,,WI,26,26,9,0.06,16317
+MN,75,,332,Secretary of State,,301,Kim Crockett,,,R,24,24,2409,60.29,3996
+MN,75,,332,Secretary of State,,401,Steve Simon,,,DFL,24,24,1585,39.66,3996
+MN,75,,332,Secretary of State,,9901,WRITE-IN,,,WI,24,24,2,0.05,3996
+MN,76,,332,Secretary of State,,301,Kim Crockett,,,R,30,30,2338,60.1,3890
+MN,76,,332,Secretary of State,,401,Steve Simon,,,DFL,30,30,1551,39.87,3890
+MN,76,,332,Secretary of State,,9901,WRITE-IN,,,WI,30,30,1,0.03,3890
+MN,77,,332,Secretary of State,,301,Kim Crockett,,,R,40,40,7626,70.85,10763
+MN,77,,332,Secretary of State,,401,Steve Simon,,,DFL,40,40,3126,29.04,10763
+MN,77,,332,Secretary of State,,9901,WRITE-IN,,,WI,40,40,11,0.1,10763
+MN,78,,332,Secretary of State,,301,Kim Crockett,,,R,20,20,959,62.68,1530
+MN,78,,332,Secretary of State,,401,Steve Simon,,,DFL,20,20,570,37.25,1530
+MN,78,,332,Secretary of State,,9901,WRITE-IN,,,WI,20,20,1,0.07,1530
+MN,79,,332,Secretary of State,,301,Kim Crockett,,,R,33,33,6335,59.85,10585
+MN,79,,332,Secretary of State,,401,Steve Simon,,,DFL,33,33,4242,40.08,10585
+MN,79,,332,Secretary of State,,9901,WRITE-IN,,,WI,33,33,8,0.08,10585
+MN,80,,332,Secretary of State,,301,Kim Crockett,,,R,25,25,4219,71.67,5887
+MN,80,,332,Secretary of State,,401,Steve Simon,,,DFL,25,25,1668,28.33,5887
+MN,80,,332,Secretary of State,,9901,WRITE-IN,,,WI,25,25,0,0,5887
+MN,81,,332,Secretary of State,,301,Kim Crockett,,,R,23,23,5223,63.23,8260
+MN,81,,332,Secretary of State,,401,Steve Simon,,,DFL,23,23,3030,36.68,8260
+MN,81,,332,Secretary of State,,9901,WRITE-IN,,,WI,23,23,7,0.08,8260
+MN,82,,332,Secretary of State,,301,Kim Crockett,,,R,83,83,56899,44.15,128868
+MN,82,,332,Secretary of State,,401,Steve Simon,,,DFL,83,83,71895,55.79,128868
+MN,82,,332,Secretary of State,,9901,WRITE-IN,,,WI,83,83,74,0.06,128868
+MN,83,,332,Secretary of State,,301,Kim Crockett,,,R,21,21,2293,60.28,3804
+MN,83,,332,Secretary of State,,401,Steve Simon,,,DFL,21,21,1508,39.64,3804
+MN,83,,332,Secretary of State,,9901,WRITE-IN,,,WI,21,21,3,0.08,3804
+MN,84,,332,Secretary of State,,301,Kim Crockett,,,R,32,32,1796,70.38,2552
+MN,84,,332,Secretary of State,,401,Steve Simon,,,DFL,32,32,753,29.51,2552
+MN,84,,332,Secretary of State,,9901,WRITE-IN,,,WI,32,32,3,0.12,2552
+MN,85,,332,Secretary of State,,301,Kim Crockett,,,R,49,49,10145,50.29,20175
+MN,85,,332,Secretary of State,,401,Steve Simon,,,DFL,49,49,10012,49.63,20175
+MN,85,,332,Secretary of State,,9901,WRITE-IN,,,WI,49,49,18,0.09,20175
+MN,86,,332,Secretary of State,,301,Kim Crockett,,,R,49,49,40667,62.48,65083
+MN,86,,332,Secretary of State,,401,Steve Simon,,,DFL,49,49,24372,37.45,65083
+MN,86,,332,Secretary of State,,9901,WRITE-IN,,,WI,49,49,44,0.07,65083
+MN,87,,332,Secretary of State,,301,Kim Crockett,,,R,30,30,2834,65.31,4339
+MN,87,,332,Secretary of State,,401,Steve Simon,,,DFL,30,30,1505,34.69,4339
+MN,87,,332,Secretary of State,,9901,WRITE-IN,,,WI,30,30,0,0,4339

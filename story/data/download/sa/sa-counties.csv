@@ -1,0 +1,436 @@
+state,county_id,precinct_id,office_id,office_name,district,cand_order,cand_name,suffix,incumbent,party,counties_reporting,counties_voting,votes,votes_pct,votes_office
+MN,01,,333,State Auditor,,101,Will Finn,,,GLC,51,51,123,1.48,8309
+MN,01,,333,State Auditor,,201,Tim Davis,,,LMN,51,51,271,3.26,8309
+MN,01,,333,State Auditor,,301,Ryan Wilson,,,R,51,51,5229,62.93,8309
+MN,01,,333,State Auditor,,401,Julie Blaha,,,DFL,51,51,2685,32.31,8309
+MN,01,,333,State Auditor,,9901,WRITE-IN,,,WI,51,51,1,0.01,8309
+MN,02,,333,State Auditor,,101,Will Finn,,,GLC,128,128,2988,1.94,153780
+MN,02,,333,State Auditor,,201,Tim Davis,,,LMN,128,128,7133,4.64,153780
+MN,02,,333,State Auditor,,301,Ryan Wilson,,,R,128,128,78757,51.21,153780
+MN,02,,333,State Auditor,,401,Julie Blaha,,,DFL,128,128,64822,42.15,153780
+MN,02,,333,State Auditor,,9901,WRITE-IN,,,WI,128,128,80,0.05,153780
+MN,03,,333,State Auditor,,101,Will Finn,,,GLC,47,47,215,1.47,14585
+MN,03,,333,State Auditor,,201,Tim Davis,,,LMN,47,47,479,3.28,14585
+MN,03,,333,State Auditor,,301,Ryan Wilson,,,R,47,47,9451,64.8,14585
+MN,03,,333,State Auditor,,401,Julie Blaha,,,DFL,47,47,4435,30.41,14585
+MN,03,,333,State Auditor,,9901,WRITE-IN,,,WI,47,47,5,0.03,14585
+MN,04,,333,State Auditor,,101,Will Finn,,,GLC,61,61,372,2.09,17841
+MN,04,,333,State Auditor,,201,Tim Davis,,,LMN,61,61,717,4.02,17841
+MN,04,,333,State Auditor,,301,Ryan Wilson,,,R,61,61,9442,52.92,17841
+MN,04,,333,State Auditor,,401,Julie Blaha,,,DFL,61,61,7306,40.95,17841
+MN,04,,333,State Auditor,,9901,WRITE-IN,,,WI,61,61,4,0.02,17841
+MN,05,,333,State Auditor,,101,Will Finn,,,GLC,27,27,321,1.99,16102
+MN,05,,333,State Auditor,,201,Tim Davis,,,LMN,27,27,640,3.97,16102
+MN,05,,333,State Auditor,,301,Ryan Wilson,,,R,27,27,10480,65.09,16102
+MN,05,,333,State Auditor,,401,Julie Blaha,,,DFL,27,27,4652,28.89,16102
+MN,05,,333,State Auditor,,9901,WRITE-IN,,,WI,27,27,9,0.06,16102
+MN,06,,333,State Auditor,,101,Will Finn,,,GLC,24,24,27,1.13,2395
+MN,06,,333,State Auditor,,201,Tim Davis,,,LMN,24,24,86,3.59,2395
+MN,06,,333,State Auditor,,301,Ryan Wilson,,,R,24,24,1488,62.13,2395
+MN,06,,333,State Auditor,,401,Julie Blaha,,,DFL,24,24,792,33.07,2395
+MN,06,,333,State Auditor,,9901,WRITE-IN,,,WI,24,24,2,0.08,2395
+MN,07,,333,State Auditor,,101,Will Finn,,,GLC,56,56,434,1.67,26048
+MN,07,,333,State Auditor,,201,Tim Davis,,,LMN,56,56,1034,3.97,26048
+MN,07,,333,State Auditor,,301,Ryan Wilson,,,R,56,56,12383,47.54,26048
+MN,07,,333,State Auditor,,401,Julie Blaha,,,DFL,56,56,12192,46.81,26048
+MN,07,,333,State Auditor,,9901,WRITE-IN,,,WI,56,56,5,0.02,26048
+MN,08,,333,State Auditor,,101,Will Finn,,,GLC,33,33,159,1.39,11479
+MN,08,,333,State Auditor,,201,Tim Davis,,,LMN,33,33,318,2.77,11479
+MN,08,,333,State Auditor,,301,Ryan Wilson,,,R,33,33,7687,66.97,11479
+MN,08,,333,State Auditor,,401,Julie Blaha,,,DFL,33,33,3308,28.82,11479
+MN,08,,333,State Auditor,,9901,WRITE-IN,,,WI,33,33,7,0.06,11479
+MN,09,,333,State Auditor,,101,Will Finn,,,GLC,39,39,352,2.25,15622
+MN,09,,333,State Auditor,,201,Tim Davis,,,LMN,39,39,637,4.08,15622
+MN,09,,333,State Auditor,,301,Ryan Wilson,,,R,39,39,7429,47.55,15622
+MN,09,,333,State Auditor,,401,Julie Blaha,,,DFL,39,39,7188,46.01,15622
+MN,09,,333,State Auditor,,9901,WRITE-IN,,,WI,39,39,16,0.1,15622
+MN,10,,333,State Auditor,,101,Will Finn,,,GLC,38,38,876,1.66,52791
+MN,10,,333,State Auditor,,201,Tim Davis,,,LMN,38,38,1614,3.06,52791
+MN,10,,333,State Auditor,,301,Ryan Wilson,,,R,38,38,29036,55,52791
+MN,10,,333,State Auditor,,401,Julie Blaha,,,DFL,38,38,21247,40.25,52791
+MN,10,,333,State Auditor,,9901,WRITE-IN,,,WI,38,38,18,0.03,52791
+MN,11,,333,State Auditor,,101,Will Finn,,,GLC,71,71,311,2.07,15051
+MN,11,,333,State Auditor,,201,Tim Davis,,,LMN,71,71,443,2.94,15051
+MN,11,,333,State Auditor,,301,Ryan Wilson,,,R,71,71,9799,65.11,15051
+MN,11,,333,State Auditor,,401,Julie Blaha,,,DFL,71,71,4492,29.85,15051
+MN,11,,333,State Auditor,,9901,WRITE-IN,,,WI,71,71,6,0.04,15051
+MN,12,,333,State Auditor,,101,Will Finn,,,GLC,25,25,63,1.29,4891
+MN,12,,333,State Auditor,,201,Tim Davis,,,LMN,25,25,153,3.13,4891
+MN,12,,333,State Auditor,,301,Ryan Wilson,,,R,25,25,3152,64.44,4891
+MN,12,,333,State Auditor,,401,Julie Blaha,,,DFL,25,25,1521,31.1,4891
+MN,12,,333,State Auditor,,9901,WRITE-IN,,,WI,25,25,2,0.04,4891
+MN,13,,333,State Auditor,,101,Will Finn,,,GLC,23,23,510,2,25489
+MN,13,,333,State Auditor,,201,Tim Davis,,,LMN,23,23,1134,4.45,25489
+MN,13,,333,State Auditor,,301,Ryan Wilson,,,R,23,23,15720,61.67,25489
+MN,13,,333,State Auditor,,401,Julie Blaha,,,DFL,23,23,8114,31.83,25489
+MN,13,,333,State Auditor,,9901,WRITE-IN,,,WI,23,23,11,0.04,25489
+MN,14,,333,State Auditor,,101,Will Finn,,,GLC,56,56,376,1.75,21448
+MN,14,,333,State Auditor,,201,Tim Davis,,,LMN,56,56,848,3.95,21448
+MN,14,,333,State Auditor,,301,Ryan Wilson,,,R,56,56,9995,46.6,21448
+MN,14,,333,State Auditor,,401,Julie Blaha,,,DFL,56,56,10204,47.58,21448
+MN,14,,333,State Auditor,,9901,WRITE-IN,,,WI,56,56,25,0.12,21448
+MN,15,,333,State Auditor,,101,Will Finn,,,GLC,29,29,50,1.42,3513
+MN,15,,333,State Auditor,,201,Tim Davis,,,LMN,29,29,106,3.02,3513
+MN,15,,333,State Auditor,,301,Ryan Wilson,,,R,29,29,2529,71.99,3513
+MN,15,,333,State Auditor,,401,Julie Blaha,,,DFL,29,29,828,23.57,3513
+MN,15,,333,State Auditor,,9901,WRITE-IN,,,WI,29,29,0,0,3513
+MN,16,,333,State Auditor,,101,Will Finn,,,GLC,14,14,52,1.63,3195
+MN,16,,333,State Auditor,,201,Tim Davis,,,LMN,14,14,79,2.47,3195
+MN,16,,333,State Auditor,,301,Ryan Wilson,,,R,14,14,1015,31.77,3195
+MN,16,,333,State Auditor,,401,Julie Blaha,,,DFL,14,14,2048,64.1,3195
+MN,16,,333,State Auditor,,9901,WRITE-IN,,,WI,14,14,1,0.03,3195
+MN,17,,333,State Auditor,,101,Will Finn,,,GLC,29,29,70,1.53,4561
+MN,17,,333,State Auditor,,201,Tim Davis,,,LMN,29,29,151,3.31,4561
+MN,17,,333,State Auditor,,301,Ryan Wilson,,,R,29,29,3145,68.95,4561
+MN,17,,333,State Auditor,,401,Julie Blaha,,,DFL,29,29,1190,26.09,4561
+MN,17,,333,State Auditor,,9901,WRITE-IN,,,WI,29,29,5,0.11,4561
+MN,18,,333,State Auditor,,101,Will Finn,,,GLC,62,62,508,1.58,32140
+MN,18,,333,State Auditor,,201,Tim Davis,,,LMN,62,62,1216,3.78,32140
+MN,18,,333,State Auditor,,301,Ryan Wilson,,,R,62,62,20367,63.37,32140
+MN,18,,333,State Auditor,,401,Julie Blaha,,,DFL,62,62,10042,31.24,32140
+MN,18,,333,State Auditor,,9901,WRITE-IN,,,WI,62,62,7,0.02,32140
+MN,19,,333,State Auditor,,101,Will Finn,,,GLC,142,142,2992,1.52,197171
+MN,19,,333,State Auditor,,201,Tim Davis,,,LMN,142,142,6758,3.43,197171
+MN,19,,333,State Auditor,,301,Ryan Wilson,,,R,142,142,88143,44.7,197171
+MN,19,,333,State Auditor,,401,Julie Blaha,,,DFL,142,142,99091,50.26,197171
+MN,19,,333,State Auditor,,9901,WRITE-IN,,,WI,142,142,187,0.09,197171
+MN,20,,333,State Auditor,,101,Will Finn,,,GLC,22,22,157,1.71,9183
+MN,20,,333,State Auditor,,201,Tim Davis,,,LMN,22,22,232,2.53,9183
+MN,20,,333,State Auditor,,301,Ryan Wilson,,,R,22,22,5965,64.96,9183
+MN,20,,333,State Auditor,,401,Julie Blaha,,,DFL,22,22,2820,30.71,9183
+MN,20,,333,State Auditor,,9901,WRITE-IN,,,WI,22,22,9,0.1,9183
+MN,21,,333,State Auditor,,101,Will Finn,,,GLC,35,35,204,1.05,19397
+MN,21,,333,State Auditor,,201,Tim Davis,,,LMN,35,35,514,2.65,19397
+MN,21,,333,State Auditor,,301,Ryan Wilson,,,R,35,35,13030,67.18,19397
+MN,21,,333,State Auditor,,401,Julie Blaha,,,DFL,35,35,5642,29.09,19397
+MN,21,,333,State Auditor,,9901,WRITE-IN,,,WI,35,35,7,0.04,19397
+MN,22,,333,State Auditor,,101,Will Finn,,,GLC,33,33,89,1.5,5943
+MN,22,,333,State Auditor,,201,Tim Davis,,,LMN,33,33,177,2.98,5943
+MN,22,,333,State Auditor,,301,Ryan Wilson,,,R,33,33,3974,66.87,5943
+MN,22,,333,State Auditor,,401,Julie Blaha,,,DFL,33,33,1700,28.61,5943
+MN,22,,333,State Auditor,,9901,WRITE-IN,,,WI,33,33,3,0.05,5943
+MN,23,,333,State Auditor,,101,Will Finn,,,GLC,37,37,150,1.6,9357
+MN,23,,333,State Auditor,,201,Tim Davis,,,LMN,37,37,294,3.14,9357
+MN,23,,333,State Auditor,,301,Ryan Wilson,,,R,37,37,5621,60.07,9357
+MN,23,,333,State Auditor,,401,Julie Blaha,,,DFL,37,37,3285,35.11,9357
+MN,23,,333,State Auditor,,9901,WRITE-IN,,,WI,37,37,7,0.07,9357
+MN,24,,333,State Auditor,,101,Will Finn,,,GLC,43,43,217,1.7,12787
+MN,24,,333,State Auditor,,201,Tim Davis,,,LMN,43,43,473,3.7,12787
+MN,24,,333,State Auditor,,301,Ryan Wilson,,,R,43,43,7451,58.27,12787
+MN,24,,333,State Auditor,,401,Julie Blaha,,,DFL,43,43,4643,36.31,12787
+MN,24,,333,State Auditor,,9901,WRITE-IN,,,WI,43,43,3,0.02,12787
+MN,25,,333,State Auditor,,101,Will Finn,,,GLC,40,40,392,1.73,22692
+MN,25,,333,State Auditor,,201,Tim Davis,,,LMN,40,40,688,3.03,22692
+MN,25,,333,State Auditor,,301,Ryan Wilson,,,R,40,40,12995,57.27,22692
+MN,25,,333,State Auditor,,401,Julie Blaha,,,DFL,40,40,8610,37.94,22692
+MN,25,,333,State Auditor,,9901,WRITE-IN,,,WI,40,40,7,0.03,22692
+MN,26,,333,State Auditor,,101,Will Finn,,,GLC,23,23,49,1.69,2907
+MN,26,,333,State Auditor,,201,Tim Davis,,,LMN,23,23,108,3.72,2907
+MN,26,,333,State Auditor,,301,Ryan Wilson,,,R,23,23,1764,60.68,2907
+MN,26,,333,State Auditor,,401,Julie Blaha,,,DFL,23,23,983,33.81,2907
+MN,26,,333,State Auditor,,9901,WRITE-IN,,,WI,23,23,3,0.1,2907
+MN,27,,333,State Auditor,,101,Will Finn,,,GLC,397,397,9719,1.73,561723
+MN,27,,333,State Auditor,,201,Tim Davis,,,LMN,397,397,18436,3.28,561723
+MN,27,,333,State Auditor,,301,Ryan Wilson,,,R,397,397,170033,30.27,561723
+MN,27,,333,State Auditor,,401,Julie Blaha,,,DFL,397,397,363204,64.66,561723
+MN,27,,333,State Auditor,,9901,WRITE-IN,,,WI,397,397,331,0.06,561723
+MN,28,,333,State Auditor,,101,Will Finn,,,GLC,27,27,107,1.23,8667
+MN,28,,333,State Auditor,,201,Tim Davis,,,LMN,27,27,284,3.28,8667
+MN,28,,333,State Auditor,,301,Ryan Wilson,,,R,27,27,4941,57.01,8667
+MN,28,,333,State Auditor,,401,Julie Blaha,,,DFL,27,27,3334,38.47,8667
+MN,28,,333,State Auditor,,9901,WRITE-IN,,,WI,27,27,1,0.01,8667
+MN,29,,333,State Auditor,,101,Will Finn,,,GLC,37,37,169,1.6,10539
+MN,29,,333,State Auditor,,201,Tim Davis,,,LMN,37,37,306,2.9,10539
+MN,29,,333,State Auditor,,301,Ryan Wilson,,,R,37,37,6686,63.44,10539
+MN,29,,333,State Auditor,,401,Julie Blaha,,,DFL,37,37,3373,32,10539
+MN,29,,333,State Auditor,,9901,WRITE-IN,,,WI,37,37,5,0.05,10539
+MN,30,,333,State Auditor,,101,Will Finn,,,GLC,19,19,469,2.53,18520
+MN,30,,333,State Auditor,,201,Tim Davis,,,LMN,19,19,871,4.7,18520
+MN,30,,333,State Auditor,,301,Ryan Wilson,,,R,19,19,12129,65.49,18520
+MN,30,,333,State Auditor,,401,Julie Blaha,,,DFL,19,19,5040,27.21,18520
+MN,30,,333,State Auditor,,9901,WRITE-IN,,,WI,19,19,11,0.06,18520
+MN,31,,333,State Auditor,,101,Will Finn,,,GLC,76,76,372,1.77,21023
+MN,31,,333,State Auditor,,201,Tim Davis,,,LMN,76,76,810,3.85,21023
+MN,31,,333,State Auditor,,301,Ryan Wilson,,,R,76,76,11580,55.08,21023
+MN,31,,333,State Auditor,,401,Julie Blaha,,,DFL,76,76,8252,39.25,21023
+MN,31,,333,State Auditor,,9901,WRITE-IN,,,WI,76,76,9,0.04,21023
+MN,32,,333,State Auditor,,101,Will Finn,,,GLC,28,28,78,1.73,4504
+MN,32,,333,State Auditor,,201,Tim Davis,,,LMN,28,28,128,2.84,4504
+MN,32,,333,State Auditor,,301,Ryan Wilson,,,R,28,28,3071,68.18,4504
+MN,32,,333,State Auditor,,401,Julie Blaha,,,DFL,28,28,1226,27.22,4504
+MN,32,,333,State Auditor,,9901,WRITE-IN,,,WI,28,28,1,0.02,4504
+MN,33,,333,State Auditor,,101,Will Finn,,,GLC,20,20,169,2.41,6999
+MN,33,,333,State Auditor,,201,Tim Davis,,,LMN,20,20,303,4.33,6999
+MN,33,,333,State Auditor,,301,Ryan Wilson,,,R,20,20,4562,65.18,6999
+MN,33,,333,State Auditor,,401,Julie Blaha,,,DFL,20,20,1962,28.03,6999
+MN,33,,333,State Auditor,,9901,WRITE-IN,,,WI,20,20,3,0.04,6999
+MN,34,,333,State Auditor,,101,Will Finn,,,GLC,48,48,252,1.4,18013
+MN,34,,333,State Auditor,,201,Tim Davis,,,LMN,48,48,553,3.07,18013
+MN,34,,333,State Auditor,,301,Ryan Wilson,,,R,48,48,11510,63.9,18013
+MN,34,,333,State Auditor,,401,Julie Blaha,,,DFL,48,48,5694,31.61,18013
+MN,34,,333,State Auditor,,9901,WRITE-IN,,,WI,48,48,4,0.02,18013
+MN,35,,333,State Auditor,,101,Will Finn,,,GLC,39,39,38,2.03,1873
+MN,35,,333,State Auditor,,201,Tim Davis,,,LMN,39,39,85,4.54,1873
+MN,35,,333,State Auditor,,301,Ryan Wilson,,,R,39,39,1110,59.26,1873
+MN,35,,333,State Auditor,,401,Julie Blaha,,,DFL,39,39,640,34.17,1873
+MN,35,,333,State Auditor,,9901,WRITE-IN,,,WI,39,39,0,0,1873
+MN,36,,333,State Auditor,,101,Will Finn,,,GLC,22,22,101,1.95,5171
+MN,36,,333,State Auditor,,201,Tim Davis,,,LMN,22,22,189,3.65,5171
+MN,36,,333,State Auditor,,301,Ryan Wilson,,,R,22,22,3016,58.33,5171
+MN,36,,333,State Auditor,,401,Julie Blaha,,,DFL,22,22,1864,36.05,5171
+MN,36,,333,State Auditor,,9901,WRITE-IN,,,WI,22,22,1,0.02,5171
+MN,37,,333,State Auditor,,101,Will Finn,,,GLC,29,29,36,1.16,3116
+MN,37,,333,State Auditor,,201,Tim Davis,,,LMN,29,29,71,2.28,3116
+MN,37,,333,State Auditor,,301,Ryan Wilson,,,R,29,29,1966,63.09,3116
+MN,37,,333,State Auditor,,401,Julie Blaha,,,DFL,29,29,1040,33.38,3116
+MN,37,,333,State Auditor,,9901,WRITE-IN,,,WI,29,29,3,0.1,3116
+MN,38,,333,State Auditor,,101,Will Finn,,,GLC,19,19,118,2.1,5621
+MN,38,,333,State Auditor,,201,Tim Davis,,,LMN,19,19,190,3.38,5621
+MN,38,,333,State Auditor,,301,Ryan Wilson,,,R,19,19,2583,45.95,5621
+MN,38,,333,State Auditor,,401,Julie Blaha,,,DFL,19,19,2727,48.51,5621
+MN,38,,333,State Auditor,,9901,WRITE-IN,,,WI,19,19,3,0.05,5621
+MN,39,,333,State Auditor,,101,Will Finn,,,GLC,17,17,15,0.84,1787
+MN,39,,333,State Auditor,,201,Tim Davis,,,LMN,17,17,40,2.24,1787
+MN,39,,333,State Auditor,,301,Ryan Wilson,,,R,17,17,1288,72.08,1787
+MN,39,,333,State Auditor,,401,Julie Blaha,,,DFL,17,17,443,24.79,1787
+MN,39,,333,State Auditor,,9901,WRITE-IN,,,WI,17,17,1,0.06,1787
+MN,40,,333,State Auditor,,101,Will Finn,,,GLC,26,26,229,1.77,12973
+MN,40,,333,State Auditor,,201,Tim Davis,,,LMN,26,26,505,3.89,12973
+MN,40,,333,State Auditor,,301,Ryan Wilson,,,R,26,26,8256,63.64,12973
+MN,40,,333,State Auditor,,401,Julie Blaha,,,DFL,26,26,3979,30.67,12973
+MN,40,,333,State Auditor,,9901,WRITE-IN,,,WI,26,26,4,0.03,12973
+MN,41,,333,State Auditor,,101,Will Finn,,,GLC,20,20,39,1.62,2409
+MN,41,,333,State Auditor,,201,Tim Davis,,,LMN,20,20,65,2.7,2409
+MN,41,,333,State Auditor,,301,Ryan Wilson,,,R,20,20,1621,67.29,2409
+MN,41,,333,State Auditor,,401,Julie Blaha,,,DFL,20,20,683,28.35,2409
+MN,41,,333,State Auditor,,9901,WRITE-IN,,,WI,20,20,1,0.04,2409
+MN,42,,333,State Auditor,,101,Will Finn,,,GLC,33,33,126,1.3,9702
+MN,42,,333,State Auditor,,201,Tim Davis,,,LMN,33,33,306,3.15,9702
+MN,42,,333,State Auditor,,301,Ryan Wilson,,,R,33,33,6280,64.73,9702
+MN,42,,333,State Auditor,,401,Julie Blaha,,,DFL,33,33,2986,30.78,9702
+MN,42,,333,State Auditor,,9901,WRITE-IN,,,WI,33,33,4,0.04,9702
+MN,43,,333,State Auditor,,101,Will Finn,,,GLC,28,28,294,1.82,16176
+MN,43,,333,State Auditor,,201,Tim Davis,,,LMN,28,28,573,3.54,16176
+MN,43,,333,State Auditor,,301,Ryan Wilson,,,R,28,28,10934,67.59,16176
+MN,43,,333,State Auditor,,401,Julie Blaha,,,DFL,28,28,4371,27.02,16176
+MN,43,,333,State Auditor,,9901,WRITE-IN,,,WI,28,28,4,0.02,16176
+MN,44,,333,State Auditor,,101,Will Finn,,,GLC,19,19,27,1.66,1623
+MN,44,,333,State Auditor,,201,Tim Davis,,,LMN,19,19,73,4.5,1623
+MN,44,,333,State Auditor,,301,Ryan Wilson,,,R,19,19,908,55.95,1623
+MN,44,,333,State Auditor,,401,Julie Blaha,,,DFL,19,19,613,37.77,1623
+MN,44,,333,State Auditor,,9901,WRITE-IN,,,WI,19,19,2,0.12,1623
+MN,45,,333,State Auditor,,101,Will Finn,,,GLC,60,60,52,1.31,3977
+MN,45,,333,State Auditor,,201,Tim Davis,,,LMN,60,60,103,2.59,3977
+MN,45,,333,State Auditor,,301,Ryan Wilson,,,R,60,60,2850,71.66,3977
+MN,45,,333,State Auditor,,401,Julie Blaha,,,DFL,60,60,969,24.37,3977
+MN,45,,333,State Auditor,,9901,WRITE-IN,,,WI,60,60,3,0.08,3977
+MN,46,,333,State Auditor,,101,Will Finn,,,GLC,37,37,107,1.3,8247
+MN,46,,333,State Auditor,,201,Tim Davis,,,LMN,37,37,299,3.63,8247
+MN,46,,333,State Auditor,,301,Ryan Wilson,,,R,37,37,5709,69.23,8247
+MN,46,,333,State Auditor,,401,Julie Blaha,,,DFL,37,37,2131,25.84,8247
+MN,46,,333,State Auditor,,9901,WRITE-IN,,,WI,37,37,1,0.01,8247
+MN,47,,333,State Auditor,,101,Will Finn,,,GLC,30,30,181,1.7,10671
+MN,47,,333,State Auditor,,201,Tim Davis,,,LMN,30,30,351,3.29,10671
+MN,47,,333,State Auditor,,301,Ryan Wilson,,,R,30,30,7271,68.14,10671
+MN,47,,333,State Auditor,,401,Julie Blaha,,,DFL,30,30,2861,26.81,10671
+MN,47,,333,State Auditor,,9901,WRITE-IN,,,WI,30,30,7,0.07,10671
+MN,48,,333,State Auditor,,101,Will Finn,,,GLC,25,25,220,2.01,10934
+MN,48,,333,State Auditor,,201,Tim Davis,,,LMN,25,25,469,4.29,10934
+MN,48,,333,State Auditor,,301,Ryan Wilson,,,R,25,25,7251,66.32,10934
+MN,48,,333,State Auditor,,401,Julie Blaha,,,DFL,25,25,2989,27.34,10934
+MN,48,,333,State Auditor,,9901,WRITE-IN,,,WI,25,25,5,0.05,10934
+MN,49,,333,State Auditor,,101,Will Finn,,,GLC,48,48,205,1.34,15251
+MN,49,,333,State Auditor,,201,Tim Davis,,,LMN,48,48,418,2.74,15251
+MN,49,,333,State Auditor,,301,Ryan Wilson,,,R,48,48,11421,74.89,15251
+MN,49,,333,State Auditor,,401,Julie Blaha,,,DFL,48,48,3205,21.02,15251
+MN,49,,333,State Auditor,,9901,WRITE-IN,,,WI,48,48,2,0.01,15251
+MN,50,,333,State Auditor,,101,Will Finn,,,GLC,39,39,235,1.69,13916
+MN,50,,333,State Auditor,,201,Tim Davis,,,LMN,39,39,609,4.38,13916
+MN,50,,333,State Auditor,,301,Ryan Wilson,,,R,39,39,7210,51.81,13916
+MN,50,,333,State Auditor,,401,Julie Blaha,,,DFL,39,39,5855,42.07,13916
+MN,50,,333,State Auditor,,9901,WRITE-IN,,,WI,39,39,7,0.05,13916
+MN,51,,333,State Auditor,,101,Will Finn,,,GLC,29,29,33,0.86,3851
+MN,51,,333,State Auditor,,201,Tim Davis,,,LMN,29,29,100,2.6,3851
+MN,51,,333,State Auditor,,301,Ryan Wilson,,,R,29,29,2696,70.01,3851
+MN,51,,333,State Auditor,,401,Julie Blaha,,,DFL,29,29,1020,26.49,3851
+MN,51,,333,State Auditor,,9901,WRITE-IN,,,WI,29,29,2,0.05,3851
+MN,52,,333,State Auditor,,101,Will Finn,,,GLC,26,26,240,1.6,15031
+MN,52,,333,State Auditor,,201,Tim Davis,,,LMN,26,26,487,3.24,15031
+MN,52,,333,State Auditor,,301,Ryan Wilson,,,R,26,26,7311,48.64,15031
+MN,52,,333,State Auditor,,401,Julie Blaha,,,DFL,26,26,6984,46.46,15031
+MN,52,,333,State Auditor,,9901,WRITE-IN,,,WI,26,26,9,0.06,15031
+MN,53,,333,State Auditor,,101,Will Finn,,,GLC,40,40,84,1.4,5984
+MN,53,,333,State Auditor,,201,Tim Davis,,,LMN,40,40,185,3.09,5984
+MN,53,,333,State Auditor,,301,Ryan Wilson,,,R,40,40,4011,67.03,5984
+MN,53,,333,State Auditor,,401,Julie Blaha,,,DFL,40,40,1702,28.44,5984
+MN,53,,333,State Auditor,,9901,WRITE-IN,,,WI,40,40,2,0.03,5984
+MN,54,,333,State Auditor,,101,Will Finn,,,GLC,33,33,41,1.68,2438
+MN,54,,333,State Auditor,,201,Tim Davis,,,LMN,33,33,93,3.81,2438
+MN,54,,333,State Auditor,,301,Ryan Wilson,,,R,33,33,1394,57.18,2438
+MN,54,,333,State Auditor,,401,Julie Blaha,,,DFL,33,33,906,37.16,2438
+MN,54,,333,State Auditor,,9901,WRITE-IN,,,WI,33,33,4,0.16,2438
+MN,55,,333,State Auditor,,101,Will Finn,,,GLC,110,110,852,1.27,66983
+MN,55,,333,State Auditor,,201,Tim Davis,,,LMN,110,110,1486,2.22,66983
+MN,55,,333,State Auditor,,301,Ryan Wilson,,,R,110,110,30834,46.03,66983
+MN,55,,333,State Auditor,,401,Julie Blaha,,,DFL,110,110,33800,50.46,66983
+MN,55,,333,State Auditor,,9901,WRITE-IN,,,WI,110,110,11,0.02,66983
+MN,56,,333,State Auditor,,101,Will Finn,,,GLC,91,91,397,1.41,28146
+MN,56,,333,State Auditor,,201,Tim Davis,,,LMN,91,91,829,2.95,28146
+MN,56,,333,State Auditor,,301,Ryan Wilson,,,R,91,91,18616,66.14,28146
+MN,56,,333,State Auditor,,401,Julie Blaha,,,DFL,91,91,8296,29.47,28146
+MN,56,,333,State Auditor,,9901,WRITE-IN,,,WI,91,91,8,0.03,28146
+MN,57,,333,State Auditor,,101,Will Finn,,,GLC,31,31,102,1.89,5384
+MN,57,,333,State Auditor,,201,Tim Davis,,,LMN,31,31,238,4.42,5384
+MN,57,,333,State Auditor,,301,Ryan Wilson,,,R,31,31,3344,62.11,5384
+MN,57,,333,State Auditor,,401,Julie Blaha,,,DFL,31,31,1699,31.56,5384
+MN,57,,333,State Auditor,,9901,WRITE-IN,,,WI,31,31,1,0.02,5384
+MN,58,,333,State Auditor,,101,Will Finn,,,GLC,47,47,234,1.92,12204
+MN,58,,333,State Auditor,,201,Tim Davis,,,LMN,47,47,566,4.64,12204
+MN,58,,333,State Auditor,,301,Ryan Wilson,,,R,47,47,7629,62.51,12204
+MN,58,,333,State Auditor,,401,Julie Blaha,,,DFL,47,47,3767,30.87,12204
+MN,58,,333,State Auditor,,9901,WRITE-IN,,,WI,47,47,8,0.07,12204
+MN,59,,333,State Auditor,,101,Will Finn,,,GLC,22,22,40,1.07,3745
+MN,59,,333,State Auditor,,201,Tim Davis,,,LMN,22,22,89,2.38,3745
+MN,59,,333,State Auditor,,301,Ryan Wilson,,,R,22,22,2786,74.39,3745
+MN,59,,333,State Auditor,,401,Julie Blaha,,,DFL,22,22,829,22.14,3745
+MN,59,,333,State Auditor,,9901,WRITE-IN,,,WI,22,22,1,0.03,3745
+MN,60,,333,State Auditor,,101,Will Finn,,,GLC,82,82,142,1.32,10764
+MN,60,,333,State Auditor,,201,Tim Davis,,,LMN,82,82,332,3.08,10764
+MN,60,,333,State Auditor,,301,Ryan Wilson,,,R,82,82,7033,65.34,10764
+MN,60,,333,State Auditor,,401,Julie Blaha,,,DFL,82,82,3253,30.22,10764
+MN,60,,333,State Auditor,,9901,WRITE-IN,,,WI,82,82,4,0.04,10764
+MN,61,,333,State Auditor,,101,Will Finn,,,GLC,31,31,72,1.28,5609
+MN,61,,333,State Auditor,,201,Tim Davis,,,LMN,31,31,156,2.78,5609
+MN,61,,333,State Auditor,,301,Ryan Wilson,,,R,31,31,3572,63.68,5609
+MN,61,,333,State Auditor,,401,Julie Blaha,,,DFL,31,31,1804,32.16,5609
+MN,61,,333,State Auditor,,9901,WRITE-IN,,,WI,31,31,5,0.09,5609
+MN,62,,333,State Auditor,,101,Will Finn,,,GLC,162,162,5569,2.63,211895
+MN,62,,333,State Auditor,,201,Tim Davis,,,LMN,162,162,9472,4.47,211895
+MN,62,,333,State Auditor,,301,Ryan Wilson,,,R,162,162,58035,27.39,211895
+MN,62,,333,State Auditor,,401,Julie Blaha,,,DFL,162,162,138676,65.45,211895
+MN,62,,333,State Auditor,,9901,WRITE-IN,,,WI,162,162,143,0.07,211895
+MN,63,,333,State Auditor,,101,Will Finn,,,GLC,21,21,21,1.34,1564
+MN,63,,333,State Auditor,,201,Tim Davis,,,LMN,21,21,63,4.03,1564
+MN,63,,333,State Auditor,,301,Ryan Wilson,,,R,21,21,1014,64.83,1564
+MN,63,,333,State Auditor,,401,Julie Blaha,,,DFL,21,21,465,29.73,1564
+MN,63,,333,State Auditor,,9901,WRITE-IN,,,WI,21,21,1,0.06,1564
+MN,64,,333,State Auditor,,101,Will Finn,,,GLC,43,43,83,1.31,6347
+MN,64,,333,State Auditor,,201,Tim Davis,,,LMN,43,43,198,3.12,6347
+MN,64,,333,State Auditor,,301,Ryan Wilson,,,R,43,43,4575,72.08,6347
+MN,64,,333,State Auditor,,401,Julie Blaha,,,DFL,43,43,1489,23.46,6347
+MN,64,,333,State Auditor,,9901,WRITE-IN,,,WI,43,43,2,0.03,6347
+MN,65,,333,State Auditor,,101,Will Finn,,,GLC,37,37,104,1.67,6211
+MN,65,,333,State Auditor,,201,Tim Davis,,,LMN,37,37,246,3.96,6211
+MN,65,,333,State Auditor,,301,Ryan Wilson,,,R,37,37,4208,67.75,6211
+MN,65,,333,State Auditor,,401,Julie Blaha,,,DFL,37,37,1650,26.57,6211
+MN,65,,333,State Auditor,,9901,WRITE-IN,,,WI,37,37,3,0.05,6211
+MN,66,,333,State Auditor,,101,Will Finn,,,GLC,32,32,492,1.76,27952
+MN,66,,333,State Auditor,,201,Tim Davis,,,LMN,32,32,903,3.23,27952
+MN,66,,333,State Auditor,,301,Ryan Wilson,,,R,32,32,13510,48.33,27952
+MN,66,,333,State Auditor,,401,Julie Blaha,,,DFL,32,32,13040,46.65,27952
+MN,66,,333,State Auditor,,9901,WRITE-IN,,,WI,32,32,7,0.03,27952
+MN,67,,333,State Auditor,,101,Will Finn,,,GLC,24,24,59,1.45,4079
+MN,67,,333,State Auditor,,201,Tim Davis,,,LMN,24,24,87,2.13,4079
+MN,67,,333,State Auditor,,301,Ryan Wilson,,,R,24,24,2864,70.21,4079
+MN,67,,333,State Auditor,,401,Julie Blaha,,,DFL,24,24,1068,26.18,4079
+MN,67,,333,State Auditor,,9901,WRITE-IN,,,WI,24,24,1,0.02,4079
+MN,68,,333,State Auditor,,101,Will Finn,,,GLC,44,44,75,1.17,6408
+MN,68,,333,State Auditor,,201,Tim Davis,,,LMN,44,44,181,2.82,6408
+MN,68,,333,State Auditor,,301,Ryan Wilson,,,R,44,44,4685,73.11,6408
+MN,68,,333,State Auditor,,401,Julie Blaha,,,DFL,44,44,1467,22.89,6408
+MN,68,,333,State Auditor,,9901,WRITE-IN,,,WI,44,44,0,0,6408
+MN,69,,333,State Auditor,,101,Will Finn,,,GLC,170,170,2221,2.43,91276
+MN,69,,333,State Auditor,,201,Tim Davis,,,LMN,170,170,3665,4.02,91276
+MN,69,,333,State Auditor,,301,Ryan Wilson,,,R,170,170,36319,39.79,91276
+MN,69,,333,State Auditor,,401,Julie Blaha,,,DFL,170,170,49009,53.69,91276
+MN,69,,333,State Auditor,,9901,WRITE-IN,,,WI,170,170,62,0.07,91276
+MN,70,,333,State Auditor,,101,Will Finn,,,GLC,53,53,950,1.43,66611
+MN,70,,333,State Auditor,,201,Tim Davis,,,LMN,53,53,2362,3.55,66611
+MN,70,,333,State Auditor,,301,Ryan Wilson,,,R,53,53,36700,55.1,66611
+MN,70,,333,State Auditor,,401,Julie Blaha,,,DFL,53,53,26577,39.9,66611
+MN,70,,333,State Auditor,,9901,WRITE-IN,,,WI,53,53,22,0.03,66611
+MN,71,,333,State Auditor,,101,Will Finn,,,GLC,35,35,770,1.88,40936
+MN,71,,333,State Auditor,,201,Tim Davis,,,LMN,35,35,1562,3.82,40936
+MN,71,,333,State Auditor,,301,Ryan Wilson,,,R,35,35,26582,64.94,40936
+MN,71,,333,State Auditor,,401,Julie Blaha,,,DFL,35,35,12010,29.34,40936
+MN,71,,333,State Auditor,,9901,WRITE-IN,,,WI,35,35,12,0.03,40936
+MN,72,,333,State Auditor,,101,Will Finn,,,GLC,25,25,103,1.58,6506
+MN,72,,333,State Auditor,,201,Tim Davis,,,LMN,25,25,213,3.27,6506
+MN,72,,333,State Auditor,,301,Ryan Wilson,,,R,25,25,4580,70.4,6506
+MN,72,,333,State Auditor,,401,Julie Blaha,,,DFL,25,25,1608,24.72,6506
+MN,72,,333,State Auditor,,9901,WRITE-IN,,,WI,25,25,2,0.03,6506
+MN,73,,333,State Auditor,,101,Will Finn,,,GLC,99,99,1117,1.74,64124
+MN,73,,333,State Auditor,,201,Tim Davis,,,LMN,99,99,2136,3.33,64124
+MN,73,,333,State Auditor,,301,Ryan Wilson,,,R,99,99,39533,61.65,64124
+MN,73,,333,State Auditor,,401,Julie Blaha,,,DFL,99,99,21285,33.19,64124
+MN,73,,333,State Auditor,,9901,WRITE-IN,,,WI,99,99,53,0.08,64124
+MN,74,,333,State Auditor,,101,Will Finn,,,GLC,26,26,296,1.82,16239
+MN,74,,333,State Auditor,,201,Tim Davis,,,LMN,26,26,548,3.37,16239
+MN,74,,333,State Auditor,,301,Ryan Wilson,,,R,26,26,9781,60.23,16239
+MN,74,,333,State Auditor,,401,Julie Blaha,,,DFL,26,26,5610,34.55,16239
+MN,74,,333,State Auditor,,9901,WRITE-IN,,,WI,26,26,4,0.02,16239
+MN,75,,333,State Auditor,,101,Will Finn,,,GLC,24,24,54,1.35,3989
+MN,75,,333,State Auditor,,201,Tim Davis,,,LMN,24,24,88,2.21,3989
+MN,75,,333,State Auditor,,301,Ryan Wilson,,,R,24,24,2503,62.75,3989
+MN,75,,333,State Auditor,,401,Julie Blaha,,,DFL,24,24,1343,33.67,3989
+MN,75,,333,State Auditor,,9901,WRITE-IN,,,WI,24,24,1,0.03,3989
+MN,76,,333,State Auditor,,101,Will Finn,,,GLC,30,30,46,1.19,3876
+MN,76,,333,State Auditor,,201,Tim Davis,,,LMN,30,30,125,3.22,3876
+MN,76,,333,State Auditor,,301,Ryan Wilson,,,R,30,30,2401,61.95,3876
+MN,76,,333,State Auditor,,401,Julie Blaha,,,DFL,30,30,1302,33.59,3876
+MN,76,,333,State Auditor,,9901,WRITE-IN,,,WI,30,30,2,0.05,3876
+MN,77,,333,State Auditor,,101,Will Finn,,,GLC,40,40,170,1.59,10715
+MN,77,,333,State Auditor,,201,Tim Davis,,,LMN,40,40,366,3.42,10715
+MN,77,,333,State Auditor,,301,Ryan Wilson,,,R,40,40,7715,72,10715
+MN,77,,333,State Auditor,,401,Julie Blaha,,,DFL,40,40,2457,22.93,10715
+MN,77,,333,State Auditor,,9901,WRITE-IN,,,WI,40,40,7,0.07,10715
+MN,78,,333,State Auditor,,101,Will Finn,,,GLC,20,20,26,1.71,1519
+MN,78,,333,State Auditor,,201,Tim Davis,,,LMN,20,20,60,3.95,1519
+MN,78,,333,State Auditor,,301,Ryan Wilson,,,R,20,20,986,64.91,1519
+MN,78,,333,State Auditor,,401,Julie Blaha,,,DFL,20,20,446,29.36,1519
+MN,78,,333,State Auditor,,9901,WRITE-IN,,,WI,20,20,1,0.07,1519
+MN,79,,333,State Auditor,,101,Will Finn,,,GLC,33,33,176,1.66,10574
+MN,79,,333,State Auditor,,201,Tim Davis,,,LMN,33,33,341,3.22,10574
+MN,79,,333,State Auditor,,301,Ryan Wilson,,,R,33,33,6613,62.54,10574
+MN,79,,333,State Auditor,,401,Julie Blaha,,,DFL,33,33,3440,32.53,10574
+MN,79,,333,State Auditor,,9901,WRITE-IN,,,WI,33,33,4,0.04,10574
+MN,80,,333,State Auditor,,101,Will Finn,,,GLC,25,25,79,1.33,5920
+MN,80,,333,State Auditor,,201,Tim Davis,,,LMN,25,25,180,3.04,5920
+MN,80,,333,State Auditor,,301,Ryan Wilson,,,R,25,25,4235,71.54,5920
+MN,80,,333,State Auditor,,401,Julie Blaha,,,DFL,25,25,1426,24.09,5920
+MN,80,,333,State Auditor,,9901,WRITE-IN,,,WI,25,25,0,0,5920
+MN,81,,333,State Auditor,,101,Will Finn,,,GLC,23,23,142,1.72,8254
+MN,81,,333,State Auditor,,201,Tim Davis,,,LMN,23,23,315,3.82,8254
+MN,81,,333,State Auditor,,301,Ryan Wilson,,,R,23,23,5306,64.28,8254
+MN,81,,333,State Auditor,,401,Julie Blaha,,,DFL,23,23,2487,30.13,8254
+MN,81,,333,State Auditor,,9901,WRITE-IN,,,WI,23,23,4,0.05,8254
+MN,82,,333,State Auditor,,101,Will Finn,,,GLC,83,83,2268,1.77,128134
+MN,82,,333,State Auditor,,201,Tim Davis,,,LMN,83,83,3945,3.08,128134
+MN,82,,333,State Auditor,,301,Ryan Wilson,,,R,83,83,59772,46.65,128134
+MN,82,,333,State Auditor,,401,Julie Blaha,,,DFL,83,83,62085,48.45,128134
+MN,82,,333,State Auditor,,9901,WRITE-IN,,,WI,83,83,64,0.05,128134
+MN,83,,333,State Auditor,,101,Will Finn,,,GLC,21,21,63,1.66,3800
+MN,83,,333,State Auditor,,201,Tim Davis,,,LMN,21,21,114,3,3800
+MN,83,,333,State Auditor,,301,Ryan Wilson,,,R,21,21,2367,62.29,3800
+MN,83,,333,State Auditor,,401,Julie Blaha,,,DFL,21,21,1252,32.95,3800
+MN,83,,333,State Auditor,,9901,WRITE-IN,,,WI,21,21,4,0.11,3800
+MN,84,,333,State Auditor,,101,Will Finn,,,GLC,32,32,32,1.26,2548
+MN,84,,333,State Auditor,,201,Tim Davis,,,LMN,32,32,84,3.3,2548
+MN,84,,333,State Auditor,,301,Ryan Wilson,,,R,32,32,1743,68.41,2548
+MN,84,,333,State Auditor,,401,Julie Blaha,,,DFL,32,32,685,26.88,2548
+MN,84,,333,State Auditor,,9901,WRITE-IN,,,WI,32,32,4,0.16,2548
+MN,85,,333,State Auditor,,101,Will Finn,,,GLC,49,49,280,1.39,20199
+MN,85,,333,State Auditor,,201,Tim Davis,,,LMN,49,49,618,3.06,20199
+MN,85,,333,State Auditor,,301,Ryan Wilson,,,R,49,49,10201,50.5,20199
+MN,85,,333,State Auditor,,401,Julie Blaha,,,DFL,49,49,9090,45,20199
+MN,85,,333,State Auditor,,9901,WRITE-IN,,,WI,49,49,10,0.05,20199
+MN,86,,333,State Auditor,,101,Will Finn,,,GLC,49,49,1365,2.11,64605
+MN,86,,333,State Auditor,,201,Tim Davis,,,LMN,49,49,2472,3.83,64605
+MN,86,,333,State Auditor,,301,Ryan Wilson,,,R,49,49,41115,63.64,64605
+MN,86,,333,State Auditor,,401,Julie Blaha,,,DFL,49,49,19624,30.38,64605
+MN,86,,333,State Auditor,,9901,WRITE-IN,,,WI,49,49,29,0.04,64605
+MN,87,,333,State Auditor,,101,Will Finn,,,GLC,30,30,58,1.34,4324
+MN,87,,333,State Auditor,,201,Tim Davis,,,LMN,30,30,142,3.28,4324
+MN,87,,333,State Auditor,,301,Ryan Wilson,,,R,30,30,2933,67.83,4324
+MN,87,,333,State Auditor,,401,Julie Blaha,,,DFL,30,30,1190,27.52,4324
+MN,87,,333,State Auditor,,9901,WRITE-IN,,,WI,30,30,1,0.02,4324

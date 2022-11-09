@@ -1,0 +1,262 @@
+state,county_id,precinct_id,office_id,office_name,district,cand_order,cand_name,suffix,incumbent,party,counties_reporting,counties_voting,votes,votes_pct,votes_office
+MN,01,,335,Attorney General,,301,Jim Schultz,,,R,51,51,5579,66.51,8388
+MN,01,,335,Attorney General,,401,Keith Ellison,,,DFL,51,51,2808,33.48,8388
+MN,01,,335,Attorney General,,9901,WRITE-IN,,,WI,51,51,1,0.01,8388
+MN,02,,335,Attorney General,,301,Jim Schultz,,,R,128,128,85277,54.93,155245
+MN,02,,335,Attorney General,,401,Keith Ellison,,,DFL,128,128,69822,44.98,155245
+MN,02,,335,Attorney General,,9901,WRITE-IN,,,WI,128,128,146,0.09,155245
+MN,03,,335,Attorney General,,301,Jim Schultz,,,R,47,47,9918,67.64,14663
+MN,03,,335,Attorney General,,401,Keith Ellison,,,DFL,47,47,4738,32.31,14663
+MN,03,,335,Attorney General,,9901,WRITE-IN,,,WI,47,47,7,0.05,14663
+MN,04,,335,Attorney General,,301,Jim Schultz,,,R,61,61,9924,55.15,17996
+MN,04,,335,Attorney General,,401,Keith Ellison,,,DFL,61,61,8048,44.72,17996
+MN,04,,335,Attorney General,,9901,WRITE-IN,,,WI,61,61,24,0.13,17996
+MN,05,,335,Attorney General,,301,Jim Schultz,,,R,27,27,11205,68.88,16268
+MN,05,,335,Attorney General,,401,Keith Ellison,,,DFL,27,27,5045,31.01,16268
+MN,05,,335,Attorney General,,9901,WRITE-IN,,,WI,27,27,18,0.11,16268
+MN,06,,335,Attorney General,,301,Jim Schultz,,,R,24,24,1582,65.67,2409
+MN,06,,335,Attorney General,,401,Keith Ellison,,,DFL,24,24,825,34.25,2409
+MN,06,,335,Attorney General,,9901,WRITE-IN,,,WI,24,24,2,0.08,2409
+MN,07,,335,Attorney General,,301,Jim Schultz,,,R,56,56,12989,49.55,26212
+MN,07,,335,Attorney General,,401,Keith Ellison,,,DFL,56,56,13203,50.37,26212
+MN,07,,335,Attorney General,,9901,WRITE-IN,,,WI,56,56,20,0.08,26212
+MN,08,,335,Attorney General,,301,Jim Schultz,,,R,33,33,7879,68.33,11531
+MN,08,,335,Attorney General,,401,Keith Ellison,,,DFL,33,33,3643,31.59,11531
+MN,08,,335,Attorney General,,9901,WRITE-IN,,,WI,33,33,9,0.08,11531
+MN,09,,335,Attorney General,,301,Jim Schultz,,,R,39,39,8116,51.35,15806
+MN,09,,335,Attorney General,,401,Keith Ellison,,,DFL,39,39,7670,48.53,15806
+MN,09,,335,Attorney General,,9901,WRITE-IN,,,WI,39,39,20,0.13,15806
+MN,10,,335,Attorney General,,301,Jim Schultz,,,R,38,38,30962,57.58,53770
+MN,10,,335,Attorney General,,401,Keith Ellison,,,DFL,38,38,22774,42.35,53770
+MN,10,,335,Attorney General,,9901,WRITE-IN,,,WI,38,38,34,0.06,53770
+MN,11,,335,Attorney General,,301,Jim Schultz,,,R,71,71,10285,67.82,15165
+MN,11,,335,Attorney General,,401,Keith Ellison,,,DFL,71,71,4871,32.12,15165
+MN,11,,335,Attorney General,,9901,WRITE-IN,,,WI,71,71,9,0.06,15165
+MN,12,,335,Attorney General,,301,Jim Schultz,,,R,25,25,3292,67.01,4913
+MN,12,,335,Attorney General,,401,Keith Ellison,,,DFL,25,25,1620,32.97,4913
+MN,12,,335,Attorney General,,9901,WRITE-IN,,,WI,25,25,1,0.02,4913
+MN,13,,335,Attorney General,,301,Jim Schultz,,,R,23,23,17034,66.31,25689
+MN,13,,335,Attorney General,,401,Keith Ellison,,,DFL,23,23,8642,33.64,25689
+MN,13,,335,Attorney General,,9901,WRITE-IN,,,WI,23,23,13,0.05,25689
+MN,14,,335,Attorney General,,301,Jim Schultz,,,R,56,56,10971,49.83,22016
+MN,14,,335,Attorney General,,401,Keith Ellison,,,DFL,56,56,11025,50.08,22016
+MN,14,,335,Attorney General,,9901,WRITE-IN,,,WI,56,56,20,0.09,22016
+MN,15,,335,Attorney General,,301,Jim Schultz,,,R,29,29,2665,75.5,3530
+MN,15,,335,Attorney General,,401,Keith Ellison,,,DFL,29,29,863,24.45,3530
+MN,15,,335,Attorney General,,9901,WRITE-IN,,,WI,29,29,2,0.06,3530
+MN,16,,335,Attorney General,,301,Jim Schultz,,,R,14,14,1089,34.05,3198
+MN,16,,335,Attorney General,,401,Keith Ellison,,,DFL,14,14,2109,65.95,3198
+MN,16,,335,Attorney General,,9901,WRITE-IN,,,WI,14,14,0,0,3198
+MN,17,,335,Attorney General,,301,Jim Schultz,,,R,29,29,3250,70.84,4588
+MN,17,,335,Attorney General,,401,Keith Ellison,,,DFL,29,29,1336,29.12,4588
+MN,17,,335,Attorney General,,9901,WRITE-IN,,,WI,29,29,2,0.04,4588
+MN,18,,335,Attorney General,,301,Jim Schultz,,,R,62,62,21663,66.81,32426
+MN,18,,335,Attorney General,,401,Keith Ellison,,,DFL,62,62,10742,33.13,32426
+MN,18,,335,Attorney General,,9901,WRITE-IN,,,WI,62,62,21,0.06,32426
+MN,19,,335,Attorney General,,301,Jim Schultz,,,R,142,142,93752,47.1,199054
+MN,19,,335,Attorney General,,401,Keith Ellison,,,DFL,142,142,105096,52.8,199054
+MN,19,,335,Attorney General,,9901,WRITE-IN,,,WI,142,142,206,0.1,199054
+MN,20,,335,Attorney General,,301,Jim Schultz,,,R,22,22,6176,66.96,9223
+MN,20,,335,Attorney General,,401,Keith Ellison,,,DFL,22,22,3042,32.98,9223
+MN,20,,335,Attorney General,,9901,WRITE-IN,,,WI,22,22,5,0.05,9223
+MN,21,,335,Attorney General,,301,Jim Schultz,,,R,35,35,13453,68.75,19568
+MN,21,,335,Attorney General,,401,Keith Ellison,,,DFL,35,35,6103,31.19,19568
+MN,21,,335,Attorney General,,9901,WRITE-IN,,,WI,35,35,12,0.06,19568
+MN,22,,335,Attorney General,,301,Jim Schultz,,,R,33,33,4069,67.9,5993
+MN,22,,335,Attorney General,,401,Keith Ellison,,,DFL,33,33,1919,32.02,5993
+MN,22,,335,Attorney General,,9901,WRITE-IN,,,WI,33,33,5,0.08,5993
+MN,23,,335,Attorney General,,301,Jim Schultz,,,R,37,37,5738,61.08,9395
+MN,23,,335,Attorney General,,401,Keith Ellison,,,DFL,37,37,3649,38.84,9395
+MN,23,,335,Attorney General,,9901,WRITE-IN,,,WI,37,37,8,0.09,9395
+MN,24,,335,Attorney General,,301,Jim Schultz,,,R,43,43,7774,60.07,12942
+MN,24,,335,Attorney General,,401,Keith Ellison,,,DFL,43,43,5164,39.9,12942
+MN,24,,335,Attorney General,,9901,WRITE-IN,,,WI,43,43,4,0.03,12942
+MN,25,,335,Attorney General,,301,Jim Schultz,,,R,40,40,13525,58.98,22931
+MN,25,,335,Attorney General,,401,Keith Ellison,,,DFL,40,40,9384,40.92,22931
+MN,25,,335,Attorney General,,9901,WRITE-IN,,,WI,40,40,22,0.1,22931
+MN,26,,335,Attorney General,,301,Jim Schultz,,,R,23,23,1882,64.23,2930
+MN,26,,335,Attorney General,,401,Keith Ellison,,,DFL,23,23,1044,35.63,2930
+MN,26,,335,Attorney General,,9901,WRITE-IN,,,WI,23,23,4,0.14,2930
+MN,27,,335,Attorney General,,301,Jim Schultz,,,R,397,397,181512,31.79,571006
+MN,27,,335,Attorney General,,401,Keith Ellison,,,DFL,397,397,388811,68.09,571006
+MN,27,,335,Attorney General,,9901,WRITE-IN,,,WI,397,397,683,0.12,571006
+MN,28,,335,Attorney General,,301,Jim Schultz,,,R,27,27,5089,58.77,8659
+MN,28,,335,Attorney General,,401,Keith Ellison,,,DFL,27,27,3569,41.22,8659
+MN,28,,335,Attorney General,,9901,WRITE-IN,,,WI,27,27,1,0.01,8659
+MN,29,,335,Attorney General,,301,Jim Schultz,,,R,37,37,7046,66.4,10612
+MN,29,,335,Attorney General,,401,Keith Ellison,,,DFL,37,37,3556,33.51,10612
+MN,29,,335,Attorney General,,9901,WRITE-IN,,,WI,37,37,10,0.09,10612
+MN,30,,335,Attorney General,,301,Jim Schultz,,,R,19,19,13197,70.33,18765
+MN,30,,335,Attorney General,,401,Keith Ellison,,,DFL,19,19,5554,29.6,18765
+MN,30,,335,Attorney General,,9901,WRITE-IN,,,WI,19,19,14,0.07,18765
+MN,31,,335,Attorney General,,301,Jim Schultz,,,R,76,76,12610,59.45,21210
+MN,31,,335,Attorney General,,401,Keith Ellison,,,DFL,76,76,8586,40.48,21210
+MN,31,,335,Attorney General,,9901,WRITE-IN,,,WI,76,76,14,0.07,21210
+MN,32,,335,Attorney General,,301,Jim Schultz,,,R,28,28,3212,71.06,4520
+MN,32,,335,Attorney General,,401,Keith Ellison,,,DFL,28,28,1306,28.89,4520
+MN,32,,335,Attorney General,,9901,WRITE-IN,,,WI,28,28,2,0.04,4520
+MN,33,,335,Attorney General,,301,Jim Schultz,,,R,20,20,4924,69.19,7117
+MN,33,,335,Attorney General,,401,Keith Ellison,,,DFL,20,20,2190,30.77,7117
+MN,33,,335,Attorney General,,9901,WRITE-IN,,,WI,20,20,3,0.04,7117
+MN,34,,335,Attorney General,,301,Jim Schultz,,,R,48,48,11947,65.86,18140
+MN,34,,335,Attorney General,,401,Keith Ellison,,,DFL,48,48,6187,34.11,18140
+MN,34,,335,Attorney General,,9901,WRITE-IN,,,WI,48,48,6,0.03,18140
+MN,35,,335,Attorney General,,301,Jim Schultz,,,R,39,39,1197,63.67,1880
+MN,35,,335,Attorney General,,401,Keith Ellison,,,DFL,39,39,681,36.22,1880
+MN,35,,335,Attorney General,,9901,WRITE-IN,,,WI,39,39,2,0.11,1880
+MN,36,,335,Attorney General,,301,Jim Schultz,,,R,22,22,3262,62.72,5201
+MN,36,,335,Attorney General,,401,Keith Ellison,,,DFL,22,22,1937,37.24,5201
+MN,36,,335,Attorney General,,9901,WRITE-IN,,,WI,22,22,2,0.04,5201
+MN,37,,335,Attorney General,,301,Jim Schultz,,,R,29,29,2028,65,3120
+MN,37,,335,Attorney General,,401,Keith Ellison,,,DFL,29,29,1091,34.97,3120
+MN,37,,335,Attorney General,,9901,WRITE-IN,,,WI,29,29,1,0.03,3120
+MN,38,,335,Attorney General,,301,Jim Schultz,,,R,19,19,2755,48.93,5630
+MN,38,,335,Attorney General,,401,Keith Ellison,,,DFL,19,19,2870,50.98,5630
+MN,38,,335,Attorney General,,9901,WRITE-IN,,,WI,19,19,5,0.09,5630
+MN,39,,335,Attorney General,,301,Jim Schultz,,,R,17,17,1362,75.54,1803
+MN,39,,335,Attorney General,,401,Keith Ellison,,,DFL,17,17,439,24.35,1803
+MN,39,,335,Attorney General,,9901,WRITE-IN,,,WI,17,17,2,0.11,1803
+MN,40,,335,Attorney General,,301,Jim Schultz,,,R,26,26,8820,67.24,13117
+MN,40,,335,Attorney General,,401,Keith Ellison,,,DFL,26,26,4287,32.68,13117
+MN,40,,335,Attorney General,,9901,WRITE-IN,,,WI,26,26,10,0.08,13117
+MN,41,,335,Attorney General,,301,Jim Schultz,,,R,20,20,1660,68.74,2415
+MN,41,,335,Attorney General,,401,Keith Ellison,,,DFL,20,20,752,31.14,2415
+MN,41,,335,Attorney General,,9901,WRITE-IN,,,WI,20,20,3,0.12,2415
+MN,42,,335,Attorney General,,301,Jim Schultz,,,R,33,33,6501,66.76,9738
+MN,42,,335,Attorney General,,401,Keith Ellison,,,DFL,33,33,3231,33.18,9738
+MN,42,,335,Attorney General,,9901,WRITE-IN,,,WI,33,33,6,0.06,9738
+MN,43,,335,Attorney General,,301,Jim Schultz,,,R,28,28,11475,70.15,16357
+MN,43,,335,Attorney General,,401,Keith Ellison,,,DFL,28,28,4871,29.78,16357
+MN,43,,335,Attorney General,,9901,WRITE-IN,,,WI,28,28,11,0.07,16357
+MN,44,,335,Attorney General,,301,Jim Schultz,,,R,19,19,960,59.19,1622
+MN,44,,335,Attorney General,,401,Keith Ellison,,,DFL,19,19,661,40.75,1622
+MN,44,,335,Attorney General,,9901,WRITE-IN,,,WI,19,19,1,0.06,1622
+MN,45,,335,Attorney General,,301,Jim Schultz,,,R,60,60,2984,74.77,3991
+MN,45,,335,Attorney General,,401,Keith Ellison,,,DFL,60,60,1004,25.16,3991
+MN,45,,335,Attorney General,,9901,WRITE-IN,,,WI,60,60,3,0.08,3991
+MN,46,,335,Attorney General,,301,Jim Schultz,,,R,37,37,5871,70.8,8292
+MN,46,,335,Attorney General,,401,Keith Ellison,,,DFL,37,37,2420,29.18,8292
+MN,46,,335,Attorney General,,9901,WRITE-IN,,,WI,37,37,1,0.01,8292
+MN,47,,335,Attorney General,,301,Jim Schultz,,,R,30,30,7730,71.83,10762
+MN,47,,335,Attorney General,,401,Keith Ellison,,,DFL,30,30,3020,28.06,10762
+MN,47,,335,Attorney General,,9901,WRITE-IN,,,WI,30,30,12,0.11,10762
+MN,48,,335,Attorney General,,301,Jim Schultz,,,R,25,25,7711,69.91,11030
+MN,48,,335,Attorney General,,401,Keith Ellison,,,DFL,25,25,3305,29.96,11030
+MN,48,,335,Attorney General,,9901,WRITE-IN,,,WI,25,25,14,0.13,11030
+MN,49,,335,Attorney General,,301,Jim Schultz,,,R,48,48,11968,77.96,15351
+MN,49,,335,Attorney General,,401,Keith Ellison,,,DFL,48,48,3377,22,15351
+MN,49,,335,Attorney General,,9901,WRITE-IN,,,WI,48,48,6,0.04,15351
+MN,50,,335,Attorney General,,301,Jim Schultz,,,R,39,39,7499,53.58,13995
+MN,50,,335,Attorney General,,401,Keith Ellison,,,DFL,39,39,6490,46.37,13995
+MN,50,,335,Attorney General,,9901,WRITE-IN,,,WI,39,39,6,0.04,13995
+MN,51,,335,Attorney General,,301,Jim Schultz,,,R,29,29,2769,71.55,3870
+MN,51,,335,Attorney General,,401,Keith Ellison,,,DFL,29,29,1097,28.35,3870
+MN,51,,335,Attorney General,,9901,WRITE-IN,,,WI,29,29,4,0.1,3870
+MN,52,,335,Attorney General,,301,Jim Schultz,,,R,26,26,7564,49.88,15164
+MN,52,,335,Attorney General,,401,Keith Ellison,,,DFL,26,26,7582,50,15164
+MN,52,,335,Attorney General,,9901,WRITE-IN,,,WI,26,26,18,0.12,15164
+MN,53,,335,Attorney General,,301,Jim Schultz,,,R,40,40,4136,68.74,6017
+MN,53,,335,Attorney General,,401,Keith Ellison,,,DFL,40,40,1874,31.15,6017
+MN,53,,335,Attorney General,,9901,WRITE-IN,,,WI,40,40,7,0.12,6017
+MN,54,,335,Attorney General,,301,Jim Schultz,,,R,33,33,1478,60.06,2461
+MN,54,,335,Attorney General,,401,Keith Ellison,,,DFL,33,33,980,39.82,2461
+MN,54,,335,Attorney General,,9901,WRITE-IN,,,WI,33,33,3,0.12,2461
+MN,55,,335,Attorney General,,301,Jim Schultz,,,R,110,110,31539,46.69,67554
+MN,55,,335,Attorney General,,401,Keith Ellison,,,DFL,110,110,35986,53.27,67554
+MN,55,,335,Attorney General,,9901,WRITE-IN,,,WI,110,110,29,0.04,67554
+MN,56,,335,Attorney General,,301,Jim Schultz,,,R,91,91,19557,69.04,28329
+MN,56,,335,Attorney General,,401,Keith Ellison,,,DFL,91,91,8744,30.87,28329
+MN,56,,335,Attorney General,,9901,WRITE-IN,,,WI,91,91,28,0.1,28329
+MN,57,,335,Attorney General,,301,Jim Schultz,,,R,31,31,3583,66.44,5393
+MN,57,,335,Attorney General,,401,Keith Ellison,,,DFL,31,31,1807,33.51,5393
+MN,57,,335,Attorney General,,9901,WRITE-IN,,,WI,31,31,3,0.06,5393
+MN,58,,335,Attorney General,,301,Jim Schultz,,,R,47,47,8220,66.64,12335
+MN,58,,335,Attorney General,,401,Keith Ellison,,,DFL,47,47,4103,33.26,12335
+MN,58,,335,Attorney General,,9901,WRITE-IN,,,WI,47,47,12,0.1,12335
+MN,59,,335,Attorney General,,301,Jim Schultz,,,R,22,22,2841,75.88,3744
+MN,59,,335,Attorney General,,401,Keith Ellison,,,DFL,22,22,900,24.04,3744
+MN,59,,335,Attorney General,,9901,WRITE-IN,,,WI,22,22,3,0.08,3744
+MN,60,,335,Attorney General,,301,Jim Schultz,,,R,82,82,7436,68.86,10798
+MN,60,,335,Attorney General,,401,Keith Ellison,,,DFL,82,82,3357,31.09,10798
+MN,60,,335,Attorney General,,9901,WRITE-IN,,,WI,82,82,5,0.05,10798
+MN,61,,335,Attorney General,,301,Jim Schultz,,,R,31,31,3697,65.54,5641
+MN,61,,335,Attorney General,,401,Keith Ellison,,,DFL,31,31,1940,34.39,5641
+MN,61,,335,Attorney General,,9901,WRITE-IN,,,WI,31,31,4,0.07,5641
+MN,62,,335,Attorney General,,301,Jim Schultz,,,R,162,162,64014,29.74,215236
+MN,62,,335,Attorney General,,401,Keith Ellison,,,DFL,162,162,150907,70.11,215236
+MN,62,,335,Attorney General,,9901,WRITE-IN,,,WI,162,162,315,0.15,215236
+MN,63,,335,Attorney General,,301,Jim Schultz,,,R,21,21,1073,68.56,1565
+MN,63,,335,Attorney General,,401,Keith Ellison,,,DFL,21,21,490,31.31,1565
+MN,63,,335,Attorney General,,9901,WRITE-IN,,,WI,21,21,2,0.13,1565
+MN,64,,335,Attorney General,,301,Jim Schultz,,,R,43,43,4723,73.8,6400
+MN,64,,335,Attorney General,,401,Keith Ellison,,,DFL,43,43,1673,26.14,6400
+MN,64,,335,Attorney General,,9901,WRITE-IN,,,WI,43,43,4,0.06,6400
+MN,65,,335,Attorney General,,301,Jim Schultz,,,R,37,37,4402,70.42,6251
+MN,65,,335,Attorney General,,401,Keith Ellison,,,DFL,37,37,1847,29.55,6251
+MN,65,,335,Attorney General,,9901,WRITE-IN,,,WI,37,37,2,0.03,6251
+MN,66,,335,Attorney General,,301,Jim Schultz,,,R,32,32,14377,50.96,28213
+MN,66,,335,Attorney General,,401,Keith Ellison,,,DFL,32,32,13817,48.97,28213
+MN,66,,335,Attorney General,,9901,WRITE-IN,,,WI,32,32,19,0.07,28213
+MN,67,,335,Attorney General,,301,Jim Schultz,,,R,24,24,2951,72.06,4095
+MN,67,,335,Attorney General,,401,Keith Ellison,,,DFL,24,24,1141,27.86,4095
+MN,67,,335,Attorney General,,9901,WRITE-IN,,,WI,24,24,3,0.07,4095
+MN,68,,335,Attorney General,,301,Jim Schultz,,,R,44,44,4922,76.48,6436
+MN,68,,335,Attorney General,,401,Keith Ellison,,,DFL,44,44,1514,23.52,6436
+MN,68,,335,Attorney General,,9901,WRITE-IN,,,WI,44,44,0,0,6436
+MN,69,,335,Attorney General,,301,Jim Schultz,,,R,170,170,39743,43.03,92358
+MN,69,,335,Attorney General,,401,Keith Ellison,,,DFL,170,170,52487,56.83,92358
+MN,69,,335,Attorney General,,9901,WRITE-IN,,,WI,170,170,128,0.14,92358
+MN,70,,335,Attorney General,,301,Jim Schultz,,,R,53,53,38856,57.67,67372
+MN,70,,335,Attorney General,,401,Keith Ellison,,,DFL,53,53,28454,42.23,67372
+MN,70,,335,Attorney General,,9901,WRITE-IN,,,WI,53,53,62,0.09,67372
+MN,71,,335,Attorney General,,301,Jim Schultz,,,R,35,35,28430,68.76,41348
+MN,71,,335,Attorney General,,401,Keith Ellison,,,DFL,35,35,12898,31.19,41348
+MN,71,,335,Attorney General,,9901,WRITE-IN,,,WI,35,35,20,0.05,41348
+MN,72,,335,Attorney General,,301,Jim Schultz,,,R,25,25,4751,72.52,6551
+MN,72,,335,Attorney General,,401,Keith Ellison,,,DFL,25,25,1798,27.45,6551
+MN,72,,335,Attorney General,,9901,WRITE-IN,,,WI,25,25,2,0.03,6551
+MN,73,,335,Attorney General,,301,Jim Schultz,,,R,99,99,41857,64.24,65158
+MN,73,,335,Attorney General,,401,Keith Ellison,,,DFL,99,99,23248,35.68,65158
+MN,73,,335,Attorney General,,9901,WRITE-IN,,,WI,99,99,53,0.08,65158
+MN,74,,335,Attorney General,,301,Jim Schultz,,,R,26,26,10275,62.67,16395
+MN,74,,335,Attorney General,,401,Keith Ellison,,,DFL,26,26,6114,37.29,16395
+MN,74,,335,Attorney General,,9901,WRITE-IN,,,WI,26,26,6,0.04,16395
+MN,75,,335,Attorney General,,301,Jim Schultz,,,R,24,24,2535,63.41,3998
+MN,75,,335,Attorney General,,401,Keith Ellison,,,DFL,24,24,1460,36.52,3998
+MN,75,,335,Attorney General,,9901,WRITE-IN,,,WI,24,24,3,0.08,3998
+MN,76,,335,Attorney General,,301,Jim Schultz,,,R,30,30,2531,65.28,3877
+MN,76,,335,Attorney General,,401,Keith Ellison,,,DFL,30,30,1342,34.61,3877
+MN,76,,335,Attorney General,,9901,WRITE-IN,,,WI,30,30,4,0.1,3877
+MN,77,,335,Attorney General,,301,Jim Schultz,,,R,40,40,8178,75.7,10803
+MN,77,,335,Attorney General,,401,Keith Ellison,,,DFL,40,40,2617,24.22,10803
+MN,77,,335,Attorney General,,9901,WRITE-IN,,,WI,40,40,8,0.07,10803
+MN,78,,335,Attorney General,,301,Jim Schultz,,,R,20,20,1025,66.78,1535
+MN,78,,335,Attorney General,,401,Keith Ellison,,,DFL,20,20,507,33.03,1535
+MN,78,,335,Attorney General,,9901,WRITE-IN,,,WI,20,20,3,0.2,1535
+MN,79,,335,Attorney General,,301,Jim Schultz,,,R,33,33,6830,64.2,10638
+MN,79,,335,Attorney General,,401,Keith Ellison,,,DFL,33,33,3804,35.76,10638
+MN,79,,335,Attorney General,,9901,WRITE-IN,,,WI,33,33,4,0.04,10638
+MN,80,,335,Attorney General,,301,Jim Schultz,,,R,25,25,4445,74.83,5940
+MN,80,,335,Attorney General,,401,Keith Ellison,,,DFL,25,25,1492,25.12,5940
+MN,80,,335,Attorney General,,9901,WRITE-IN,,,WI,25,25,3,0.05,5940
+MN,81,,335,Attorney General,,301,Jim Schultz,,,R,23,23,5586,67.22,8310
+MN,81,,335,Attorney General,,401,Keith Ellison,,,DFL,23,23,2719,32.72,8310
+MN,81,,335,Attorney General,,9901,WRITE-IN,,,WI,23,23,5,0.06,8310
+MN,82,,335,Attorney General,,301,Jim Schultz,,,R,83,83,63812,49.23,129630
+MN,82,,335,Attorney General,,401,Keith Ellison,,,DFL,83,83,65723,50.7,129630
+MN,82,,335,Attorney General,,9901,WRITE-IN,,,WI,83,83,95,0.07,129630
+MN,83,,335,Attorney General,,301,Jim Schultz,,,R,21,21,2461,63.99,3846
+MN,83,,335,Attorney General,,401,Keith Ellison,,,DFL,21,21,1382,35.93,3846
+MN,83,,335,Attorney General,,9901,WRITE-IN,,,WI,21,21,3,0.08,3846
+MN,84,,335,Attorney General,,301,Jim Schultz,,,R,32,32,1829,71.84,2546
+MN,84,,335,Attorney General,,401,Keith Ellison,,,DFL,32,32,714,28.04,2546
+MN,84,,335,Attorney General,,9901,WRITE-IN,,,WI,32,32,3,0.12,2546
+MN,85,,335,Attorney General,,301,Jim Schultz,,,R,49,49,10543,52.03,20263
+MN,85,,335,Attorney General,,401,Keith Ellison,,,DFL,49,49,9704,47.89,20263
+MN,85,,335,Attorney General,,9901,WRITE-IN,,,WI,49,49,16,0.08,20263
+MN,86,,335,Attorney General,,301,Jim Schultz,,,R,49,49,44185,67.31,65641
+MN,86,,335,Attorney General,,401,Keith Ellison,,,DFL,49,49,21397,32.6,65641
+MN,86,,335,Attorney General,,9901,WRITE-IN,,,WI,49,49,59,0.09,65641
+MN,87,,335,Attorney General,,301,Jim Schultz,,,R,30,30,3025,69.76,4336
+MN,87,,335,Attorney General,,401,Keith Ellison,,,DFL,30,30,1311,30.24,4336
+MN,87,,335,Attorney General,,9901,WRITE-IN,,,WI,30,30,0,0,4336
