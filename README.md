@@ -69,7 +69,7 @@ cd /20221109-elex22maps/story/data/download/governor/
 npm run deploy
 ```
 
-11. Push project changes to this Github repo so it populates to the configuration tool
+11. Push project changes to this Github repo so it populates to the configuration tool (this is all served from this repo via Github Pages)
 
 
 ## About the workflow
