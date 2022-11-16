@@ -8,9 +8,9 @@ Instructions for reporters, graphic designers and anyone else:
 
 1. [Launch the map configuration page](https://striblab.github.io/20221109-elex22_maps/public/form/config.html) hosted from public/form/config.html
 
-2. Select map configuration options
+2. Select which electoral results to display and map configuration options
 
-3. Click GENERATE and an embeddable Mapbox URL will pop into a new browser.
+3. Click GENERATE and an embeddable Mapbox URL will pop into a new browser tab
 
 4. Download necessary GEOJSON shapefiles, result CSVs and SVGs for desired contests and geographies from the list below the configuration option.
 
@@ -34,13 +34,40 @@ sudo chmod +x <LOCALPATH>/20221109-elex22maps/story/data/download/governor/make_
 sudo chmod +x <LOCALPATH>/20221109-elex22maps/story/data/download/governor/make_gov_counties.sh
 ```
 
-4. This will produce bound GEOJSON shapefiles, results CSVs and SVG maps for the gubernatorial contest on both precinct and county levels.
+4. In the make_gov_maps.sh and make_gov_counties.sh, if necessary, change the URL where results are being pulled from on this line:
 
-5. Move gov-counties.json, gov-results-geo.json, gov-counties.svg, gov.svg, gov-counties.csv and gov.csv to the public/data folder
+```bash
+cat - <(wget -O - -o /dev/null 'https://electionresultsfiles.sos.state.mn.us/20221108/governorpct.txt') > gov.csv &&
+```
 
-6. Deploy the project to AWS S3 instance as normal to update the maps
+The raw result textfiles can be found at the [Minnesota Secretary of State](https://www.sos.state.mn.us/elections-voting/election-results) under [Downloadable Text Files](https://electionresults.sos.state.mn.us/Select/MediaFiles/Index?ersElectionId=149) for each election.
 
-7. Push project changes to Github and so it populates to the configuration tool
+5. Navigate Terminal to the script folder. In this case:
+
+```bash
+cd /20221109-elex22maps/story/data/download/governor/
+```
+
+6. Run the shell scripts:
+
+```bash
+./make_gov_maps.sh
+./make_gov_counties.sh
+```
+
+6. This will produce bound GEOJSON shapefiles, results CSVs and SVG maps for the gubernatorial contest on both precinct and county levels.
+
+7. Move gov-counties.json, gov-results-geo.json, gov-counties.svg, gov.svg, gov-counties.csv and gov.csv to the project /download folder (this makes them available for download on the configuration page)
+
+8. Copy the JSON files to the public/data folder (this makes them available for maps)
+
+9. Navigate Terminal to project base folder to deploy the project to AWS S3 instance as normal to update the maps like this and follow the prompts:
+
+```bash
+npm run deploy
+```
+
+10. Push project changes to this Github repo so it populates to the configuration tool
 
 
 ## About the workflow
