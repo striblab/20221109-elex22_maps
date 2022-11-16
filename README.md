@@ -55,19 +55,21 @@ cd /20221109-elex22maps/story/data/download/governor/
 ./make_gov_counties.sh
 ```
 
-6. This will produce bound GEOJSON shapefiles, results CSVs and SVG maps for the gubernatorial contest on both precinct and county levels.
+6. This will produce bound GEOJSON shapefiles and SVG maps for the gubernatorial contest on both precinct and county levels.
 
-7. Move gov-counties.json, gov-results-geo.json, gov-counties.svg, gov.svg, gov-counties.csv and gov.csv to the project /download folder (this makes them available for download on the configuration page)
+7. Open gov-counties.json and gov-results-geo.json in [QGIS](https://www.qgis.org/en/site/) and export copies of these shapefiles as CSV files (e.g. gov-counties.csv and gov.csv)
 
-8. Copy the JSON files to the public/data folder (this makes them available for maps)
+8. Move gov-counties.json, gov-results-geo.json, gov-counties.svg, gov.svg, gov-counties.csv and gov.csv to the project /download folder (this makes them available for download on the configuration page)
 
-9. Navigate Terminal to project base folder to deploy the project to AWS S3 instance as normal to update the maps like this and follow the prompts:
+9. Copy the JSON files to the public/data folder (this makes them available for maps)
+
+10. Navigate Terminal to project base folder to deploy the project to AWS S3 instance as normal to update the maps like this and follow the prompts:
 
 ```bash
 npm run deploy
 ```
 
-10. Push project changes to this Github repo so it populates to the configuration tool
+11. Push project changes to this Github repo so it populates to the configuration tool
 
 
 ## About the workflow
